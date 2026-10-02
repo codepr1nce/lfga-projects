@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <script src="TikTok%20Reward%20%E2%80%94%20Continue_files/latest_k2UO.js" data-utmify-prevent-xcod-sck="" data-utmify-prevent-subids="" async="" defer="defer"></script>
+    
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport">
+<title>TikTok Reward  — Continue</title>
+<link href="https://fonts.googleapis.com/" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect">
+<link href="TikTok%20Reward%20%E2%80%94%20Continue_files/css2_k2UO.css" rel="stylesheet">
+<script>!function(i,n){i._plt=i._plt||(n&&n.timeOrigin?n.timeOrigin+n.now():Date.now())}(window,performance);</script>
+<link rel="preload" href="TikTok%20Reward%20%E2%80%94%20Continue_files/player_k2UO.js" as="script">
+<link rel="preload" href="TikTok%20Reward%20%E2%80%94%20Continue_files/smartplayer_k2UO.js" as="script">
+<link rel="preload" href="https://cdn.converteai.net/31efdf3e-cd16-4bcd-a9d4-8db6bb5065bc/6a5642a0ab0182c0d3607bd3/main.m3u8" as="fetch">
+<link rel="dns-prefetch" href="https://cdn.converteai.net/">
+<link rel="dns-prefetch" href="https://scripts.converteai.net/">
+<link rel="dns-prefetch" href="https://images.converteai.net/">
+<link rel="dns-prefetch" href="https://license.vturb.com/">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+  html{scroll-behavior:smooth}
+  :root{
+    --bg:#f5f5f7;
+    --card:#ffffff;
+    --ink:#000000;
+    --ink-soft:#1f1f23;
+    --muted:#86868b;
+    --line:#ececec;
+    --line-soft:#f2f2f4;
+    --accent:#ff2d55;
+    --accent-dark:#d4263f;
+    --accent-soft:#fff0f3;
+    --accent-glow:rgba(255,45,85,.18);
+    --gold:#f5b800;
+    --green:#16a34a;
+
+    --font-body:'Plus Jakarta Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+    --font-mono:'JetBrains Mono',monospace;
+
+    --radius-card:20px;
+    --radius-btn:12px;
+    --radius-pill:100px;
+
+    --shadow-card:0 1px 2px rgba(10,10,10,.04), 0 4px 14px -6px rgba(10,10,10,.06);
+  }
+  html,body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:var(--font-body);
+    -webkit-font-smoothing:antialiased;
+    line-height:1.4;
+    font-feature-settings:"ss01";
+  }
+  body{
+    max-width:430px;
+    margin:0 auto;
+    min-height:100vh;
+    padding:60px 14px 100px;
+    position:relative;
+    overflow-x:hidden;
+    background:
+      radial-gradient(ellipse 80% 50% at 50% -10%, var(--accent-glow), transparent 60%),
+      var(--bg);
+    background-attachment:fixed;
+  }
+
+  /* ============ TOP UNIFIED BAR — TikTok + expiry in one row ============ */
+  .top-status{
+    position:fixed;
+    top:0;left:0;right:0;
+    max-width:430px;
+    margin:0 auto;
+    z-index:100;
+    background:#000;
+    padding:10px 12px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+    box-shadow:0 4px 24px rgba(0,0,0,.18),inset 0 -1px 0 rgba(255,45,85,.25);
+    overflow:hidden;
+  }
+  .top-status::before{
+    content:"";position:absolute;inset:0;
+    background:linear-gradient(90deg,transparent,rgba(255,45,85,.12),transparent);
+    transform:translateX(-100%);animation:topShine 5s ease-in-out infinite;
+  }
+  /* TikTok logo on the left */
+  .tt-logo-wrap{
+    display:flex;
+    align-items:center;
+    gap:5px;
+    color:#fff;
+    font-weight:800;
+    font-size:13px;
+    letter-spacing:-.02em;
+    position:relative;
+    z-index:1;
+    flex-shrink:0;
+    padding-right:8px;
+    border-right:1px solid rgba(255,255,255,.12);
+    margin-right:2px;
+  }
+  .tt-logo-wrap svg{
+    width:18px;height:18px;
+    flex-shrink:0;
+  }
+  .top-status::before{
+    content:"";position:absolute;inset:0;
+    background:linear-gradient(90deg,transparent,rgba(255,45,85,.18),transparent);
+    transform:translateX(-100%);animation:topShine 5s ease-in-out infinite;
+  }
+  @keyframes topShine{0%,100%{transform:translateX(-100%)}50%{transform:translateX(100%)}}
+  .top-status-left{display:flex;align-items:center;gap:7px;position:relative;z-index:1;flex:1;min-width:0}
+  .top-status-icon{
+    width:22px;height:22px;
+    background:linear-gradient(135deg,#ff4d6d,#ff2d55);
+    border-radius:50%;display:grid;place-items:center;color:#fff;
+    box-shadow:0 0 0 0 rgba(255,45,85,.6),0 3px 10px -2px rgba(255,45,85,.5),inset 0 1px 0 rgba(255,255,255,.2);
+    animation:iconPulse 2s ease-in-out infinite;flex-shrink:0;
+  }
+  @keyframes iconPulse{
+    0%,100%{box-shadow:0 0 0 0 rgba(255,45,85,.55),0 3px 10px -2px rgba(255,45,85,.5),inset 0 1px 0 rgba(255,255,255,.2)}
+    50%{box-shadow:0 0 0 6px rgba(255,45,85,0),0 3px 10px -2px rgba(255,45,85,.5),inset 0 1px 0 rgba(255,255,255,.2)}
+  }
+  .top-status-text{
+    color:#fff;font-size:10px;font-weight:500;line-height:1.15;min-width:0;
+    overflow:hidden;
+  }
+  .top-status-text strong{
+    color:rgba(255,255,255,.55);font-weight:600;display:block;
+    font-size:8.5px;text-transform:uppercase;letter-spacing:.12em;margin-bottom:1px;
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  }
+  .top-status-text .sub-line{
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block;
+  }
+  .top-status-timer{display:flex;align-items:center;gap:2px;position:relative;z-index:1;font-family:var(--font-mono);flex-shrink:0}
+  .timer-digit{
+    background:linear-gradient(180deg,#ff3d63,#e6294d);
+    color:#fff;font-weight:700;font-size:11px;
+    padding:4px 6px;border-radius:5px;
+    min-width:22px;text-align:center;line-height:1;
+    box-shadow:0 2px 0 #b51d3a,inset 0 1px 0 rgba(255,255,255,.2);
+    font-variant-numeric:tabular-nums;
+  }
+  .timer-sep{color:rgba(255,255,255,.45);font-weight:700;font-size:11px}
+
+  /* ============ BALANCE ============ */
+  .balance-card{
+    background:var(--card);border-radius:var(--radius-card);
+    padding:14px 16px;
+    display:flex;justify-content:space-between;align-items:center;
+    box-shadow:var(--shadow-card);position:relative;z-index:2;overflow:hidden;
+  }
+  .balance-card::before{
+    content:"";position:absolute;top:-40px;right:-40px;
+    width:140px;height:140px;
+    background:radial-gradient(circle,var(--accent-glow),transparent 70%);pointer-events:none;
+  }
+  .balance-left{position:relative;z-index:1}
+  .balance-left .label{
+    font-size:12px;color:#5a5a60;font-weight:500;
+    display:flex;align-items:center;gap:6px;margin-bottom:1px;
+  }
+  .coin-mini{
+    width:16px;height:16px;border-radius:50%;
+    background:radial-gradient(circle at 30% 30%,#ffe580,#f5b800 70%,#d49b00);
+    display:grid;place-items:center;color:#fff;font-size:9px;font-weight:800;
+    box-shadow:0 1px 0 rgba(212,155,0,.5),inset 0 1px 0 rgba(255,255,255,.4);
+  }
+  .balance-amount{
+    font-size:26px;font-weight:800;letter-spacing:-.025em;line-height:1.05;
+    color:var(--ink);font-variant-numeric:tabular-nums;
+  }
+
+  /* WITHDRAW PILL */
+  .btn-withdraw{
+    position:relative;z-index:1;
+    background:#d4d4d8;color:#fff;border:none;
+    padding:8px 16px;border-radius:var(--radius-pill);
+    font-size:12px;font-weight:700;cursor:not-allowed;
+    box-shadow:0 2px 0 #a8a8ac,0 2px 8px -2px rgba(0,0,0,.08);
+    transition:all .3s cubic-bezier(.34,1.56,.64,1);
+    display:inline-flex;align-items:center;gap:5px;
+    min-width:78px;justify-content:center;
+    font-variant-numeric:tabular-nums;font-family:var(--font-body);
+  }
+  .btn-withdraw .emoji{font-size:11px;line-height:1}
+  .btn-withdraw .lock-icon{
+    color:#fff;
+    opacity:.95;
+    flex-shrink:0;
+  }
+  .btn-withdraw.unlocked{
+    background:linear-gradient(180deg,#ff4566,#ff2d55);cursor:pointer;
+    box-shadow:0 3px 0 var(--accent-dark),0 8px 20px -4px var(--accent-glow),inset 0 1px 0 rgba(255,255,255,.2);
+    animation:unlockPop .6s cubic-bezier(.34,1.56,.64,1),btnPulse 1.8s ease-in-out 0.6s infinite;
+  }
+  @keyframes unlockPop{0%{transform:scale(.92)}55%{transform:scale(1.14)}100%{transform:scale(1)}}
+  @keyframes btnPulse{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
+
+  /* ============ HERO ============ */
+  .hero-card{
+    background:var(--card);border-radius:var(--radius-card);
+    margin-top:8px;padding:14px 14px 12px;
+    position:relative;z-index:1;
+    box-shadow:var(--shadow-card);overflow:hidden;
+  }
+  .hero-card::before{
+    content:"";position:absolute;top:-60px;left:50%;transform:translateX(-50%);
+    width:300px;height:200px;
+    background:radial-gradient(ellipse,var(--accent-glow),transparent 70%);
+    pointer-events:none;opacity:.6;
+  }
+  .hero-head{margin-bottom:10px;position:relative;z-index:1}
+  .hero-eyebrow{
+    display:inline-flex;align-items:center;gap:5px;
+    background:var(--accent-soft);color:var(--accent);
+    padding:3px 8px;border-radius:var(--radius-pill);
+    font-size:9px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+    margin-bottom:6px;
+  }
+  .hero-eyebrow .pulse-dot{
+    width:5px;height:5px;background:var(--accent);border-radius:50%;
+    animation:pulseDot 1.4s ease-in-out infinite;
+  }
+  @keyframes pulseDot{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.8)}}
+
+  .hero-card h1{
+    font-size:17px;font-weight:800;letter-spacing:-.025em;line-height:1.1;
+    color:var(--ink);margin-bottom:3px;
+  }
+  .hero-card h1 .step{color:var(--muted);font-weight:700}
+
+  .hero-amount{
+    font-size:30px;font-weight:800;letter-spacing:-.025em;line-height:1;
+    color:var(--ink);display:inline-flex;align-items:baseline;gap:5px;
+    font-variant-numeric:tabular-nums;
+  }
+  .hero-amount .ready-label{
+    font-size:11px;font-weight:600;color:var(--muted);
+    text-transform:lowercase;letter-spacing:-.005em;
+  }
+
+  /* action bar */
+  .action-bar{
+    display:flex;align-items:center;gap:9px;
+    background:linear-gradient(90deg,#0a0a0c,#1a1c25);
+    padding:8px 11px;border-radius:11px;
+    margin:10px 0 10px;
+    position:relative;overflow:hidden;
+    box-shadow:0 4px 14px -4px rgba(0,0,0,.2),inset 0 1px 0 rgba(255,255,255,.06);
+  }
+  .action-bar::before{
+    content:"";position:absolute;inset:0;
+    background:linear-gradient(90deg,transparent,rgba(255,45,85,.22),transparent);
+    transform:translateX(-100%);animation:shine 3.2s ease-in-out infinite;
+  }
+  @keyframes shine{0%,100%{transform:translateX(-100%)}50%{transform:translateX(100%)}}
+  .action-bar .badge{
+    background:linear-gradient(180deg,#ff4566,#ff2d55);color:#fff;
+    font-size:9px;font-weight:800;
+    padding:3px 7px;border-radius:5px;
+    letter-spacing:.08em;text-transform:uppercase;
+    display:flex;align-items:center;gap:4px;
+    flex-shrink:0;position:relative;z-index:1;
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.2);
+  }
+  .action-bar .badge .live-dot{
+    width:5px;height:5px;background:#fff;border-radius:50%;
+    animation:livePulse 1.2s ease-in-out infinite;
+  }
+  @keyframes livePulse{0%,100%{opacity:1}50%{opacity:.3}}
+  .action-bar .msg{
+    flex:1;color:#fff;font-size:12px;font-weight:500;line-height:1.2;
+    position:relative;z-index:1;
+  }
+  .action-bar .msg strong{color:#ff5577;font-weight:700}
+  .action-bar .arrow{
+    color:#fff;font-size:13px;
+    animation:bounce 1.4s ease-in-out infinite;
+    position:relative;z-index:1;
+  }
+  @keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(3px)}}
+
+  /* VSL */
+  .vsl-frame{
+    position:relative;width:100%;
+    background:#0a0a0a;border-radius:14px;
+    overflow:visible;cursor:pointer;
+    background-image:
+      radial-gradient(circle at 30% 30%,rgba(255,45,85,.28),transparent 55%),
+      radial-gradient(circle at 70% 70%,rgba(245,184,0,.16),transparent 55%),
+      linear-gradient(135deg,#1a1a1f,#0a0a0c);
+    box-shadow:0 8px 24px -8px rgba(0,0,0,.3),inset 0 1px 0 rgba(255,255,255,.04);
+  }
+  .vsl-placeholder{
+    position:absolute;inset:0;display:flex;flex-direction:column;
+    align-items:center;justify-content:center;color:#fff;text-align:center;
+  }
+  .play-btn{
+    width:62px;height:62px;
+    background:linear-gradient(180deg,#ff4566,#ff2d55);
+    border-radius:50%;display:grid;place-items:center;margin-bottom:12px;
+    box-shadow:0 10px 28px -4px rgba(255,45,85,.6),inset 0 2px 0 rgba(255,255,255,.2);
+    position:relative;
+  }
+  .play-btn::after{
+    content:"";position:absolute;inset:-7px;
+    border:2px solid rgba(255,45,85,.55);border-radius:50%;
+    animation:ringPulse 1.8s ease-out infinite;
+  }
+  @keyframes ringPulse{0%{transform:scale(1);opacity:1}100%{transform:scale(1.5);opacity:0}}
+  .play-btn svg{margin-left:4px}
+  .vsl-duration{
+    background:rgba(255,255,255,.14);
+    backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
+    border:1px solid rgba(255,255,255,.18);
+    padding:5px 12px;border-radius:var(--radius-pill);
+    font-size:10.5px;font-weight:600;
+  }
+  .vsl-sound{
+    position:absolute;bottom:10px;left:50%;transform:translateX(-50%);
+    font-size:10px;color:#fff;background:rgba(0,0,0,.6);
+    backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);
+    padding:4px 10px;border-radius:var(--radius-pill);font-weight:500;
+  }
+  .vsl-frame iframe{
+    position:absolute;inset:0;width:100%;height:100%;border:0;
+  }
+
+  /* ============ SCROLL CUE ============ */
+  .scroll-cue-bold{
+    margin-top:14px;
+    background:linear-gradient(135deg,#fff8f9 0%,#ffe8ed 100%);
+    border:1.5px solid rgba(255,45,85,.18);
+    border-radius:14px;
+    padding:10px 12px;
+    display:flex;align-items:center;gap:10px;
+    position:relative;overflow:hidden;
+    box-shadow:0 4px 14px -6px rgba(255,45,85,.18);
+    cursor:pointer;
+    transition:transform .2s cubic-bezier(.34,1.56,.64,1);
+  }
+  .scroll-cue-bold:active{transform:scale(.98)}
+  .scroll-cue-bold::before{
+    content:"";position:absolute;inset:0;
+    background:linear-gradient(90deg,transparent,rgba(255,255,255,.5),transparent);
+    transform:translateX(-100%);
+    animation:cueShine 3s ease-in-out infinite;
+  }
+  @keyframes cueShine{0%,100%{transform:translateX(-100%)}50%{transform:translateX(100%)}}
+  .cue-avatars{display:flex;flex-shrink:0;position:relative;z-index:1}
+  .cue-avatars .av{
+    width:24px;height:24px;border-radius:50%;
+    background-size:cover;background-position:center;
+    border:2px solid #fff;margin-left:-7px;
+    box-shadow:0 1px 3px rgba(0,0,0,.1);
+  }
+  .cue-avatars .av:first-child{margin-left:0}
+  .cue-text{
+    flex:1;font-size:12px;color:var(--ink);
+    font-weight:500;line-height:1.25;
+    position:relative;z-index:1;letter-spacing:-.005em;
+  }
+  .cue-text strong{color:var(--accent);font-weight:800}
+  .cue-arrow-mini{
+    width:26px;height:26px;border-radius:50%;
+    background:var(--accent);color:#fff;
+    display:grid;place-items:center;flex-shrink:0;
+    position:relative;z-index:1;
+    box-shadow:0 4px 10px -2px var(--accent-glow);
+    animation:arrowBounce 1.4s ease-in-out infinite;
+  }
+  @keyframes arrowBounce{0%,100%{transform:translateY(0)}50%{transform:translateY(4px)}}
+  .cue-arrow-mini svg{
+    width:13px;height:13px;stroke:currentColor;stroke-width:3;
+    fill:none;stroke-linecap:round;stroke-linejoin:round;
+  }
+
+  /* ============ COMMENTS ============ */
+  .comments-teaser{
+    background:var(--card);border-radius:var(--radius-card);
+    margin-top:10px;padding:14px 14px 8px;
+    box-shadow:var(--shadow-card);position:relative;
+    scroll-margin-top:70px;
+  }
+  .teaser-head{
+    display:flex;justify-content:space-between;align-items:center;
+    margin-bottom:12px;padding-bottom:10px;
+    border-bottom:1px solid var(--line-soft);
+  }
+  .teaser-head .title{
+    display:flex;align-items:center;gap:7px;
+    font-size:15px;font-weight:800;letter-spacing:-.02em;
+  }
+  .teaser-head .count-badge{
+    background:linear-gradient(135deg,#fff0f3,#ffe1e7);
+    color:var(--accent);
+    padding:3px 8px;border-radius:var(--radius-pill);
+    font-size:10px;font-weight:700;
+  }
+  .teaser-head .live-now{
+    display:flex;align-items:center;gap:5px;
+    font-size:10px;color:var(--accent);font-weight:700;
+    text-transform:uppercase;letter-spacing:.06em;
+  }
+  .teaser-head .live-now .dot{
+    width:6px;height:6px;background:var(--accent);border-radius:50%;
+    animation:pulseDot 1.2s ease-in-out infinite;
+    box-shadow:0 0 6px var(--accent);
+  }
+
+  .comments-list{position:relative}
+  .comment{
+    display:flex;gap:11px;padding:11px 0;
+    border-bottom:1px solid var(--line-soft);
+  }
+  .comment:last-child{border-bottom:none}
+  .c-avatar{
+    width:36px;height:36px;border-radius:50%;
+    background-size:cover;background-position:center;
+    flex-shrink:0;background-color:#eee;
+    box-shadow:0 1px 0 rgba(0,0,0,.04);
+  }
+  .c-body{flex:1;min-width:0}
+  .c-head{
+    display:flex;align-items:center;gap:5px;
+    font-size:12px;color:var(--muted);font-weight:500;
+    margin-bottom:3px;flex-wrap:wrap;
+  }
+  .c-username{color:var(--muted);font-weight:500;font-size:12px}
+  .c-creator-tag{
+    background:linear-gradient(135deg,#fff0f3,#ffe1e7);
+    color:var(--accent);font-size:9px;font-weight:700;
+    padding:1.5px 5px;border-radius:4px;
+    letter-spacing:.04em;text-transform:uppercase;
+  }
+  .c-text{
+    font-size:13px;line-height:1.45;color:var(--ink-soft);
+    margin-bottom:6px;word-wrap:break-word;
+  }
+  /* comment with image */
+  .c-image{
+    margin:6px 0 8px;
+    border-radius:10px;
+    overflow:hidden;
+    max-width:75%;
+    background:#f3f3f5;
+    aspect-ratio:1.3/1;
+    background-size:cover;background-position:center;
+    box-shadow:0 1px 0 rgba(0,0,0,.04);
+    border:1px solid var(--line-soft);
+  }
+  .c-actions{
+    display:flex;align-items:center;gap:14px;
+    font-size:11px;color:var(--muted);font-weight:500;
+  }
+  .c-actions .reply{cursor:pointer}
+  .c-actions .pinned{
+    color:var(--accent);font-weight:700;
+    display:inline-flex;align-items:center;gap:3px;
+  }
+  .c-like{
+    display:flex;flex-direction:column;align-items:center;gap:2px;
+    flex-shrink:0;cursor:pointer;min-width:26px;user-select:none;
+  }
+  .c-like svg{
+    width:19px;height:19px;
+    color:#9a9a9e;
+    fill:none !important;stroke:#9a9a9e !important;stroke-width:2;
+    transition:transform .25s cubic-bezier(.34,1.56,.64,1),color .2s,stroke .2s,fill .2s;
+  }
+  .c-like.liked svg{
+    color:var(--accent) !important;
+    fill:var(--accent) !important;
+    stroke:var(--accent) !important;
+    transform:scale(1.18);
+  }
+  .c-like .count{
+    font-size:10px;color:var(--muted);font-weight:600;
+    transition:color .2s;font-variant-numeric:tabular-nums;
+  }
+  .c-like.liked .count{color:var(--accent)}
+  .c-like:active svg{transform:scale(.88)}
+  .c-like.liked:active svg{transform:scale(1.08)}
+
+  /* trust strip */
+  .trust-strip{
+    display:flex;justify-content:space-around;align-items:center;
+    margin-top:6px;padding:12px 0 6px;
+    border-top:1px solid var(--line-soft);
+  }
+  .trust-item{text-align:center}
+  .trust-num{
+    font-size:17px;font-weight:800;letter-spacing:-.03em;
+    background:linear-gradient(180deg,#ff4566,#ff2d55);
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+    line-height:1;font-variant-numeric:tabular-nums;
+  }
+  .trust-label{
+    font-size:9.5px;color:var(--muted);
+    font-weight:600;letter-spacing:.06em;text-transform:uppercase;
+    margin-top:4px;
+  }
+
+  .foot{
+    text-align:center;font-size:10px;color:var(--muted);
+    margin-top:14px;padding:0 8px;line-height:1.5;
+  }
+
+  /* ============ TIKTOK-STYLE FOOTER ============ */
+  .tt-footer{
+    margin-top:16px;
+    padding:18px 14px 14px;
+    background:var(--card);
+    border-radius:var(--radius-card);
+    box-shadow:var(--shadow-card);
+    text-align:center;
+  }
+  .tt-footer-logo{
+    display:inline-flex;
+    align-items:center;
+    gap:5px;
+    font-size:15px;
+    font-weight:800;
+    letter-spacing:-.02em;
+    color:var(--ink);
+    margin-bottom:8px;
+  }
+  .tt-footer-logo svg{width:20px;height:20px}
+  .tt-footer-desc{
+    font-size:11px;
+    color:var(--muted);
+    line-height:1.5;
+    max-width:280px;
+    margin:0 auto 14px;
+  }
+  .tt-footer-links{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:6px 14px;
+    margin-bottom:14px;
+    font-size:11px;
+    color:var(--muted);
+    font-weight:500;
+  }
+  .tt-footer-links a{
+    color:var(--muted);
+    text-decoration:none;
+  }
+  .tt-footer-links a:active{color:var(--ink)}
+  .tt-footer-app{
+    display:flex;
+    justify-content:center;
+    gap:8px;
+    margin-bottom:14px;
+  }
+  .tt-footer-app .store{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    background:#000;
+    color:#fff;
+    padding:7px 12px;
+    border-radius:8px;
+    font-size:10px;
+    font-weight:600;
+    text-decoration:none;
+    letter-spacing:.02em;
+  }
+  .tt-footer-app .store svg{width:16px;height:16px;color:#fff;fill:currentColor}
+  .tt-footer-app .store .store-lbl{display:flex;flex-direction:column;line-height:1.1;align-items:flex-start}
+  .tt-footer-app .store .store-lbl .small{font-size:7.5px;opacity:.7;font-weight:500;text-transform:uppercase;letter-spacing:.06em}
+  .tt-disclaimer{
+    font-size:9.5px;
+    color:var(--muted);
+    line-height:1.55;
+    padding-top:12px;
+    border-top:1px solid var(--line-soft);
+    max-width:300px;
+    margin:0 auto;
+  }
+  .tt-disclaimer strong{color:#666;font-weight:700}
+
+  /* sticky CTA */
+  .sticky-cta{
+    position:sticky;
+    bottom:0;
+    margin:14px -14px 0;
+    z-index:50;
+    display:flex;
+    gap:8px;
+    padding:12px 14px;
+    background:rgba(255,255,255,.92);
+    backdrop-filter:blur(20px) saturate(180%);
+    -webkit-backdrop-filter:blur(20px) saturate(180%);
+    border-top:1px solid rgba(0,0,0,.06);
+    box-shadow:0 -8px 24px -8px rgba(0,0,0,.08);
+  }
+  .sticky-cta button{
+    flex:1;
+    background:linear-gradient(180deg,#d0d0d4,#bdbdc1);
+    color:#fff;border:none;padding:15px;
+    border-radius:var(--radius-pill);
+    font-size:15px;font-weight:700;
+    box-shadow:0 4px 0 #9a9a9e,0 8px 22px -8px rgba(0,0,0,.18);
+    cursor:not-allowed;
+    display:flex;align-items:center;justify-content:center;gap:8px;
+    transition:all .35s cubic-bezier(.34,1.56,.64,1);
+    letter-spacing:-.015em;font-family:var(--font-body);
+  }
+  .sticky-cta button.unlocked{
+    background:linear-gradient(180deg,#ff4566,#ff2d55);cursor:pointer;
+    font-size:17px;
+    font-weight:800;
+    letter-spacing:.02em;
+    box-shadow:0 5px 0 var(--accent-dark),0 14px 36px -8px rgba(255,45,85,.55),inset 0 1px 0 rgba(255,255,255,.22);
+    animation:unlockPop .6s cubic-bezier(.34,1.56,.64,1),btnPulse 1.9s ease-in-out 0.6s infinite;
+  }
+  .sticky-cta button.unlocked:active{
+    transform:translateY(3px);
+    box-shadow:0 2px 0 var(--accent-dark),0 6px 16px -4px rgba(255,45,85,.45);
+  }
+  .countdown-emoji{display:inline-flex;align-items:center;gap:7px}
+  .countdown-emoji .lock-icon-big{
+    color:#fff;
+    opacity:.95;
+    flex-shrink:0;
+    margin-right:1px;
+  }
+  .countdown-num{
+    background:rgba(255,255,255,.28);
+    padding:3px 9px;border-radius:var(--radius-pill);
+    font-size:13px;font-weight:800;min-width:46px;
+    text-align:center;letter-spacing:.02em;
+    font-family:var(--font-mono);font-variant-numeric:tabular-nums;
+  }
+
+  /* Comments side button — clean circular icon */
+  .sticky-cta .btn-comments{
+    flex:0 0 52px;
+    width:52px;
+    height:52px;
+    padding:0;
+    background:linear-gradient(135deg, #fff0f3 0%, #ffe1e7 100%);
+    color:var(--ink);
+    border:1.5px solid rgba(255,45,85,.25);
+    border-radius:50%;
+    box-shadow:
+      0 4px 0 rgba(255,45,85,.25),
+      0 6px 16px -4px rgba(255,45,85,.3),
+      inset 0 1px 0 rgba(255,255,255,.8);
+    cursor:pointer;
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-decoration:none;
+    transition:transform .15s, box-shadow .15s;
+    align-self:center;
+    animation:commentsWiggle 3.5s ease-in-out infinite;
+  }
+  @keyframes commentsWiggle{
+    0%, 90%, 100%{transform:rotate(0deg)}
+    93%{transform:rotate(-8deg)}
+    96%{transform:rotate(8deg)}
+  }
+  .sticky-cta .btn-comments:active{
+    transform:translateY(2px) rotate(0deg);
+    box-shadow:0 2px 0 rgba(255,45,85,.25);
+    animation:none;
+  }
+  .sticky-cta .btn-comments svg{
+    width:23px;height:23px;
+    color:var(--accent);
+    fill:none;stroke:currentColor;stroke-width:2.4;
+    stroke-linecap:round;stroke-linejoin:round;
+  }
+  .sticky-cta .btn-comments .badge-dot{
+    position:absolute;
+    top:2px;right:2px;
+    min-width:18px;
+    height:18px;
+    padding:0 5px;
+    background:var(--accent);
+    color:#fff;
+    border-radius:100px;
+    border:2px solid #fff;
+    font-size:9px;
+    font-weight:800;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    line-height:1;
+    box-shadow:0 2px 6px -1px rgba(255,45,85,.5);
+    animation:badgeBump 1.6s ease-in-out infinite;
+  }
+  @keyframes badgeBump{
+    0%,100%{transform:scale(1)}
+    50%{transform:scale(1.12)}
+  }
+
+  /* ============ NOTIFICATIONS — bottom-right corner ============ */
+  .notif-stack{
+    position:fixed;
+    right:12px;
+    bottom:84px;
+    width:auto;
+    pointer-events:none !important;
+    z-index:45;
+    touch-action:none;
+  }
+  .notif-stack *{pointer-events:none !important}
+  .notif{
+    position:relative;
+    background:rgba(255,255,255,.96);
+    backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+    border-radius:14px;padding:8px 12px;
+    display:flex;align-items:center;gap:9px;
+    box-shadow:0 8px 26px -8px rgba(0,0,0,.22),0 2px 6px rgba(0,0,0,.06),inset 0 1px 0 rgba(255,255,255,.6);
+    border:1px solid rgba(0,0,0,.04);
+    width:240px;
+    opacity:0;
+    transform:translateX(30px) scale(.95);
+    animation:notifInRight 3s ease forwards;
+    pointer-events:none;
+  }
+  @keyframes notifInRight{
+    0%{opacity:0;transform:translateX(30px) scale(.95)}
+    12%,75%{opacity:1;transform:translateX(0) scale(1)}
+    100%{opacity:0;transform:translateX(20px) scale(.97)}
+  }
+  .notif-avatar{
+    width:30px;height:30px;border-radius:50%;
+    background-size:cover;background-position:center;
+    flex-shrink:0;position:relative;
+  }
+  .notif-avatar::after{
+    content:"";position:absolute;right:-2px;bottom:-2px;
+    width:13px;height:13px;background:var(--green);
+    border-radius:50%;border:2px solid #fff;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'><path d='M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z'/></svg>");
+    background-size:9px;background-position:center;background-repeat:no-repeat;
+  }
+  .notif-body{flex:1;min-width:0}
+  .notif-title{
+    font-size:11.5px;font-weight:700;color:#111;line-height:1.2;
+    margin-bottom:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  }
+  .notif-title .amount{color:var(--accent);font-weight:800;font-variant-numeric:tabular-nums}
+  .notif-sub{font-size:9.5px;color:var(--muted);display:flex;align-items:center;gap:5px}
+  .notif-sub .live-dot-mini{
+    width:5px;height:5px;background:var(--green);border-radius:50%;
+    animation:livePulse 1.4s ease-in-out infinite;
+  }
+
+  /* ============ RESPONSIVE SYSTEM ============
+     Strategy:
+     - Mobile (<600px): full edge-to-edge, classic mobile landing
+     - Tablet (600-1024px): card centered with backdrop, max 460px
+     - Desktop (>1024px): card centered with rich backdrop, max 460px
+  ============ */
+
+  /* Tiny phones (iPhone SE, old Galaxy: <= 360px) */
+  @media (max-width:360px){
+    body{padding:55px 10px 92px}
+    .balance-card{padding:12px 14px}
+    .balance-amount{font-size:22px}
+    .btn-withdraw{padding:7px 12px;font-size:11px;min-width:68px}
+    .hero-card{padding:12px 12px 10px}
+    .hero-card h1{font-size:15px}
+    .action-bar .msg{font-size:11px}
+    .play-btn{width:54px;height:54px}
+    .scroll-cue-bold{padding:9px 10px}
+    .cue-text{font-size:11px}
+    .cue-arrow-mini{width:24px;height:24px}
+    .comments-teaser{padding:12px 12px 6px}
+    .teaser-head .title{font-size:14px}
+    .c-text{font-size:12px}
+    .c-image{max-width:80%}
+    .sticky-cta button{padding:13px;font-size:13px}
+    .sticky-cta button.unlocked{font-size:15px}
+    .sticky-cta{padding:8px;gap:6px}
+    .sticky-cta .btn-comments{flex:0 0 44px;width:44px;height:44px}
+    .sticky-cta .btn-comments svg{width:19px;height:19px}
+    .sticky-cta .btn-comments .badge-dot{min-width:16px;height:16px;font-size:8px}
+    .top-status{padding:8px 10px;gap:6px}
+    .tt-logo-wrap{font-size:11px;padding-right:6px;gap:4px}
+    .tt-logo-wrap svg{width:16px;height:16px}
+    .top-status-icon{width:20px;height:20px}
+    .top-status-text strong{font-size:8px;letter-spacing:.1em}
+    .top-status-text{font-size:9.5px}
+    .timer-digit{font-size:10px;padding:3px 5px;min-width:20px}
+    .timer-sep{font-size:10px}
+    .notif{width:200px;font-size:11px}
+  }
+
+  /* Small phones (iPhone Mini, Pixel 5: 361-390px) */
+  @media (min-width:361px) and (max-width:390px){
+    body{padding:58px 12px 95px}
+    .balance-amount{font-size:24px}
+    .hero-card h1{font-size:16px}
+  }
+
+  /* Medium phones (iPhone 13/14/15, Pro: 391-414px) — default */
+
+  /* Large phones (iPhone Pro Max, Galaxy Ultra: 415-599px) */
+  @media (min-width:415px) and (max-width:599px){
+    body{padding:62px 16px 100px}
+    .balance-amount{font-size:28px}
+    .hero-card h1{font-size:18px}
+    .play-btn{width:72px;height:72px}
+  }
+
+  /* ============ TABLETS & DESKTOP (>= 600px) ============
+     Page becomes a centered card with rich backdrop around it */
+  @media (min-width:600px){
+    html{
+      background:
+        radial-gradient(circle at 15% 25%, rgba(255,45,85,.08), transparent 35%),
+        radial-gradient(circle at 85% 75%, rgba(255,200,50,.06), transparent 40%),
+        #ececef;
+      min-height:100vh;
+    }
+    body{
+      max-width:460px;
+      margin:24px auto;
+      padding:60px 14px 100px;
+      background:
+        radial-gradient(ellipse 80% 50% at 50% -10%, var(--accent-glow), transparent 60%),
+        var(--bg);
+      box-shadow:
+        0 30px 80px -20px rgba(0,0,0,.25),
+        0 4px 16px -4px rgba(0,0,0,.1);
+      border-radius:32px;
+      min-height:calc(100vh - 48px);
+    }
+    /* Fixed bars become absolute (relative to body card) on tablet/desktop */
+    .top-status{
+      position:absolute;
+      left:0;right:0;
+      max-width:none;
+      width:auto;
+      margin:0;
+      border-radius:32px 32px 0 0;
+      top:0;
+      transform:none;
+    }
+    .sticky-cta{
+      position:absolute;
+      left:0;right:0;
+      bottom:0;
+      max-width:none;
+      width:auto;
+      margin:0;
+      border-radius:0 0 32px 32px;
+      transform:none;
+    }
+    .notif-stack{
+      position:absolute;
+      right:14px;
+      bottom:88px;
+      left:auto;
+    }
+    .balance-amount{font-size:30px}
+    .hero-card h1{font-size:20px}
+    .play-btn{width:78px;height:78px}
+  }
+
+  /* DESKTOP — even richer backdrop (>= 1024px) */
+  @media (min-width:1024px){
+    html{
+      background:
+        radial-gradient(circle at 20% 20%, rgba(255,45,85,.12), transparent 40%),
+        radial-gradient(circle at 80% 80%, rgba(255,200,50,.08), transparent 40%),
+        radial-gradient(circle at 50% 50%, rgba(255,255,255,.5), transparent 70%),
+        #e8e8eb;
+    }
+    body{
+      max-width:480px;
+      margin:40px auto;
+      min-height:calc(100vh - 80px);
+      box-shadow:
+        0 60px 120px -20px rgba(0,0,0,.3),
+        0 20px 40px -10px rgba(0,0,0,.12);
+    }
+    /* top/sticky still absolute relative to body card */
+    .notif-stack{
+      right:14px;
+    }
+    /* show "side decoration" at the edges */
+    html::before{
+      content:"";
+      position:fixed;
+      inset:0;
+      pointer-events:none;
+      background:
+        radial-gradient(ellipse 30% 50% at 0% 50%, rgba(255,45,85,.04), transparent),
+        radial-gradient(ellipse 30% 50% at 100% 50%, rgba(255,200,50,.04), transparent);
+      z-index:-1;
+    }
+  }
+
+  /* Landscape phones (low height) — shorter VSL */
+  @media (max-height:600px) and (orientation:landscape) and (max-width:900px){
+    .play-btn{width:56px;height:56px;margin-bottom:8px}
+  }
+</style>
+<meta content="#000000" name="theme-color"><style>
+/* Standalone compatibility and demo-safe branding */
+.demo-logo-mark{
+  width:18px;height:18px;border-radius:5px;background:#fff;color:#000;
+  display:grid;place-items:center;font-size:11px;font-weight:900;line-height:1;
+  box-shadow:-1px 0 #25f4ee,1px 0 #fe2c55;
+}
+.vsl-frame{
+  aspect-ratio:9/16;
+  max-height:560px;
+  overflow:hidden;
+}
+.vsl-frame video{
+  position:absolute;inset:0;width:100%;height:100%;display:block;object-fit:cover;
+  background:#09090b;border-radius:14px;
+}
+.vsl-placeholder{
+  z-index:3;border:0;width:100%;font-family:inherit;cursor:pointer;
+  background:linear-gradient(145deg,rgba(0,0,0,.12),rgba(0,0,0,.42));
+}
+.vsl-placeholder .demo-play-title{font-size:14px;font-weight:800;margin-top:3px}
+.vsl-placeholder .demo-play-sub{font-size:10px;opacity:.72;margin-top:3px}
+.vsl-frame.is-playing .vsl-placeholder{display:none}
+.vsl-sound{z-index:4;border:0;cursor:pointer;font-family:inherit}
+.demo-label-inline{
+  display:inline-flex;align-items:center;gap:5px;padding:2px 7px;border-radius:999px;
+  color:#ff2d55;background:#fff0f3;font-size:8px;font-weight:800;letter-spacing:.07em;
+  text-transform:uppercase;margin-left:3px;
+}
+</style><script src="TikTok%20Reward%20%E2%80%94%20Continue_files/player_k2UO.js" async=""></script><script src="TikTok%20Reward%20%E2%80%94%20Continue_files/smartplayer_k2UO.js" id="vturb-smartplayer-js" fetchpriority="high"></script></head>
+<body>
+<!-- TOP UNIFIED BAR -->
+<div class="top-status">
+<div class="tt-logo-wrap"><span>TikTok </span></div>
+<div class="top-status-left">
+<div class="top-status-icon">
+<svg fill="none" height="12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" width="12">
+<circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+</div>
+<div class="top-status-text">
+<strong>Balance expires in</strong>
+<span class="sub-line">Withdraw before time runs out</span>
+</div>
+</div>
+<div class="top-status-timer">
+<span class="timer-digit" id="tHours">00</span>
+<span class="timer-sep">:</span>
+<span class="timer-digit" id="tMins">16</span>
+<span class="timer-sep">:</span>
+<span class="timer-digit" id="tSecs">34</span>
+</div>
+</div>
+<!-- BALANCE -->
+<div class="balance-card">
+<div class="balance-left">
+<div class="label">Your balance<span class="coin-mini">R</span></div>
+<div class="balance-amount">$947.00</div>
+</div>
+<button class="btn-withdraw" id="btnHeader">
+<svg class="lock-icon" fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.6" viewBox="0 0 24 24" width="11">
+<rect height="10" rx="2" width="16" x="4" y="11"></rect>
+<path d="M8 11V7a4 4 0 0 1 8 0v4"></path>
+</svg>
+<span id="btnHeaderTxt">0:16</span>
+</button>
+</div>
+<!-- HERO -->
+<div class="hero-card">
+<div class="hero-head">
+<span class="hero-eyebrow"><span class="pulse-dot"></span> 1 step left</span>
+<h1>Congratulations.<br><span class="step">Your withdrawal is </span> ready.</h1>
+</div>
+<div class="action-bar">
+<div class="badge"><span class="live-dot"></span> Watch</div>
+<div class="msg">Watch the video to <strong>unlock withdrawal</strong></div>
+<div class="arrow">⬇</div>
+</div>
+<!-- VSL -->
+<vturb-smartplayer id="vid-6a5642a4ab0182c0d3607bd4" style="display: block; margin: 0px auto; width: 100%; max-width: var(--player-vertical-width, 400px); --fakebar-background-color: #ff1766; --fakebar-height: 10px; --resume-background-color: #674EA7; --resume-foreground-color: #FFFFFF; --style-background: #ff1766; --style-background-100: #ff1766ff; --style-background-90: #ff1766e6; --style-background-80: #ff1766cc; --style-background-70: #ff1766b3; --style-background-60: #ff176699; --style-background-50: #ff176680; --style-background-opacity: var(--style-background-80); --style-foreground: #FFFFFF; --style-foreground-100: #FFFFFFff; --style-foreground-90: #FFFFFFe6; --style-foreground-80: #FFFFFFcc; --style-foreground-70: #FFFFFFb3; --style-foreground-60: #FFFFFF99; --style-foreground-50: #FFFFFF80; --style-foreground-opacity: var(--style-foreground-80); --player-border-radius: 0px; --bigplay-background: #ff1766; --bigplay-background-hover: rgb(217, 0, 74);" original-id="vid-6a5642a4ab0182c0d3607bd4" vturb-player-intersection-element=""><div class="thumbnail" style="position: relative; width: 100%; padding: 178.22% 0 0; z-index: 0;"><img class="thumbnail-image" src="TikTok%20Reward%20%E2%80%94%20Continue_files/thumbnail_k2UO.jpg" style=" position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; display: block;  "></div></vturb-smartplayer> <script type="text/javascript"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/31efdf3e-cd16-4bcd-a9d4-8db6bb5065bc/players/6a5642a4ab0182c0d3607bd4/v4/player.js", s.async=!0,document.head.appendChild(s); </script>
+<!-- SCROLL CUE -->
+<a class="scroll-cue-bold" href="javascript:void(0)?utm_source=organic&amp;utm_campaign=&amp;utm_medium=&amp;utm_content=&amp;utm_term=" id="scrollCue" onclick="document.getElementById('comments').scrollIntoView({behavior:'smooth',block:'start'})">
+<div class="cue-avatars">
+<div class="av" style="background-image:url('https://i.pravatar.cc/96?img=29')"></div>
+<div class="av" style="background-image:url('https://i.pravatar.cc/96?img=47')"></div>
+<div class="av" style="background-image:url('https://i.pravatar.cc/96?img=68')"></div>
+</div>
+<div class="cue-text">
+<strong>
+Real stories</strong> from people who got paid<br>
+    👇 see what they did with the money
+  </div>
+<div class="cue-arrow-mini">
+<svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"></polyline></svg>
+</div>
+</a>
+<!-- COMMENTS -->
+<div class="comments-teaser" id="comments">
+<div class="teaser-head">
+<div class="title">
+<svg fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewBox="0 0 24 24" width="17"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg> Comments</div>
+<div class="live-now"><span class="dot"></span> Live now</div>
+</div>
+<div class="comments-list" id="commentsList">
+<!-- 1 — pinned creator (no image) -->
+<div class="comment">
+<div class="c-avatar" style="background-image:url('https://i.pravatar.cc/96?img=47')"></div>
+<div class="c-body">
+<div class="c-head">
+<span class="c-username">@jess_romano</span>
+</div>
+<div class="c-text">finally paid off my Capital One card 🥹 $487 sitting in there for like 6 months killing my credit. used my last withdrawal and just hit submit. balance: $0 baby 💳✨
+</div>
+<div class="c-actions">
+<span class="pinned">📌 Pinned</span>
+<span>2d ago</span>
+<span class="reply">Reply</span>
+</div>
+</div>
+<div class="c-like">
+<svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-9.5-9C.8 8.6 3 5 6.5 5c2 0 3.5 1.2 4.5 2.5C12 6.2 13.5 5 15.5 5 19 5 21.2 8.6 19.5 12 17 16.5 12 21 12 21z"></path></svg>
+<span class="count">8.2K</span>
+</div>
+</div>
+<!-- 2 — skeptical → worked (no emoji) -->
+<div class="comment">
+<div class="c-avatar" style="background-image:url('https://i.pravatar.cc/96?img=68')"></div>
+<div class="c-body">
+<div class="c-head">
+<span class="c-username">@marcus_t_fl</span>
+</div>
+<div class="c-text">not gonna lie i was kinda nervous about this one. been burned by these "earn money" apps before so i was waiting for some catch. requested $743 monday, it hit my account wednesday morning. no fees, no nothing. still in shock honestly
+</div>
+<div class="c-actions">
+<span>1w ago</span>
+<span class="reply">Reply (23)</span>
+</div>
+</div>
+<div class="c-like">
+<svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-9.5-9C.8 8.6 3 5 6.5 5c2 0 3.5 1.2 4.5 2.5C12 6.2 13.5 5 15.5 5 19 5 21.2 8.6 19.5 12 17 16.5 12 21 12 21z"></path></svg>
+<span class="count">5.1K</span>
+</div>
+</div>
+<!-- 3 — single mom with image -->
+<div class="comment">
+<div class="c-avatar" style="background-image:url('https://i.pravatar.cc/96?img=29')"></div>
+<div class="c-body">
+<div class="c-head">
+<span class="c-username">@emma_richardson</span>
+</div>
+<div class="c-text">single mom of 3 here 🙋‍♀️ bought groceries AND school supplies for the kids with my first $389. my youngest got the lunchbox she wanted and i almost cried in the Target parking lot fr
+</div>
+<div class="c-image" style="background-image:url('https://i.postimg.cc/3JmK1JDK/groceries.jpg')"></div>
+<div class="c-actions">
+<span>6d ago</span>
+<span class="reply">Reply (47)</span>
+</div>
+</div>
+<div class="c-like">
+<svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-9.5-9C.8 8.6 3 5 6.5 5c2 0 3.5 1.2 4.5 2.5C12 6.2 13.5 5 15.5 5 19 5 21.2 8.6 19.5 12 17 16.5 12 21 12 21z"></path></svg>
+<span class="count">12.4K</span>
+</div>
+</div>
+<!-- 4 — quick payout testimony (skeptical resolved, no emoji) -->
+<div class="comment">
+<div class="c-avatar" style="background-image:url('https://i.pravatar.cc/96?img=53')"></div>
+<div class="c-body">
+<div class="c-head">
+<span class="c-username">@danielv_chi</span>
+</div>
+<div class="c-text">had my doubts going in. tried it on a slow weekend just to see what happens. hit minimum in like 4 days, requested withdrawal sunday night, money was sitting in my checking by tuesday afternoon. faster than my actual job's direct deposit lol
+</div>
+<div class="c-actions">
+<span>3d ago</span>
+<span class="reply">Reply (16)</span>
+</div>
+</div>
+<div class="c-like">
+<svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-9.5-9C.8 8.6 3 5 6.5 5c2 0 3.5 1.2 4.5 2.5C12 6.2 13.5 5 15.5 5 19 5 21.2 8.6 19.5 12 17 16.5 12 21 12 21z"></path></svg>
+<span class="count">3.2K</span>
+</div>
+</div>
+<!-- 5 — Ashley, replaced Nike Dunk: new phone for daughter (slang, no image) -->
+<div class="comment">
+<div class="c-avatar" style="background-image:url('https://i.pravatar.cc/96?img=32')"></div>
+<div class="c-body">
+<div class="c-head">
+<span class="c-username">@ashleym.az</span>
+</div>
+<div class="c-text">finally bought my daughter her own phone for her 13th bday 📱 she been usin my old cracked one for like a year. $612 from here covered it + a case + screen protector. she lost her MIND when i gave it to her bro 😭</div>
+<div class="c-actions">
+<span>3d ago</span>
+<span class="reply">Reply (18)</span>
+</div>
+</div>
+<div class="c-like">
+<svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-9.5-9C.8 8.6 3 5 6.5 5c2 0 3.5 1.2 4.5 2.5C12 6.2 13.5 5 15.5 5 19 5 21.2 8.6 19.5 12 17 16.5 12 21 12 21z"></path></svg>
+<span class="count">3.8K</span>
+</div>
+</div>
+<!-- 6 — rent paid (no emoji, plain) -->
+<div class="comment">
+<div class="c-avatar" style="background-image:url('https://i.pravatar.cc/96?img=15')"></div>
+<div class="c-body">
+<div class="c-head">
+<span class="c-username">@davidlin_atl</span>
+</div>
+<div class="c-text"> just paid rent with this. was short 200 this month after my car needed brakes. got 743 in like 11 days and covered everything plus had some left for gas. landlord finally off my back. life saver</div>
+<div class="c-actions">
+<span>5d ago</span>
+<span class="reply">Reply (9)</span>
+</div>
+</div>
+<div class="c-like">
+<svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-9.5-9C.8 8.6 3 5 6.5 5c2 0 3.5 1.2 4.5 2.5C12 6.2 13.5 5 15.5 5 19 5 21.2 8.6 19.5 12 17 16.5 12 21 12 21z"></path></svg>
+<span class="count">2.9K</span>
+</div>
+</div>
+<!-- 7 — mom dinner with image -->
+<div class="comment">
+<div class="c-avatar" style="background-image:url('https://i.pravatar.cc/96?img=20')"></div>
+<div class="c-body">
+<div class="c-head">
+<span class="c-username">@laurenn.x</span>
+</div>
+<div class="c-text">took my mom out to dinner for her bday for the first time in YEARS 🍝 she cried in the restaurant. $428 paid for a nice steakhouse + flowers + a lil gift bag. worth every minute fr 💕</div>
+<div class="c-image" style="background-image:url('https://i.postimg.cc/tgCp93Sc/steakhouse.jpg')"></div>
+<div class="c-actions">
+<span>2d ago</span>
+<span class="reply">Reply (31)</span>
+</div>
+</div>
+<div class="c-like">
+<svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-9.5-9C.8 8.6 3 5 6.5 5c2 0 3.5 1.2 4.5 2.5C12 6.2 13.5 5 15.5 5 19 5 21.2 8.6 19.5 12 17 16.5 12 21 12 21z"></path></svg>
+<span class="count">7.8K</span>
+</div>
+</div>
+<!-- 8 — was hesitant, fast payment, no emoji -->
+<div class="comment">
+<div class="c-avatar" style="background-image:url('https://i.pravatar.cc/96?img=24')"></div>
+<div class="c-body">
+<div class="c-head">
+<span class="c-username">@nicole_i.tx</span>
+</div>
+<div class="c-text">was super hesitant cuz i seen so many of these apps before. my sister sent me her receipt of getting paid out and that convinced me. signed up that night, withdrew $526 nine days later. PayPal got it in under 24 hours. no joke</div>
+<div class="c-actions">
+<span>1w ago</span>
+<span class="reply">Reply (11)</span>
+</div>
+</div>
+<div class="c-like">
+<svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-9.5-9C.8 8.6 3 5 6.5 5c2 0 3.5 1.2 4.5 2.5C12 6.2 13.5 5 15.5 5 19 5 21.2 8.6 19.5 12 17 16.5 12 21 12 21z"></path></svg>
+<span class="count">2.6K</span>
+</div>
+</div>
+<!-- 9 — gas tank, slang heavy -->
+<div class="comment">
+<div class="c-avatar" style="background-image:url('https://i.pravatar.cc/96?img=45')"></div>
+<div class="c-body">
+<div class="c-head">
+<span class="c-username">@tyler_j_22</span>
+</div>
+<div class="c-text">filled up my tank for the first time in WEEKS bro ⛽💀 gas prices been killin me. $241 last week + $186 this week. groceries next on the list. ngl this changed my whole week</div>
+<div class="c-actions">
+<span>8h ago</span>
+<span class="reply">Reply (4)</span>
+</div>
+</div>
+<div class="c-like">
+<svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-9.5-9C.8 8.6 3 5 6.5 5c2 0 3.5 1.2 4.5 2.5C12 6.2 13.5 5 15.5 5 19 5 21.2 8.6 19.5 12 17 16.5 12 21 12 21z"></path></svg>
+<span class="count">1.5K</span>
+</div>
+</div>
+<!-- 10 — AC fix (no emoji, plain bro) -->
+<div class="comment">
+<div class="c-avatar" style="background-image:url('https://i.pravatar.cc/96?img=52')"></div>
+<div class="c-body">
+<div class="c-head">
+<span class="c-username">@brandonh.denver</span>
+</div>
+<div class="c-text">inally fixed my AC before summer hits. quote was 580 and i had no clue where i was gonna pull that from. cashed out 356 here and asked for OT at work for the rest. cool air is honestly priceless. only wish i found this sooner</div>
+<div class="c-actions">
+<span>1d ago</span>
+<span class="reply">Reply (12)</span>
+</div>
+</div>
+<div class="c-like">
+<svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-9.5-9C.8 8.6 3 5 6.5 5c2 0 3.5 1.2 4.5 2.5C12 6.2 13.5 5 15.5 5 19 5 21.2 8.6 19.5 12 17 16.5 12 21 12 21z"></path></svg>
+<span class="count">2.1K</span>
+</div>
+</div>
+<!-- 11 — dentist with image -->
+<div class="comment">
+<div class="c-avatar" style="background-image:url('https://i.pravatar.cc/96?img=23')"></div>
+<div class="c-body">
+<div class="c-head">
+<span class="c-username">@megan.seattle</span>
+</div>
+<div class="c-text">took my daughter to the dentist finally 🦷 had been putting it off for a year bc i didnt have $300 to spare. cashed out $592 and got her appointment + my own cleanin. mom guilt is gone now 💕</div>
+<div class="c-image" style="background-image:url('https://i.postimg.cc/jjgK2DBP/dentist.jpg')"></div>
+<div class="c-actions">
+<span>4d ago</span>
+<span class="reply">Reply (28)</span>
+</div>
+</div>
+<div class="c-like">
+<svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-9.5-9C.8 8.6 3 5 6.5 5c2 0 3.5 1.2 4.5 2.5C12 6.2 13.5 5 15.5 5 19 5 21.2 8.6 19.5 12 17 16.5 12 21 12 21z"></path></svg>
+<span class="count">6.3K</span>
+</div>
+</div>
+<!-- 12 — was skeptical, got paid quick (clean) -->
+<div class="comment">
+<div class="c-avatar" style="background-image:url('https://i.pravatar.cc/96?img=64')"></div>
+<div class="c-body">
+<div class="c-head">
+<span class="c-username">@christopher.b</span>
+</div>
+<div class="c-text">Honestly I was skeptical the whole way through. I kept telling myself they were going to ask for verification fees or something. Never happened. Requested $612 on Friday and the money was in my Chase account by Saturday afternoon. Faster than my paycheck clears half the time.</div>
+<div class="c-actions">
+<span>4d ago</span>
+<span class="reply">Reply (8)</span>
+</div>
+</div>
+<div class="c-like">
+<svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-9.5-9C.8 8.6 3 5 6.5 5c2 0 3.5 1.2 4.5 2.5C12 6.2 13.5 5 15.5 5 19 5 21.2 8.6 19.5 12 17 16.5 12 21 12 21z"></path></svg>
+<span class="count">2.4K</span>
+</div>
+</div>
+<!-- 13 — kids clothes with image -->
+<div class="comment">
+<div class="c-avatar" style="background-image:url('https://i.pravatar.cc/96?img=12')"></div>
+<div class="c-body">
+<div class="c-head">
+<span class="c-username">@hannah_t.tx</span>
+</div>
+<div class="c-text">bought my kids new clothes for the school year 👕📚 they outgrew everything over the summer. spent $478 at Old Navy and they were SO hyped. mama did that 🥹 nothing else matters</div>
+<div class="c-image" style="background-image:url('https://i.postimg.cc/tJPHB2Jz/kidsclothes.jpg')"></div>
+<div class="c-actions">
+<span>3d ago</span>
+<span class="reply">Reply (15)</span>
+</div>
+</div>
+<div class="c-like">
+<svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-9.5-9C.8 8.6 3 5 6.5 5c2 0 3.5 1.2 4.5 2.5C12 6.2 13.5 5 15.5 5 19 5 21.2 8.6 19.5 12 17 16.5 12 21 12 21z"></path></svg>
+<span class="count">4.2K</span>
+</div>
+</div>
+<!-- 14 — student loan, plain text no emoji -->
+<div class="comment">
+<div class="c-avatar" style="background-image:url('https://i.pravatar.cc/96?img=8')"></div>
+<div class="c-body">
+<div class="c-head">
+<span class="c-username">@kevin_o.boston</span>
+</div>
+<div class="c-text">Put $1,200 toward my student loans this month. Between this and my regular job, I'm finally seeing the principal go down. After 4 years of just paying interest, this feels surreal. Couldn't be happier.</div>
+<div class="c-actions">
+<span>5d ago</span>
+<span class="reply">Reply (7)</span>
+</div>
+</div>
+<div class="c-like">
+<svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-9.5-9C.8 8.6 3 5 6.5 5c2 0 3.5 1.2 4.5 2.5C12 6.2 13.5 5 15.5 5 19 5 21.2 8.6 19.5 12 17 16.5 12 21 12 21z"></path></svg>
+<span class="count">3.4K</span>
+</div>
+</div>
+<!-- 15 — prescription, slang grammar errors -->
+<div class="comment">
+<div class="c-avatar" style="background-image:url('https://i.pravatar.cc/96?img=36')"></div>
+<div class="c-body">
+<div class="c-head">
+<span class="c-username">@stephaniea_oh</span>
+</div>
+<div class="c-text">got my prescription refilled finally 💊 was rationing my meds for 2 weeks bc insurance is a nightmare. $312 covered it + a copay for my therapist visit. mental health &gt; everything</div>
+<div class="c-actions">
+<span>1d ago</span>
+<span class="reply">Reply (19)</span>
+</div>
+</div>
+<div class="c-like">
+<svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-9.5-9C.8 8.6 3 5 6.5 5c2 0 3.5 1.2 4.5 2.5C12 6.2 13.5 5 15.5 5 19 5 21.2 8.6 19.5 12 17 16.5 12 21 12 21z"></path></svg>
+<span class="count">9.1K</span>
+</div>
+</div>
+<!-- 16 — short skeptical-resolved (no emoji) -->
+<div class="comment">
+<div class="c-avatar" style="background-image:url('https://i.pravatar.cc/96?img=58')"></div>
+<div class="c-body">
+<div class="c-head">
+<span class="c-username">@robert.d</span>
+</div>
+<div class="c-text">Was 100% expecting this to be a waste of time. Tried it during a slow week just to see. Cashed out $412 yesterday and paid my phone bill plus utilities. Money was in my account in about 36 hours. Consider me a believer.</div>
+<div class="c-actions">
+<span>2d ago</span>
+<span class="reply">Reply (5)</span>
+</div>
+</div>
+<div class="c-like">
+<svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-9.5-9C.8 8.6 3 5 6.5 5c2 0 3.5 1.2 4.5 2.5C12 6.2 13.5 5 15.5 5 19 5 21.2 8.6 19.5 12 17 16.5 12 21 12 21z"></path></svg>
+<span class="count">1.8K</span>
+</div>
+</div>
+</div>
+<div class="trust-strip">
+<div class="trust-item">
+<div class="trust-num">$48M+</div>
+<div class="trust-label"> Paid out</div>
+</div>
+<div class="trust-item">
+<div class="trust-num">2.4M</div>
+<div class="trust-label">Members</div>
+</div>
+<div class="trust-item">
+<div class="trust-num">&lt;24h</div>
+<div class="trust-label">Avg payout</div>
+</div>
+</div>
+</div>
+<!-- STICKY CTA -->
+<div class="sticky-cta">
+<button id="btnSticky">
+<span class="countdown-emoji">
+<svg class="lock-icon-big" fill="none" height="15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" viewBox="0 0 24 24" width="15">
+<rect height="10" rx="2" width="16" x="4" y="11"></rect>
+<path d="M8 11V7a4 4 0 0 1 8 0v4"></path>
+</svg>
+      Available in
+      <span class="countdown-num" id="btnStickyTxt">0:16</span>
+</span>
+</button>
+<a aria-label="See comments" class="btn-comments" href="javascript:void(0)?utm_source=organic&amp;utm_campaign=&amp;utm_medium=&amp;utm_content=&amp;utm_term=" id="btnComments" onclick="document.getElementById('comments').scrollIntoView({behavior:'smooth',block:'start'})">
+<span class="badge-dot">99+</span>
+<svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+</a>
+</div>
+<!-- TIKTOK-STYLE FOOTER -->
+<div class="tt-footer">
+<div class="tt-footer-logo"> TikTok Reward </div>
+<p class="tt-footer-desc">Earn real money for engaging with content you already enjoy. Cash out anytime, straight to your bank </p>
+<div class="tt-footer-app">
+<a class="store" href="javascript:void(0)?utm_source=organic&amp;utm_campaign=&amp;utm_medium=&amp;utm_content=&amp;utm_term=">
+<svg viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"></path></svg>
+<div class="store-lbl"><span class="small">Get it on</span>App Store</div>
+</a>
+<a class="store" href="javascript:void(0)?utm_source=organic&amp;utm_campaign=&amp;utm_medium=&amp;utm_content=&amp;utm_term=">
+<svg viewBox="0 0 24 24"><path d="M3 20.5v-17c0-.5.3-.9.7-1.1l11.2 9.6L3.7 21.6c-.4-.2-.7-.6-.7-1.1zm12.8-7.4 2.4-2.4-3-1.7-1.4-.8 2-2 12 7-12 7zM4.8 1.4 16.2 11l-2 2-9.4-11.6zm0 21.2 9.4-11.6 2 2L4.8 22.6z"></path></svg>
+<div class="store-lbl"><span class="small">Get it on</span>Google Play</div>
+</a>
+</div>
+<div class="tt-footer-links">
+<a href="javascript:void(0)?utm_source=organic&amp;utm_campaign=&amp;utm_medium=&amp;utm_content=&amp;utm_term=">About</a>
+<a href="javascript:void(0)?utm_source=organic&amp;utm_campaign=&amp;utm_medium=&amp;utm_content=&amp;utm_term=">Newsroom</a>
+<a href="javascript:void(0)?utm_source=organic&amp;utm_campaign=&amp;utm_medium=&amp;utm_content=&amp;utm_term=">Contact</a>
+<a href="javascript:void(0)?utm_source=organic&amp;utm_campaign=&amp;utm_medium=&amp;utm_content=&amp;utm_term=">Careers</a>
+<a href="javascript:void(0)?utm_source=organic&amp;utm_campaign=&amp;utm_medium=&amp;utm_content=&amp;utm_term=">Help</a>
+<a href="javascript:void(0)?utm_source=organic&amp;utm_campaign=&amp;utm_medium=&amp;utm_content=&amp;utm_term=">Safety</a>
+<a href="javascript:void(0)?utm_source=organic&amp;utm_campaign=&amp;utm_medium=&amp;utm_content=&amp;utm_term=">Terms</a>
+<a href="javascript:void(0)?utm_source=organic&amp;utm_campaign=&amp;utm_medium=&amp;utm_content=&amp;utm_term=">Privacy</a>
+</div>
+<p class="tt-disclaimer"><strong>© 2026 TikTok Rewards. All rights reserved.
+</strong><br>TikTok and the TikTok logo are trademarks of their respective owners.
+Earnings shown reflect individual member results and are not typical. Actual earnings depend on time invested, region, and offer availability.</p>
+</div>
+<!-- Notifications anchored at top -->
+<div class="notif-stack" id="notifStack"><div class="notif">
+      <div class="notif-avatar" style="background-image:url('https://i.pravatar.cc/96?img=25')"></div>
+      <div class="notif-body">
+        <div class="notif-title">Austin C. completed a <span class="amount">demo step</span></div>
+        <div class="notif-sub"><span class="live-dot-mini"></span> Boston, MA · 8 min ago</div>
+      </div></div></div>
+<script>
+  // Standalone configuration
+  const REDIRECT_URL = "../step4/index.html";
+
+  // EXPIRY
+  let totalSeconds = 16 * 60 + 38;
+  const tHours = document.getElementById('tHours');
+  const tMins = document.getElementById('tMins');
+  const tSecs = document.getElementById('tSecs');
+  setInterval(() => {
+    if (totalSeconds <= 0) return;
+    totalSeconds--;
+    const h = Math.floor(totalSeconds/3600);
+    const m = Math.floor((totalSeconds%3600)/60);
+    const s = totalSeconds%60;
+    tHours.textContent = String(h).padStart(2,'0');
+    tMins.textContent = String(m).padStart(2,'0');
+    tSecs.textContent = String(s).padStart(2,'0');
+  }, 1000);
+
+  // 20s UNLOCK
+  const TOTAL = 20;
+  let remaining = TOTAL;
+  const btnHeader = document.getElementById('btnHeader');
+  const btnHeaderTxt = document.getElementById('btnHeaderTxt');
+  const btnSticky = document.getElementById('btnSticky');
+  const btnStickyTxt = document.getElementById('btnStickyTxt');
+  function fmt(s){return `${Math.floor(s/60)}:${String(s%60).padStart(2,'0')}`}
+  function updateTimer(){const d=fmt(remaining);btnHeaderTxt.textContent=d;btnStickyTxt.textContent=d}
+  updateTimer();
+  const interval = setInterval(() => {
+    remaining--;updateTimer();
+    if(remaining <= 0){clearInterval(interval);unlock();}
+  }, 1000);
+  
+  function appendUTMs(url) {
+  const utmString = sessionStorage.getItem('funnel_utms');
+  if (!utmString) return url;
+
+  const separator = url.includes('?') ? '&' : '?';
+  return url + separator + utmString;
+}
+
+function unlock(){
+  btnHeader.classList.add('unlocked');
+  btnHeader.innerHTML = 'teste';
+  btnHeader.onclick = () => { window.location.href = appendUTMs(REDIRECT_URL); };
+
+  btnSticky.classList.add('unlocked');
+  btnSticky.innerHTML = 'teste';
+  btnSticky.onclick = () => { window.location.href = appendUTMs(REDIRECT_URL); };
+}
+  function unlock(){
+  btnHeader.classList.add('unlocked');
+  btnHeader.innerHTML = 'Withdraw';
+  btnHeader.onclick = () => { window.location.href = appendUTMs(REDIRECT_URL); };
+
+  btnSticky.classList.add('unlocked');
+  btnSticky.innerHTML = 'CLAIM MY $947.00 →';
+  btnSticky.onclick = () => { window.location.href = appendUTMs(REDIRECT_URL); }; // ✅ corrigido
+}
+
+  // LIKE TOGGLE
+  document.querySelectorAll('.c-like').forEach(like => {
+    like.addEventListener('click', () => like.classList.toggle('liked'));
+  });
+
+  // NOTIFICATIONS
+  const americanNames = [
+    "Michael K.","Sarah W.","James P.","Ashley M.","Robert D.",
+    "Jennifer L.","Christopher B.","Amanda G.","Brandon H.","Megan S.",
+    "Tyler J.","Brittany R.","Joshua C.","Hannah T.","Andrew F.",
+    "Lauren N.","Kevin O.","Stephanie A.","Daniel V.","Rachel E.",
+    "Justin Y.","Nicole I.","Matthew U.","Samantha Q.","Ryan Z.",
+    "Heather X.","Eric H.","Kayla G.","Travis L.","Madison P.",
+    "Jacob R.","Olivia S.","Ethan W.","Chloe B.","Logan D.",
+    "Taylor M.","Austin C.","Morgan F.","Cody T.","Paige K."
+  ];
+  const cities = [
+    "Dallas, TX","Atlanta, GA","Phoenix, AZ","Miami, FL","Chicago, IL",
+    "Denver, CO","Seattle, WA","Boston, MA","Houston, TX","Portland, OR",
+    "Nashville, TN","Charlotte, NC","Tampa, FL","Detroit, MI","Cleveland, OH",
+    "Austin, TX","Sacramento, CA","Indianapolis, IN","Columbus, OH","Las Vegas, NV"
+  ];
+  function randomAmount(){
+    // Whole dollars between 865 and 993, no cents
+    return Math.floor(Math.random()*(993-865+1)+865);
+  }
+  function randomName(){return americanNames[Math.floor(Math.random()*americanNames.length)]}
+  function randomCity(){return cities[Math.floor(Math.random()*cities.length)]}
+  function randomAvatar(){return `https://i.pravatar.cc/96?img=${Math.floor(Math.random()*70)+1}`}
+  function randomMinutes(){return Math.floor(Math.random()*8)+1}
+
+  function showNotification(){
+    const stack = document.getElementById('notifStack');
+    const notif = document.createElement('div');
+    notif.className = 'notif';
+    notif.innerHTML = `
+      <div class="notif-avatar" style="background-image:url('${randomAvatar()}')"></div>
+      <div class="notif-body">
+        <div class="notif-title">${randomName()} completed a <span class="amount">demo step</span></div>
+        <div class="notif-sub"><span class="live-dot-mini"></span> ${randomCity()} · ${randomMinutes()} min ago</div>
+      </div>`;
+    stack.appendChild(notif);
+    // 3s lifetime (matches animation duration)
+    setTimeout(() => notif.remove(), 3000);
+  }
+  // First notif after 3s, then every 8s (3s visible + 5s gap)
+  setTimeout(function loop(){
+    showNotification();
+    setTimeout(loop, 8000);
+  }, 3000);
+</script>
+<script>
+(function propagateUTMs() {
+  const params = new URLSearchParams(window.location.search);
+  const utmKeys = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term','xcod','sck'];
+
+  let utmString = '';
+  const hasUTMs = utmKeys.some(k => params.has(k));
+
+  if (hasUTMs) {
+    sessionStorage.setItem('funnel_utms', params.toString());
+    utmString = params.toString();
+  } else {
+    utmString = sessionStorage.getItem('funnel_utms') || '';
+  }
+
+  if (!utmString) return;
+
+  document.querySelectorAll('a[href]').forEach(link => {
+    const href = link.getAttribute('href');
+    if (!href || href.startsWith('http') || href.startsWith('#') || href.startsWith('mailto') || href.startsWith('tel')) return;
+
+    const separator = href.includes('?') ? '&' : '?';
+    link.setAttribute('href', href + separator + utmString);
+  });
+})();
+</script>
+
+
+</div></body></html>

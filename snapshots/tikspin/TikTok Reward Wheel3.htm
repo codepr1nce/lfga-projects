@@ -1,0 +1,1377 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+<script src="TikTok%20Reward%20Wheel3_files/latest_QEHU.js" data-utmify-prevent-xcod-sck="" data-utmify-prevent-subids="" async="" defer="defer"></script>
+    
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>TikTok Reward Wheel </title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --bg: #0a0a0a;
+    --card-bg: #161616;
+    --primary: #FE2C55;
+    --primary-2: #FF4D77;
+    --teal: #4FE0D0;
+    --yellow: #FFD43B;
+    --text: #ffffff;
+    --text-muted: #888;
+    --border: rgba(255,255,255,0.08);
+  }
+
+  html, body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    background:
+      radial-gradient(ellipse 80% 50% at 50% 0%, rgba(254,44,85,0.18) 0%, transparent 60%),
+      radial-gradient(ellipse 60% 40% at 50% 100%, rgba(79,224,208,0.08) 0%, transparent 60%),
+      #0a0a0a;
+  }
+
+  .app {
+    width: 100%;
+    max-width: 420px;
+    min-height: 100vh;
+    padding: 14px 18px 40px;
+    position: relative;
+  }
+
+  /* ---------- Top bar ---------- */
+  .topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 4px 4px;
+  }
+
+  .icon-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: transparent;
+    border: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .icon-btn:hover { background: rgba(255,255,255,0.06); }
+
+  .help-btn {
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+  .help-btn:hover { background: transparent; }
+  .help-btn-ring {
+    position: relative;
+    width: 38px;
+    height: 38px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background:
+      radial-gradient(circle at 35% 30%, rgba(255,255,255,.12), transparent 42%),
+      rgba(20,20,24,.92);
+    border: 1px solid rgba(255,255,255,.16);
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,.08),
+      0 8px 20px rgba(0,0,0,.32),
+      0 0 0 3px rgba(255,255,255,.04);
+    transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease;
+  }
+  .help-btn-ring::after {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    width: 4px;
+    height: 4px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background: rgba(255,255,255,.38);
+  }
+  .help-btn-symbol {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 900;
+    line-height: 1;
+    transform: translateY(-1px);
+  }
+  .help-btn:hover .help-btn-ring {
+    transform: translateY(-1px) scale(1.04);
+    border-color: rgba(255,255,255,.28);
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+  .brand svg { width: 22px; height: 22px; }
+  .brand-name { font-size: 16px; font-weight: 700; }
+  .brand-sub  { font-size: 14px; color: #cfcfcf; }
+
+  /* ---------- Steps ---------- */
+  .steps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 30px 0 16px;
+  }
+  .step {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    background: rgba(255,255,255,0.06);
+    color: #888;
+    transition: all 0.3s;
+  }
+  .step.active {
+    background: var(--primary);
+    color: #fff;
+    box-shadow: 0 0 0 4px rgba(254,44,85,0.15);
+  }
+  .step.done {
+    background: var(--primary);
+    color: #fff;
+    opacity: 0.45;
+  }
+  .step-line {
+    width: 22px;
+    height: 1px;
+    background: rgba(255,255,255,0.15);
+  }
+
+  /* ---------- Title ---------- */
+  .gradient-pill {
+    width: 110px;
+    height: 6px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #4FE0D0 0%, #B388FF 50%, #FE2C55 100%);
+    margin: 0 auto 18px;
+  }
+  .title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    margin-bottom: 6px;
+  }
+  .subtitle {
+    text-align: center;
+    color: #999;
+    font-size: 13px;
+    margin-bottom: 26px;
+  }
+
+  /* ---------- Wheel ---------- */
+  .wheel-wrap {
+    position: relative;
+    width: 320px;
+    height: 320px;
+    margin: 0 auto 28px;
+  }
+  .wheel-glow {
+    position: absolute;
+    inset: -20px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(254,44,85,0.35) 0%, transparent 65%);
+    filter: blur(18px);
+    z-index: 0;
+  }
+  .pointer {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 36px;
+    z-index: 5;
+    filter: drop-shadow(0 2px 6px rgba(0,0,0,0.6));
+  }
+  .wheel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    z-index: 1;
+    transition: transform 5.2s cubic-bezier(0.17, 0.67, 0.18, 1.0);
+  }
+  .wheel-svg { width: 100%; height: 100%; display: block; }
+  .wheel-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    background: #0a0a0a;
+    border: 3px solid #1f1f1f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.5);
+  }
+  .wheel-center svg { width: 26px; height: 26px; }
+
+  /* ---------- Spin button ---------- */
+  .spin-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 220px;
+    margin: 0 auto 24px;
+    padding: 16px 24px;
+    border-radius: 999px;
+    border: none;
+    background: linear-gradient(180deg, var(--primary-2) 0%, var(--primary) 100%);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+    box-shadow: 0 12px 30px rgba(254,44,85,0.45);
+    transition: transform 0.15s;
+  }
+  .spin-btn:hover { transform: translateY(-1px); }
+  .spin-btn:active { transform: translateY(1px); }
+  .spin-btn:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+  }
+
+  /* ---------- Winnings card ---------- */
+  .winnings-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 14px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+  .winnings-left { display: flex; align-items: center; gap: 12px; }
+  .dollar-badge {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--primary) 0%, #C71F44 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 18px;
+    color: #fff;
+  }
+  .winnings-label {
+    font-size: 10px;
+    color: #999;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .winnings-amount {
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+  }
+  .spins-info { text-align: right; }
+  .spins-info-label {
+    font-size: 11px;
+    color: #999;
+    text-transform: capitalize;
+  }
+  .spins-info-num {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--teal);
+    line-height: 1.1;
+  }
+
+  /* ---------- Live notification ---------- */
+  .live-notif {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    margin-bottom: 28px;
+  }
+  .live-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #FE2C55;
+    box-shadow: 0 0 8px #FE2C55;
+    animation: pulse 1.4s ease-in-out infinite;
+    flex-shrink: 0;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
+  }
+  .live-text { color: #ccc; }
+  .live-name, .live-amount { color: #fff; font-weight: 700; }
+
+  /* ---------- Verified + footer ---------- */
+  .verified {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding-top: 18px;
+    border-top: 1px solid var(--border);
+    position: relative;
+  }
+  .verified-icon {
+    width: 28px;
+    height: 28px;
+    background: #000;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border: 1px solid var(--border);
+  }
+  .verified-icon svg { width: 16px; height: 16px; }
+  .verified-info { flex: 1; min-width: 0; }
+  .verified-name {
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 2px;
+  }
+  .verified-sub { font-size: 11px; color: #999; font-weight: 400; }
+  .verified-badge {
+    background: #1DA1F2;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 800;
+    padding: 4px 9px;
+    border-radius: 999px;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    position: absolute;
+    right: 0;
+    top: 18px;
+  }
+  .footer-text {
+    font-size: 11px;
+    color: #777;
+    line-height: 1.6;
+    margin-top: 14px;
+  }
+  .footer-text b { color: #aaa; }
+
+  .trust-badges {
+    display: flex;
+    gap: 8px;
+    margin-top: 18px;
+    flex-wrap: wrap;
+  }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    color: #999;
+    border: 1px solid var(--border);
+    padding: 6px 10px;
+    border-radius: 8px;
+  }
+  .badge svg { width: 12px; height: 12px; }
+
+  .footer-links {
+    display: flex;
+    gap: 18px;
+    margin-top: 18px;
+    font-size: 11px;
+    color: #888;
+    flex-wrap: wrap;
+  }
+  .copyright {
+    margin-left: auto;
+    font-size: 11px;
+    color: #666;
+  }
+
+  /* ---------- Popups ---------- */
+  .popup-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.72);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    padding: 20px;
+  }
+  .popup-overlay.active { display: flex; }
+  .popup {
+    background: #fff;
+    color: #000;
+    border-radius: 22px;
+    width: 100%;
+    max-width: 340px;
+    overflow: hidden;
+    position: relative;
+    animation: popIn 0.45s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+  @keyframes popIn {
+    0% { transform: scale(0.7); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+  }
+  .popup-top-strip {
+    height: 5px;
+    background: linear-gradient(90deg, #4FE0D0, #B388FF, #FE2C55);
+  }
+  .popup-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 18px 18px 0;
+  }
+  .popup-logo {
+    width: 22px;
+    height: 22px;
+    background: #000;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .popup-logo svg { width: 14px; height: 14px; fill: #fff; }
+  .popup-brand { font-weight: 700; font-size: 14px; color: #000; }
+  .popup-sub { color: #999; font-size: 14px; }
+
+  .popup-emoji {
+    width: 60px;
+    height: 60px;
+    background: #f3f3f3;
+    border-radius: 50%;
+    margin: 22px auto 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+  }
+
+  .popup-tag-wrap { text-align: center; }
+  .popup-tag {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 800;
+    color: #555;
+    letter-spacing: 1.2px;
+    background: #f3f3f3;
+    padding: 7px 16px;
+    border-radius: 999px;
+  }
+  .popup-tag.win {
+    background: linear-gradient(90deg, #4FE0D0, #B388FF, #FE2C55);
+    color: #fff;
+  }
+
+  .popup-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: -0.6px;
+    margin: 14px 0 6px;
+    color: #000;
+  }
+  .popup-prize-label {
+    text-align: center;
+    font-size: 11px;
+    color: #999;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 8px;
+  }
+  .popup-amount {
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    letter-spacing: -3px;
+    line-height: 1;
+    margin: 6px 0 18px;
+    color: #000;
+  }
+  .popup-check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 13px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  .popup-check-icon {
+    color: #FE2C55;
+    font-weight: 800;
+    font-size: 15px;
+  }
+  .popup-next {
+    background: rgba(254,44,85,0.08);
+    color: #FE2C55;
+    padding: 8px 16px;
+    border-radius: 999px;
+    font-size: 13px;
+    margin: 0 auto 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: max-content;
+    max-width: 90%;
+  }
+  .popup-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: #f7f7f7;
+    margin: 0 16px 16px;
+    border-radius: 12px;
+    padding: 14px 0;
+  }
+  .popup-stat { text-align: center; border-right: 1px solid #e5e5e5; }
+  .popup-stat:last-child { border-right: none; }
+  .popup-stat-label {
+    font-size: 10px;
+    color: #888;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+  .popup-stat-val {
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: 4px;
+    color: #000;
+  }
+  .popup-stat-val.danger { color: var(--primary); }
+  .popup-btn {
+    margin: 0 16px 20px;
+    width: calc(100% - 32px);
+    padding: 16px;
+    background: linear-gradient(180deg, var(--primary-2) 0%, var(--primary) 100%);
+    color: #fff;
+    border: none;
+    border-radius: 14px;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(254,44,85,0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: transform 0.15s;
+  }
+  .popup-btn:hover { transform: translateY(-1px); }
+  .popup-btn.secondary {
+    background: #000;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  }
+
+  /* ---------- Confetti ---------- */
+  .confetti-container {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 99;
+    overflow: hidden;
+  }
+  .confetti {
+    position: absolute;
+    width: 9px;
+    height: 14px;
+    top: -30px;
+    animation: fall linear forwards;
+  }
+  @keyframes fall {
+    0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+    100% { transform: translateY(110vh) rotate(720deg); opacity: 0; }
+  }
+
+
+  /* ---------- Help popup ---------- */
+  .help-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 150;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background:
+      radial-gradient(circle at 50% 10%, rgba(254,44,85,.16), transparent 38%),
+      rgba(0,0,0,.80);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+  }
+  .help-overlay.active { display: flex; }
+  .help-card {
+    position: relative;
+    width: 100%;
+    max-width: 360px;
+    padding: 28px 22px 20px;
+    color: #fff;
+    background:
+      radial-gradient(circle at 50% 0%, rgba(79,224,208,.08), transparent 36%),
+      linear-gradient(180deg, #18181c, #0e0e11);
+    border: 1px solid rgba(255,255,255,.13);
+    border-radius: 24px;
+    box-shadow: 0 28px 80px rgba(0,0,0,.68);
+    animation: popIn .35s cubic-bezier(.34,1.56,.64,1);
+  }
+  .help-close {
+    position: absolute;
+    top: 11px;
+    right: 12px;
+    width: 34px;
+    height: 34px;
+    border: 0;
+    border-radius: 50%;
+    color: #fff;
+    background: rgba(255,255,255,.06);
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .help-icon {
+    width: 52px;
+    height: 52px;
+    margin: 0 auto 14px;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    background: linear-gradient(145deg, #FE2C55, #FF4D77);
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 900;
+    box-shadow: 0 12px 28px rgba(254,44,85,.28);
+  }
+  .help-kicker {
+    margin-bottom: 7px;
+    text-align: center;
+    color: var(--teal);
+    font-size: 10px;
+    font-weight: 900;
+    letter-spacing: .12em;
+  }
+  .help-card h2 {
+    text-align: center;
+    font-size: 23px;
+    letter-spacing: -.04em;
+    margin-bottom: 8px;
+  }
+  .help-card > p {
+    color: #aaa;
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .help-list {
+    display: grid;
+    gap: 9px;
+    margin: 19px 0;
+  }
+  .help-list > div {
+    min-height: 52px;
+    padding: 10px 12px;
+    display: grid;
+    grid-template-columns: 29px 1fr;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255,255,255,.045);
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 13px;
+  }
+  .help-list span {
+    width: 28px;
+    height: 28px;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    background: rgba(254,44,85,.20);
+    border: 1px solid rgba(254,44,85,.35);
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: 900;
+  }
+  .help-list p {
+    color: #c8c8cb;
+    font-size: 12px;
+    line-height: 1.4;
+  }
+  .help-action {
+    width: 100%;
+    min-height: 49px;
+    color: #fff;
+    background: linear-gradient(180deg, var(--primary-2), var(--primary));
+    border: 0;
+    border-bottom: 4px solid #a51835;
+    border-radius: 13px;
+    font: inherit;
+    font-size: 14px;
+    font-weight: 900;
+    cursor: pointer;
+  }
+  .help-card small {
+    display: block;
+    margin-top: 12px;
+    color: #777;
+    text-align: center;
+    font-size: 9px;
+    line-height: 1.45;
+  }
+
+</style>
+</head>
+<body>
+  <div class="app">
+    <!-- Top bar -->
+    <div class="topbar">
+      <button class="icon-btn" aria-label="back">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+      </button>
+      <div class="brand">
+        <svg viewBox="0 0 24 24" fill="#fff"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.8 20.1a6.34 6.34 0 0 0 10.86-4.43V8.18a8.16 8.16 0 0 0 4.77 1.52V6.23a4.85 4.85 0 0 1-1.84-.54z"></path></svg>
+        <span class="brand-name">TikTok</span>
+        <span class="brand-sub">Reward</span>
+      </div>
+      <button class="icon-btn help-btn" id="helpBtn" aria-label="help">
+        <span class="help-btn-ring" aria-hidden="true">
+          <span class="help-btn-symbol">?</span>
+        </span>
+      </button>
+    </div>
+
+    <!-- Step indicator -->
+    <div class="steps">
+      <div class="step done" data-step="1">1</div>
+      <div class="step-line"></div>
+      <div class="step done" data-step="2">2</div>
+      <div class="step-line"></div>
+      <div class="step active" data-step="3">3</div>
+    </div>
+
+    <div class="gradient-pill"></div>
+    <h1 class="title">Tap to Spin</h1>
+    <p class="subtitle">Tap the button to spin the wheel and reveal your prize.</p>
+
+    <!-- Wheel -->
+    <div class="wheel-wrap">
+      <div class="wheel-glow"></div>
+      <svg class="pointer" viewBox="0 0 30 36">
+        <path d="M15 36 L1 8 Q1 0 8 0 L22 0 Q29 0 29 8 Z" fill="#FE2C55" stroke="#fff" stroke-width="1.5" stroke-linejoin="round"></path>
+        <circle cx="15" cy="11" r="3" fill="#fff"></circle>
+      </svg>
+      <div class="wheel" id="wheel" style="transform: rotate(5175deg);">
+        <svg class="wheel-svg" viewBox="0 0 400 400" id="wheelSvg"><path d="M 200 200 L 126.91 23.54 A 191 191 0 0 1 273.09 23.54 Z" fill="#FE2C55" stroke="#0a0a0a" stroke-width="2"></path><text x="200.00" y="79.10" text-anchor="middle" dominant-baseline="central" fill="#fff" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-weight="900" font-size="30" transform="rotate(0.00, 200.00, 79.10)">$50</text><path d="M 200 200 L 273.09 23.54 A 191 191 0 0 1 376.46 126.91 Z" fill="#FE2C55" stroke="#0a0a0a" stroke-width="2"></path><text x="285.49" y="114.51" text-anchor="middle" dominant-baseline="central" fill="#fff" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-weight="900" font-size="30" transform="rotate(45.00, 285.49, 114.51)">$25</text><path d="M 200 200 L 376.46 126.91 A 191 191 0 0 1 376.46 273.09 Z" fill="#FFD43B" stroke="#0a0a0a" stroke-width="2"></path><text x="320.90" y="200.00" text-anchor="middle" dominant-baseline="central" fill="#fff" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-weight="900" font-size="30" transform="rotate(90.00, 320.90, 200.00)">$900</text><path d="M 200 200 L 376.46 273.09 A 191 191 0 0 1 273.09 376.46 Z" fill="#4FE0D0" stroke="#0a0a0a" stroke-width="2"></path><text x="285.49" y="285.49" text-anchor="middle" dominant-baseline="central" fill="#fff" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-weight="900" font-size="30" transform="rotate(135.00, 285.49, 285.49)">$7</text><path d="M 200 200 L 273.09 376.46 A 191 191 0 0 1 126.91 376.46 Z" fill="#FE2C55" stroke="#0a0a0a" stroke-width="2"></path><text x="200.00" y="320.90" text-anchor="middle" dominant-baseline="central" fill="#fff" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-weight="900" font-size="30" transform="rotate(180.00, 200.00, 320.90)">$5</text><path d="M 200 200 L 126.91 376.46 A 191 191 0 0 1 23.54 273.09 Z" fill="#FFD43B" stroke="#0a0a0a" stroke-width="2"></path><text x="114.51" y="285.49" text-anchor="middle" dominant-baseline="central" fill="#fff" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-weight="900" font-size="30" transform="rotate(225.00, 114.51, 285.49)">$47</text><path d="M 200 200 L 23.54 273.09 A 191 191 0 0 1 23.54 126.91 Z" fill="#1a1a1a" stroke="#0a0a0a" stroke-width="2"></path><text x="79.10" y="200.00" text-anchor="middle" dominant-baseline="central" fill="#9a9a9a" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-weight="900" font-size="17" transform="rotate(270.00, 79.10, 200.00)">TRY AGAIN</text><path d="M 200 200 L 23.54 126.91 A 191 191 0 0 1 126.91 23.54 Z" fill="#4FE0D0" stroke="#0a0a0a" stroke-width="2"></path><text x="114.51" y="114.51" text-anchor="middle" dominant-baseline="central" fill="#fff" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-weight="900" font-size="30" transform="rotate(315.00, 114.51, 114.51)">$100</text><circle cx="200.00" cy="7.00" r="2.6" fill="#fff" opacity="0.95"></circle><circle cx="249.95" cy="13.58" r="2.6" fill="#fff" opacity="0.95"></circle><circle cx="296.50" cy="32.86" r="2.6" fill="#fff" opacity="0.95"></circle><circle cx="336.47" cy="63.53" r="2.6" fill="#fff" opacity="0.95"></circle><circle cx="367.14" cy="103.50" r="2.6" fill="#fff" opacity="0.95"></circle><circle cx="386.42" cy="150.05" r="2.6" fill="#fff" opacity="0.95"></circle><circle cx="393.00" cy="200.00" r="2.6" fill="#fff" opacity="0.95"></circle><circle cx="386.42" cy="249.95" r="2.6" fill="#fff" opacity="0.95"></circle><circle cx="367.14" cy="296.50" r="2.6" fill="#fff" opacity="0.95"></circle><circle cx="336.47" cy="336.47" r="2.6" fill="#fff" opacity="0.95"></circle><circle cx="296.50" cy="367.14" r="2.6" fill="#fff" opacity="0.95"></circle><circle cx="249.95" cy="386.42" r="2.6" fill="#fff" opacity="0.95"></circle><circle cx="200.00" cy="393.00" r="2.6" fill="#fff" opacity="0.95"></circle><circle cx="150.05" cy="386.42" r="2.6" fill="#fff" opacity="0.95"></circle><circle cx="103.50" cy="367.14" r="2.6" fill="#fff" opacity="0.95"></circle><circle cx="63.53" cy="336.47" r="2.6" fill="#fff" opacity="0.95"></circle><circle cx="32.86" cy="296.50" r="2.6" fill="#fff" opacity="0.95"></circle><circle cx="13.58" cy="249.95" r="2.6" fill="#fff" opacity="0.95"></circle><circle cx="7.00" cy="200.00" r="2.6" fill="#fff" opacity="0.95"></circle><circle cx="13.58" cy="150.05" r="2.6" fill="#fff" opacity="0.95"></circle><circle cx="32.86" cy="103.50" r="2.6" fill="#fff" opacity="0.95"></circle><circle cx="63.53" cy="63.53" r="2.6" fill="#fff" opacity="0.95"></circle><circle cx="103.50" cy="32.86" r="2.6" fill="#fff" opacity="0.95"></circle><circle cx="150.05" cy="13.58" r="2.6" fill="#fff" opacity="0.95"></circle><circle cx="200" cy="200" r="194" fill="none" stroke="#0a0a0a" stroke-width="5"></circle><circle cx="200" cy="200" r="40" fill="#0a0a0a" stroke="#262626" stroke-width="2"></circle></svg>
+      </div>
+      <div class="wheel-center">
+        <svg viewBox="0 0 24 24" fill="#fff"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.8 20.1a6.34 6.34 0 0 0 10.86-4.43V8.18a8.16 8.16 0 0 0 4.77 1.52V6.23a4.85 4.85 0 0 1-1.84-.54z"></path></svg>
+      </div>
+    </div>
+
+    <button class="spin-btn" id="spinBtn">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"></polyline><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path></svg>
+      SPIN
+    </button>
+
+    <!-- Winnings -->
+    <div class="winnings-card">
+      <div class="winnings-left">
+        <div class="dollar-badge">$</div>
+        <div>
+          <div class="winnings-label">YOUR WINNINGS</div>
+          <div class="winnings-amount" id="winningsAmount">$47.00</div>
+        </div>
+      </div>
+      <div class="spins-info">
+        <div class="spins-info-label">Spins left</div>
+        <div class="spins-info-num" id="spinsLeft">1</div>
+      </div>
+    </div>
+
+    <!-- Live -->
+    <div class="live-notif">
+      <div class="live-dot"></div>
+      <div class="live-text">LIVE <span class="live-name">Nicole l.</span> just won <span class="live-amount">$456</span></div>
+    </div>
+
+    <!-- Verified -->
+    <div class="verified">
+      <div class="verified-icon">
+        <svg viewBox="0 0 24 24" fill="#fff"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.8 20.1a6.34 6.34 0 0 0 10.86-4.43V8.18a8.16 8.16 0 0 0 4.77 1.52V6.23a4.85 4.85 0 0 1-1.84-.54z"></path></svg>
+      </div>
+      <div class="verified-info">
+        <div class="verified-name">TikTok Reward <span class="verified-sub">Official Program</span></div>
+      </div>
+      <div class="verified-badge">
+        <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"></path></svg>
+        VERIFIED
+      </div>
+    </div>
+
+    <p class="footer-text">Operated by <strong>TikTok Inc.</strong>, a subsidiary of <strong>ByteDance Ltd.</strong> (10010 Venice Blvd, Culver City, CA 90232). Reward payouts processed by <strong>TikTok Payments LLC</strong>, FinCEN-registered MSB #31000234271. Service available to U.S. residents 18+. All cash rewards subject to U.S. federal tax compliance under IRS Form 1099-MISC.</p>
+
+    <div class="trust-badges">
+      <div class="badge">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+        SSL SECURED
+      </div>
+      <div class="badge">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M9 12l2 2 4-4"></path></svg>
+         FinCen Reg.
+      </div>
+      <div class="badge">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+         IRS Compliant
+      </div>
+    </div>
+
+    <div class="footer-links">
+      <span>Terms</span>
+      <span>Privacy</span>
+      <span>Cookies</span>
+      <span>Contact</span>
+      <span class="copyright">© 2026 Reward </span>
+    </div>
+  </div>
+
+  <!-- ============ POPUPS ============ -->
+
+  <!-- Help popup: closes and remains on the wheel page -->
+  <div class="help-overlay" id="helpPopup" aria-hidden="true">
+    <section class="help-card" role="dialog" aria-modal="true" aria-labelledby="helpTitle">
+      <button class="help-close" id="helpClose" type="button" aria-label="Close">×</button>
+      <div class="help-icon">?</div>
+      <div class="help-kicker">HOW IT WORKS</div>
+      <h2 id="helpTitle">Tik Tok Reward Wheel </h2>
+      <p>Press <strong>SPIN</strong> to use each of the three spins.</p>
+      <div class="help-list">
+        <div><span>1</span><p>You have three chances to win..</p></div>
+        <div><span>2</span><p>You might not win anything.</p></div>
+        <div><span>♪</span><p>No results are guaranteed.</p></div>
+      </div>
+      <button class="help-action" id="helpAction" type="button">Got it — continue</button>
+      <small>Closing this popup keeps you on the wheel page.</small>
+    </section>
+  </div>
+
+
+
+  <!-- Popup 1: No win -->
+  <div class="popup-overlay" id="popup1">
+    <div class="popup">
+      <div class="popup-top-strip"></div>
+      <div class="popup-header">
+        <div class="popup-logo">
+          <svg viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.8 20.1a6.34 6.34 0 0 0 10.86-4.43V8.18a8.16 8.16 0 0 0 4.77 1.52V6.23a4.85 4.85 0 0 1-1.84-.54z"></path></svg>
+        </div>
+        <span class="popup-brand">Reward</span>
+        <span class="popup-sub">· Tiktok</span>
+      </div>
+      <div class="popup-emoji">😕</div>
+      <div class="popup-tag-wrap"><span class="popup-tag">BETTER LUCK NEXT SPIN</span></div>
+      <h2 class="popup-title">No win this time</h2>
+      <div class="popup-next">
+        <span>⏱</span> Most users win on their <b style="margin-left:4px;">next spin</b>
+      </div>
+      <div class="popup-stats">
+        <div class="popup-stat">
+          <div class="popup-stat-label">THIS SPIN</div>
+          <div class="popup-stat-val">—</div>
+        </div>
+        <div class="popup-stat">
+          <div class="popup-stat-label">TOTAL BALANCE</div>
+          <div class="popup-stat-val">$0.00</div>
+        </div>
+        <div class="popup-stat">
+          <div class="popup-stat-label">SPINS LEFT</div>
+          <div class="popup-stat-val danger" id="spinsLeftP1">2</div>
+        </div>
+      </div>
+      <button class="popup-btn secondary" onclick="closePopup('popup1')">Try next spin →</button>
+    </div>
+  </div>
+
+  <!-- Popup 2: You won $47 -->
+  <div class="popup-overlay active" id="popup2">
+    <div class="popup">
+      <div class="popup-top-strip"></div>
+      <div class="popup-header">
+        <div class="popup-logo">
+          <svg viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.8 20.1a6.34 6.34 0 0 0 10.86-4.43V8.18a8.16 8.16 0 0 0 4.77 1.52V6.23a4.85 4.85 0 0 1-1.84-.54z"></path></svg>
+        </div>
+        <span class="popup-brand">Reward</span>
+        <span class="popup-sub">· VERIFIED</span>
+      </div>
+      <div class="popup-tag-wrap"><span class="popup-tag win">✦ YOU WON! ✦</span></div>
+      <div class="popup-prize-label">PRIZE AMOUNT</div>
+      <div class="popup-amount">$47</div>
+      <div class="popup-check">
+        <span class="popup-check-icon">✓</span>
+        <span>Added to your TikTok balance</span>
+      </div>
+      <div class="popup-stats">
+        <div class="popup-stat">
+          <div class="popup-stat-label">WON THIS SPIN</div>
+          <div class="popup-stat-val">+$47.00</div>
+        </div>
+        <div class="popup-stat">
+          <div class="popup-stat-label">TOTAL BALANCE</div>
+          <div class="popup-stat-val">$47.00</div>
+        </div>
+        <div class="popup-stat">
+          <div class="popup-stat-label">SPINS LEFT</div>
+          <div class="popup-stat-val danger" id="spinsLeftP2">1</div>
+        </div>
+      </div>
+      <button class="popup-btn" onclick="closePopup('popup2')">Spin again →</button>
+    </div>
+  </div>
+
+  <!-- Popup 3: Big win $900 -->
+  <div class="popup-overlay" id="popup3">
+    <div class="popup">
+      <div class="popup-top-strip"></div>
+      <div class="popup-header">
+        <div class="popup-logo">
+          <svg viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.8 20.1a6.34 6.34 0 0 0 10.86-4.43V8.18a8.16 8.16 0 0 0 4.77 1.52V6.23a4.85 4.85 0 0 1-1.84-.54z"></path></svg>
+        </div>
+        <span class="popup-brand">Reward</span>
+        <span class="popup-sub">· VERIFIED</span>
+      </div>
+      <div class="popup-tag-wrap"><span class="popup-tag win">✦ BIG WIN ✦</span></div>
+      <div class="popup-prize-label">PRIZE AMOUNT</div>
+      <div class="popup-amount">$900</div>
+      <div class="popup-check">
+        <span class="popup-check-icon">✓</span>
+        <span>Added to your TikTok balance</span>
+      </div>
+      <div class="popup-stats">
+        <div class="popup-stat">
+          <div class="popup-stat-label">WON THIS SPIN</div>
+          <div class="popup-stat-val">+$900.00</div>
+        </div>
+        <div class="popup-stat">
+          <div class="popup-stat-label">TOTAL BALANCE</div>
+          <div class="popup-stat-val">$947.00</div>
+        </div>
+        <div class="popup-stat">
+          <div class="popup-stat-label">SPINS LEFT</div>
+          <div class="popup-stat-val danger" id="spinsLeftP3">0</div>
+        </div>
+      </div>
+      <button class="popup-btn" id="claimBtn">Claim my $947.00 →</button>
+    </div>
+  </div>
+
+  <div class="confetti-container" id="confetti"></div>
+
+  <script>
+    // =====================================================
+    //  CONFIG — TROQUE PELO SEU LINK AQUI
+    // =====================================================
+    const REDIRECT_URL = "../step3/index.html";
+    // =====================================================
+
+    // Wheel segments (clockwise from the top)
+    //   idx 0  = $50   (top)
+    //   idx 1  = $25
+    //   idx 2  = $900
+    //   idx 3  = $7
+    //   idx 4  = $5
+    //   idx 5  = $47
+    //   idx 6  = TRY AGAIN
+    //   idx 7  = $100
+    const segments = [
+      { label: '$50',      color: '#FE2C55', isWin: true,  amount: 50  },
+      { label: '$25',      color: '#FE2C55', isWin: true,  amount: 25  },
+      { label: '$900',     color: '#FFD43B', isWin: true,  amount: 900 },
+      { label: '$7',       color: '#4FE0D0', isWin: true,  amount: 7   },
+      { label: '$5',       color: '#FE2C55', isWin: true,  amount: 5   },
+      { label: '$47',      color: '#FFD43B', isWin: true,  amount: 47  },
+      { label: 'TRY AGAIN',color: '#1a1a1a', isWin: false, amount: 0   },
+      { label: '$100',     color: '#4FE0D0', isWin: true,  amount: 100 }
+    ];
+
+    // Sequence the wheel will follow (segment indices)
+    // 1st spin -> TRY AGAIN, 2nd spin -> $47, 3rd spin -> $900
+    const spinTargets = [6, 5, 2];
+
+    const svg = document.getElementById('wheelSvg');
+    const svgNS = 'http://www.w3.org/2000/svg';
+    const cx = 200, cy = 200, r = 195;
+    const segmentAngle = 360 / segments.length;
+
+    function polarToCartesian(cx, cy, r, angleDeg) {
+      const rad = (angleDeg - 90) * Math.PI / 180;
+      return { x: cx + r * Math.cos(rad), y: cy + r * Math.sin(rad) };
+    }
+
+    function buildWheel() {
+      // Pie slices + labels
+      segments.forEach((seg, i) => {
+        const startAngle = i * segmentAngle - segmentAngle / 2;
+        const endAngle   = (i + 1) * segmentAngle - segmentAngle / 2;
+        const start = polarToCartesian(cx, cy, r - 4, startAngle);
+        const end   = polarToCartesian(cx, cy, r - 4, endAngle);
+        const largeArc = segmentAngle > 180 ? 1 : 0;
+
+        const path = document.createElementNS(svgNS, 'path');
+        const d = `M ${cx} ${cy} L ${start.x.toFixed(2)} ${start.y.toFixed(2)} A ${r-4} ${r-4} 0 ${largeArc} 1 ${end.x.toFixed(2)} ${end.y.toFixed(2)} Z`;
+        path.setAttribute('d', d);
+        path.setAttribute('fill', seg.color);
+        path.setAttribute('stroke', '#0a0a0a');
+        path.setAttribute('stroke-width', '2');
+        svg.appendChild(path);
+
+        // Label, rotated to follow the segment radially
+        const textAngle  = (startAngle + endAngle) / 2;
+        const textRadius = r * 0.62;
+        const textPos    = polarToCartesian(cx, cy, textRadius, textAngle);
+
+        const text = document.createElementNS(svgNS, 'text');
+        text.setAttribute('x', textPos.x.toFixed(2));
+        text.setAttribute('y', textPos.y.toFixed(2));
+        text.setAttribute('text-anchor', 'middle');
+        text.setAttribute('dominant-baseline', 'central');
+        text.setAttribute('fill', seg.isWin ? '#fff' : '#9a9a9a');
+        text.setAttribute('font-family', '-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif');
+        text.setAttribute('font-weight', '900');
+        text.setAttribute('font-size', seg.label === 'TRY AGAIN' ? '17' : '30');
+        text.setAttribute('transform', `rotate(${textAngle.toFixed(2)}, ${textPos.x.toFixed(2)}, ${textPos.y.toFixed(2)})`);
+        text.textContent = seg.label;
+        svg.appendChild(text);
+      });
+
+      // Bulb dots around the perimeter
+      for (let i = 0; i < 24; i++) {
+        const a = i * (360 / 24);
+        const p = polarToCartesian(cx, cy, r - 2, a);
+        const dot = document.createElementNS(svgNS, 'circle');
+        dot.setAttribute('cx', p.x.toFixed(2));
+        dot.setAttribute('cy', p.y.toFixed(2));
+        dot.setAttribute('r', '2.6');
+        dot.setAttribute('fill', '#fff');
+        dot.setAttribute('opacity', '0.95');
+        svg.appendChild(dot);
+      }
+
+      // Outer thick border
+      const outerRing = document.createElementNS(svgNS, 'circle');
+      outerRing.setAttribute('cx', cx);
+      outerRing.setAttribute('cy', cy);
+      outerRing.setAttribute('r', r - 1);
+      outerRing.setAttribute('fill', 'none');
+      outerRing.setAttribute('stroke', '#0a0a0a');
+      outerRing.setAttribute('stroke-width', '5');
+      svg.appendChild(outerRing);
+
+      // Inner small black disk around the center hub
+      const inner = document.createElementNS(svgNS, 'circle');
+      inner.setAttribute('cx', cx);
+      inner.setAttribute('cy', cy);
+      inner.setAttribute('r', 40);
+      inner.setAttribute('fill', '#0a0a0a');
+      inner.setAttribute('stroke', '#262626');
+      inner.setAttribute('stroke-width', '2');
+      svg.appendChild(inner);
+    }
+    buildWheel();
+
+
+    // ============ Browser-generated sound ============
+    let audioCtx = null;
+    let spinSoundTimers = [];
+
+    function getAudioContext() {
+      if (!audioCtx) {
+        const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+        if (!AudioContextClass) return null;
+        audioCtx = new AudioContextClass();
+      }
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+      return audioCtx;
+    }
+
+    function playTone(frequency, start, duration, type = 'sine', volume = 0.08) {
+      const ctx = getAudioContext();
+      if (!ctx) return;
+
+      const oscillator = ctx.createOscillator();
+      const gain = ctx.createGain();
+
+      oscillator.type = type;
+      oscillator.frequency.setValueAtTime(frequency, start);
+      gain.gain.setValueAtTime(0.0001, start);
+      gain.gain.exponentialRampToValueAtTime(Math.max(volume, 0.0002), start + 0.012);
+      gain.gain.exponentialRampToValueAtTime(0.0001, start + duration);
+
+      oscillator.connect(gain);
+      gain.connect(ctx.destination);
+      oscillator.start(start);
+      oscillator.stop(start + duration + 0.03);
+    }
+
+    function stopSpinSound() {
+      spinSoundTimers.forEach(clearTimeout);
+      spinSoundTimers = [];
+    }
+
+    function playSpinSound(durationMs = 5200) {
+      stopSpinSound();
+      const startedAt = performance.now();
+
+      function tick() {
+        const elapsed = performance.now() - startedAt;
+        if (elapsed >= durationMs) return;
+
+        const progress = elapsed / durationMs;
+        const ctx = getAudioContext();
+        if (ctx) playTone(700 + progress * 380, ctx.currentTime, 0.025, 'square', 0.025);
+
+        const delay = 42 + Math.pow(progress, 2.1) * 190;
+        spinSoundTimers.push(setTimeout(tick, delay));
+      }
+
+      tick();
+    }
+
+    function playFailureSound() {
+      const ctx = getAudioContext();
+      if (!ctx) return;
+      const now = ctx.currentTime + 0.02;
+      playTone(360, now,        0.18, 'triangle', 0.09);
+      playTone(285, now + 0.16, 0.22, 'triangle', 0.09);
+      playTone(215, now + 0.34, 0.34, 'sine',     0.10);
+    }
+
+    function playSuccessSound(big = false) {
+      const ctx = getAudioContext();
+      if (!ctx) return;
+      const now = ctx.currentTime + 0.02;
+      const notes = big
+        ? [523.25, 659.25, 783.99, 1046.50]
+        : [523.25, 659.25, 783.99];
+
+      notes.forEach((note, index) => {
+        playTone(note, now + index * 0.105, big ? 0.42 : 0.30, 'sine', big ? 0.10 : 0.085);
+        playTone(note * 2, now + index * 0.105, big ? 0.22 : 0.16, 'triangle', 0.025);
+      });
+    }
+
+    // ============ Help popup ============
+    const helpBtn = document.getElementById('helpBtn');
+    const helpPopup = document.getElementById('helpPopup');
+    const helpClose = document.getElementById('helpClose');
+    const helpAction = document.getElementById('helpAction');
+
+    function openHelp() {
+      getAudioContext();
+      helpPopup.classList.add('active');
+      helpPopup.setAttribute('aria-hidden', 'false');
+    }
+
+    function closeHelp() {
+      helpPopup.classList.remove('active');
+      helpPopup.setAttribute('aria-hidden', 'true');
+    }
+
+    helpBtn.addEventListener('click', openHelp);
+    helpClose.addEventListener('click', closeHelp);
+    helpAction.addEventListener('click', closeHelp);
+
+    helpPopup.addEventListener('click', (event) => {
+      if (event.target === helpPopup) closeHelp();
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && helpPopup.classList.contains('active')) closeHelp();
+    });
+
+
+    // ============ Spin logic ============
+    let currentRotation = 0;
+    let currentSpin = 0;     // 0, 1, 2 (3 spins)
+    let spinning = false;
+    let totalWon = 0;
+
+    const spinBtn       = document.getElementById('spinBtn');
+    const winningsEl    = document.getElementById('winningsAmount');
+    const spinsLeftEl   = document.getElementById('spinsLeft');
+    const wheel         = document.getElementById('wheel');
+
+    spinBtn.addEventListener('click', () => {
+      if (spinning || currentSpin >= 3) return;
+      doSpin();
+    });
+
+    function doSpin() {
+      spinning = true;
+      spinBtn.disabled = true;
+      getAudioContext();
+      playSpinSound(5200);
+
+      const targetIdx   = spinTargets[currentSpin];
+      // Segment at index i sits at angle (i*segmentAngle) from the top
+      // when the wheel rotation is 0. To bring it to the top, rotate by
+      // (360 - i*segmentAngle) mod 360. Add several full turns for effect.
+      const baseTurns   = 6 + currentSpin * 2;     // 6, 8, 10 full turns
+      const targetAngle = (360 - targetIdx * segmentAngle + 360) % 360;
+      const delta = baseTurns * 360
+                  + ((targetAngle - (currentRotation % 360) + 360) % 360);
+      currentRotation += delta;
+      wheel.style.transform = `rotate(${currentRotation}deg)`;
+
+      setTimeout(() => {
+        spinning = false;
+        currentSpin++;
+        const seg = segments[targetIdx];
+        if (seg.isWin) totalWon += seg.amount;
+
+        winningsEl.textContent  = `$${totalWon.toFixed(2)}`;
+        spinsLeftEl.textContent = 3 - currentSpin;
+        updateSteps();
+
+        stopSpinSound();
+
+        if (currentSpin === 1) {
+          playFailureSound();
+          showPopup('popup1');
+        } else if (currentSpin === 2) {
+          playSuccessSound(false);
+          showPopup('popup2');
+        } else if (currentSpin === 3) {
+          playSuccessSound(true);
+          showPopup('popup3');
+          launchConfetti();
+        }
+
+        if (currentSpin < 3) spinBtn.disabled = false;
+      }, 5300);
+    }
+
+    function updateSteps() {
+      document.querySelectorAll('.step').forEach((el) => {
+        const n = parseInt(el.dataset.step, 10);
+        el.classList.remove('active', 'done');
+        if (n < currentSpin + 1)       el.classList.add('done');
+        else if (n === currentSpin+1) el.classList.add('active');
+      });
+    }
+
+    function showPopup(id) {
+      document.getElementById(id).classList.add('active');
+    }
+    function closePopup(id) {
+      document.getElementById(id).classList.remove('active');
+    }
+    window.closePopup = closePopup;
+
+    // Final claim button -> redirect to REDIRECT_URL
+    function appendUTMs(url) {
+  const utmString = sessionStorage.getItem('funnel_utms');
+  if (!utmString) return url;
+
+  const separator = url.includes('?') ? '&' : '?';
+  return url + separator + utmString;
+}
+
+document.getElementById('claimBtn').addEventListener('click', () => {
+  window.location.href = appendUTMs(REDIRECT_URL);
+});
+
+    // Confetti for the big win
+    function launchConfetti() {
+      const container = document.getElementById('confetti');
+      const colors = ['#FE2C55', '#4FE0D0', '#FFD43B', '#B388FF', '#25F4EE', '#fff'];
+      for (let i = 0; i < 90; i++) {
+        const c = document.createElement('div');
+        c.className = 'confetti';
+        c.style.left = Math.random() * 100 + 'vw';
+        c.style.background = colors[Math.floor(Math.random() * colors.length)];
+        c.style.animationDuration = (2.2 + Math.random() * 2.2) + 's';
+        c.style.animationDelay = (Math.random() * 0.6) + 's';
+        c.style.transform = `rotate(${Math.random() * 360}deg)`;
+        if (Math.random() > 0.5) c.style.borderRadius = '50%';
+        container.appendChild(c);
+        setTimeout(() => c.remove(), 6000);
+      }
+    }
+
+    // Click outside to close (only for the first two popups)
+    document.querySelectorAll('.popup-overlay').forEach(o => {
+      o.addEventListener('click', (e) => {
+        if (e.target === o && o.id !== 'popup3') o.classList.remove('active');
+      });
+    });
+  </script>
+  <script>
+(function propagateUTMs() {
+  const params = new URLSearchParams(window.location.search);
+  const utmKeys = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term','xcod','sck'];
+
+  let utmString = '';
+  const hasUTMs = utmKeys.some(k => params.has(k));
+
+  if (hasUTMs) {
+    sessionStorage.setItem('funnel_utms', params.toString());
+    utmString = params.toString();
+  } else {
+    utmString = sessionStorage.getItem('funnel_utms') || '';
+  }
+
+  if (!utmString) return;
+
+  document.querySelectorAll('a[href]').forEach(link => {
+    const href = link.getAttribute('href');
+    if (!href || href.startsWith('http') || href.startsWith('#') || href.startsWith('mailto') || href.startsWith('tel')) return;
+
+    const separator = href.includes('?') ? '&' : '?';
+    link.setAttribute('href', href + separator + utmString);
+  });
+})();
+</script>
+
+
+</body></html>
