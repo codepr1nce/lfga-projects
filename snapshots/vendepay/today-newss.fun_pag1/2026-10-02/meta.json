@@ -1,0 +1,66 @@
+{
+  "startUrl": "https://today-newss.fun/pag1",
+  "group": "vendepay",
+  "capturedAt": "2026-10-02T18:12:40.353Z",
+  "steps": [
+    {
+      "file": "step-01.mhtml",
+      "url": "https://today-newss.fun/pag1/",
+      "title": "TTK Award",
+      "via": "(entrada)",
+      "bytes": 356731
+    },
+    {
+      "file": "step-02.mhtml",
+      "url": "https://today-newss.fun/pag1/",
+      "title": "TTK Award",
+      "via": "Redeem progress",
+      "bytes": 99074
+    },
+    {
+      "file": "step-03.mhtml",
+      "url": "https://today-newss.fun/pag1/prize",
+      "title": "TTK Award",
+      "via": "(slider arrastado)",
+      "bytes": 239564
+    },
+    {
+      "file": "step-04.mhtml",
+      "url": "https://today-newss.fun/pag1/prize",
+      "title": "TTK Award",
+      "via": "Thank you",
+      "bytes": 238509
+    },
+    {
+      "file": "step-05.mhtml",
+      "url": "https://today-newss.fun/pag1/withdraw",
+      "title": "TTK Award",
+      "via": "Withdraw",
+      "bytes": 145528
+    },
+    {
+      "file": "step-06.mhtml",
+      "url": "https://today-newss.fun/pag1/withdraw",
+      "title": "TTK Award",
+      "via": "Withdraw money",
+      "bytes": 147859
+    },
+    {
+      "file": "step-07.mhtml",
+      "url": "https://today-newss.fun/pag1/withdraw",
+      "title": "TTK Award",
+      "via": "PayPal (Email)",
+      "bytes": 238601
+    },
+    {
+      "file": "step-08.mhtml",
+      "url": "https://checkout.vendepay.com/f86cb08d-4776-447c-933b-96cc39df32aa?utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term=",
+      "title": "Checkout - Vendepay",
+      "via": "Pay fee to Release Withdrawal",
+      "bytes": 11820791
+    }
+  ],
+  "end": "checkout: checkout.vendepay.com",
+  "httpStatus": 200,
+  "finalUrl": "https://checkout.vendepay.com/f86cb08d-4776-447c-933b-96cc39df32aa?utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term="
+}

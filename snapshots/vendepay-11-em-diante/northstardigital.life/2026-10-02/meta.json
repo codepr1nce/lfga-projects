@@ -1,0 +1,59 @@
+{
+  "startUrl": "https://northstardigital.life/",
+  "group": "vendepay-11-em-diante",
+  "capturedAt": "2026-10-02T18:13:35.486Z",
+  "steps": [
+    {
+      "file": "step-01.mhtml",
+      "url": "https://northstardigital.life/fb06/index.html",
+      "title": "YouTube Creator Partner Program",
+      "via": "(entrada)",
+      "bytes": 20692
+    },
+    {
+      "file": "step-02.mhtml",
+      "url": "https://northstardigital.life/pag1/index.html",
+      "title": "Video Rewards - Watch & Earn",
+      "via": "Start now!",
+      "bytes": 1129975
+    },
+    {
+      "file": "step-03.mhtml",
+      "url": "https://northstardigital.life/pag2/index.html",
+      "title": "Video Rewards - Watch & Earn",
+      "via": "Not relevant",
+      "bytes": 856164
+    },
+    {
+      "file": "step-04.mhtml",
+      "url": "https://northstardigital.life/pag3/index.html",
+      "title": "Video Rewards - Watch & Earn",
+      "via": "Not relevant",
+      "bytes": 1121483
+    },
+    {
+      "file": "step-05.mhtml",
+      "url": "https://northstardigital.life/pag4/index.html",
+      "title": "Video Rewards - Watch & Earn",
+      "via": "Not relevant",
+      "bytes": 14208
+    },
+    {
+      "file": "step-06.mhtml",
+      "url": "https://northstardigital.life/pag5/index.html",
+      "title": "Video Rewards - Watch & Earn",
+      "via": "Withdraw my balance now!",
+      "bytes": 267172
+    },
+    {
+      "file": "step-07.mhtml",
+      "url": "https://checkout.vendepay.com/41aee542-3890-4455-b2b5-d204261b0a77",
+      "title": "Checkout - Vendepay",
+      "via": "I Want Pay The Fee",
+      "bytes": 11820240
+    }
+  ],
+  "end": "checkout: checkout.vendepay.com",
+  "httpStatus": 200,
+  "finalUrl": "https://checkout.vendepay.com/41aee542-3890-4455-b2b5-d204261b0a77"
+}

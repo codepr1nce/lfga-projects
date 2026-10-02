@@ -1,0 +1,16 @@
+{
+  "startUrl": "https://ottkdigital.vercel.app/",
+  "group": "vendepay-11-em-diante",
+  "capturedAt": "2026-10-02T18:13:32.958Z",
+  "steps": [
+    {
+      "file": "step-01.mhtml",
+      "url": "https://ottkdigital.vercel.app/",
+      "title": "404: NOT_FOUND",
+      "via": "(entrada)"
+    }
+  ],
+  "end": "fora do ar (HTTP 404, página de remoção/erro)",
+  "httpStatus": 404,
+  "finalUrl": "https://ottkdigital.vercel.app/"
+}

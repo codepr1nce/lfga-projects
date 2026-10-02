@@ -1,0 +1,16 @@
+{
+  "startUrl": "https://video-ig.online/tikspin",
+  "group": "geral",
+  "capturedAt": "2026-10-02T18:12:24.559Z",
+  "steps": [
+    {
+      "file": "step-01.mhtml",
+      "url": "https://video-ig.online/tikspin/",
+      "title": "Reward Club — Spin & Win",
+      "via": "(entrada)"
+    }
+  ],
+  "end": "fora do ar (HTTP 403)",
+  "httpStatus": 403,
+  "finalUrl": "https://video-ig.online/tikspin/"
+}

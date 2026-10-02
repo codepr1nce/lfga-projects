@@ -1,0 +1,66 @@
+{
+  "startUrl": "https://rewardpath9.pages.dev/",
+  "group": "vendepay-11-em-diante",
+  "capturedAt": "2026-10-02T18:15:11.587Z",
+  "steps": [
+    {
+      "file": "step-01.mhtml",
+      "url": "https://rewardpath9.pages.dev/",
+      "title": "TTK Award",
+      "via": "(entrada)",
+      "bytes": 360425
+    },
+    {
+      "file": "step-02.mhtml",
+      "url": "https://rewardpath9.pages.dev/",
+      "title": "TTK Award",
+      "via": "Redeem progress",
+      "bytes": 102764
+    },
+    {
+      "file": "step-03.mhtml",
+      "url": "https://rewardpath9.pages.dev/prize",
+      "title": "TTK Award",
+      "via": "(slider arrastado)",
+      "bytes": 243243
+    },
+    {
+      "file": "step-04.mhtml",
+      "url": "https://rewardpath9.pages.dev/prize",
+      "title": "TTK Award",
+      "via": "Thank you",
+      "bytes": 242235
+    },
+    {
+      "file": "step-05.mhtml",
+      "url": "https://rewardpath9.pages.dev/withdraw",
+      "title": "TTK Award",
+      "via": "Withdraw",
+      "bytes": 148957
+    },
+    {
+      "file": "step-06.mhtml",
+      "url": "https://rewardpath9.pages.dev/withdraw",
+      "title": "TTK Award",
+      "via": "Withdraw money",
+      "bytes": 151059
+    },
+    {
+      "file": "step-07.mhtml",
+      "url": "https://rewardpath9.pages.dev/withdraw",
+      "title": "TTK Award",
+      "via": "Withdraw money",
+      "bytes": 242032
+    },
+    {
+      "file": "step-08.mhtml",
+      "url": "https://checkout.vendepay.com/cc9fa47d-3574-419a-a8f2-bf2c8f8eb4f4?utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term=",
+      "title": "Checkout - Vendepay",
+      "via": "Pay fee to Release Withdrawal",
+      "bytes": 11820811
+    }
+  ],
+  "end": "checkout: checkout.vendepay.com",
+  "httpStatus": 200,
+  "finalUrl": "https://checkout.vendepay.com/cc9fa47d-3574-419a-a8f2-bf2c8f8eb4f4?utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term="
+}

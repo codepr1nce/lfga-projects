@@ -1,0 +1,66 @@
+{
+  "startUrl": "https://recompensa-elegible.vercel.app/exit-es",
+  "group": "vendepay",
+  "capturedAt": "2026-10-02T18:12:52.242Z",
+  "steps": [
+    {
+      "file": "step-01.mhtml",
+      "url": "chrome-error://chromewebdata/",
+      "title": "Reported Unsafe Site: Navigation Blocked",
+      "via": "(entrada)",
+      "bytes": 15016
+    },
+    {
+      "file": "step-02.mhtml",
+      "url": "chrome-error://chromewebdata/",
+      "title": "Reported Unsafe Site: Navigation Blocked",
+      "via": "More information",
+      "bytes": 15051
+    },
+    {
+      "file": "step-03.mhtml",
+      "url": "https://recompensa-elegible.vercel.app/exit-es",
+      "title": "TikTok Bonus — Retiro",
+      "via": "Continue to the unsafe site (not recommended)",
+      "bytes": 713116
+    },
+    {
+      "file": "step-04.mhtml",
+      "url": "https://recompensa-elegible.vercel.app/exit-es",
+      "title": "TikTok Bonus — Retiro",
+      "via": "Retirar",
+      "bytes": 713388
+    },
+    {
+      "file": "step-05.mhtml",
+      "url": "https://recompensa-elegible.vercel.app/exit-es",
+      "title": "TikTok Bonus — Retiro",
+      "via": "Gracias",
+      "bytes": 713328
+    },
+    {
+      "file": "step-06.mhtml",
+      "url": "https://recompensa-elegible.vercel.app/exit-es#three",
+      "title": "TikTok Bonus — Retiro",
+      "via": "Retirar",
+      "bytes": 713427
+    },
+    {
+      "file": "step-07.mhtml",
+      "url": "https://recompensa-elegible.vercel.app/exit-es#three",
+      "title": "TikTok Bonus — Retiro",
+      "via": "Enviar",
+      "bytes": 714307
+    },
+    {
+      "file": "step-08.mhtml",
+      "url": "https://checkout.vendepay.com/1050f003-8f76-4319-a73d-81eddf5be066",
+      "title": "Checkout - Vendepay",
+      "via": "Pagar el cargo para liberar el retiro",
+      "bytes": 11737268
+    }
+  ],
+  "end": "checkout: checkout.vendepay.com",
+  "httpStatus": 200,
+  "finalUrl": "https://checkout.vendepay.com/1050f003-8f76-4319-a73d-81eddf5be066"
+}

@@ -1,0 +1,16 @@
+{
+  "startUrl": "https://ttk-ten.vercel.app/",
+  "group": "vendepay-11-em-diante",
+  "capturedAt": "2026-10-02T18:16:03.459Z",
+  "steps": [
+    {
+      "file": "step-01.mhtml",
+      "url": "https://ttk-ten.vercel.app/",
+      "title": "Deployment Unavailable",
+      "via": "(entrada)"
+    }
+  ],
+  "end": "fora do ar (HTTP 451)",
+  "httpStatus": 451,
+  "finalUrl": "https://ttk-ten.vercel.app/"
+}

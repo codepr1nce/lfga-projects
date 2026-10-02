@@ -1,0 +1,8 @@
+{
+  "startUrl": "https://northcrestdigital.life/inicio",
+  "group": "geral",
+  "capturedAt": "2026-10-02T18:12:32.192Z",
+  "steps": [],
+  "end": "erro: page.goto: net::ERR_NAME_NOT_RESOLVED at https://northcrestdigital.life/inicio",
+  "finalUrl": "about:blank"
+}

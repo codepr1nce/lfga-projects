@@ -1,0 +1,16 @@
+{
+  "startUrl": "https://watch-ottk.netlify.app/inicio",
+  "group": "vendepay",
+  "capturedAt": "2026-10-02T18:12:47.307Z",
+  "steps": [
+    {
+      "file": "step-01.mhtml",
+      "url": "https://watch-ottk.netlify.app/inicio",
+      "title": "Site not found",
+      "via": "(entrada)"
+    }
+  ],
+  "end": "fora do ar (HTTP 404, página de remoção/erro)",
+  "httpStatus": 404,
+  "finalUrl": "https://watch-ottk.netlify.app/inicio"
+}

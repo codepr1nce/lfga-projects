@@ -1,0 +1,16 @@
+{
+  "startUrl": "https://youtubeawards.online/full/offers/rewa/yt03",
+  "group": "geral",
+  "capturedAt": "2026-10-02T18:12:24.564Z",
+  "steps": [
+    {
+      "file": "step-01.mhtml",
+      "url": "https://youtubeawards.online/full/offers/rewa/yt03",
+      "title": "This Page Does Not Exist",
+      "via": "(entrada)"
+    }
+  ],
+  "end": "fora do ar (HTTP 404)",
+  "httpStatus": 404,
+  "finalUrl": "https://youtubeawards.online/full/offers/rewa/yt03"
+}

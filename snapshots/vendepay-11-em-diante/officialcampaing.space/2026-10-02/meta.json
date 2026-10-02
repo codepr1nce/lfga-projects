@@ -1,0 +1,8 @@
+{
+  "startUrl": "https://officialcampaing.space/",
+  "group": "vendepay-11-em-diante",
+  "capturedAt": "2026-10-02T18:13:35.206Z",
+  "steps": [],
+  "end": "erro: page.goto: net::ERR_NAME_NOT_RESOLVED at https://officialcampaing.space/",
+  "finalUrl": "about:blank"
+}

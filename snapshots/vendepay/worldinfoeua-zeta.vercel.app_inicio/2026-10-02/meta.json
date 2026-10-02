@@ -1,0 +1,16 @@
+{
+  "startUrl": "https://worldinfoeua-zeta.vercel.app/inicio",
+  "group": "vendepay",
+  "capturedAt": "2026-10-02T18:12:37.681Z",
+  "steps": [
+    {
+      "file": "step-01.mhtml",
+      "url": "https://worldinfoeua-zeta.vercel.app/inicio",
+      "title": "Deployment Unavailable",
+      "via": "(entrada)"
+    }
+  ],
+  "end": "fora do ar (HTTP 451)",
+  "httpStatus": 451,
+  "finalUrl": "https://worldinfoeua-zeta.vercel.app/inicio"
+}

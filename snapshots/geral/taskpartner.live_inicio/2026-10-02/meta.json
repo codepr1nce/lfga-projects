@@ -1,0 +1,16 @@
+{
+  "startUrl": "https://taskpartner.live/inicio",
+  "group": "geral",
+  "capturedAt": "2026-10-02T18:12:32.987Z",
+  "steps": [
+    {
+      "file": "step-01.mhtml",
+      "url": "https://taskpartner.live/blocked",
+      "title": "Website Takedown Notice - Lovable Trust & Safety",
+      "via": "(entrada)"
+    }
+  ],
+  "end": "fora do ar (HTTP 200, página de remoção/erro)",
+  "httpStatus": 200,
+  "finalUrl": "https://taskpartner.live/blocked"
+}

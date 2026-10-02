@@ -1,0 +1,8 @@
+{
+  "startUrl": "https://northlinedigital.life/inicio",
+  "group": "vendepay",
+  "capturedAt": "2026-10-02T18:12:44.553Z",
+  "steps": [],
+  "end": "erro: page.goto: net::ERR_NAME_NOT_RESOLVED at https://northlinedigital.life/inicio",
+  "finalUrl": "about:blank"
+}

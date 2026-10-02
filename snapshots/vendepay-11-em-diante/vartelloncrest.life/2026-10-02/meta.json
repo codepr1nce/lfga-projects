@@ -1,0 +1,8 @@
+{
+  "startUrl": "https://vartelloncrest.life/",
+  "group": "vendepay-11-em-diante",
+  "capturedAt": "2026-10-02T18:15:11.287Z",
+  "steps": [],
+  "end": "erro: page.goto: net::ERR_NAME_NOT_RESOLVED at https://vartelloncrest.life/",
+  "finalUrl": "about:blank"
+}

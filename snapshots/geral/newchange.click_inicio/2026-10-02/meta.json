@@ -1,0 +1,66 @@
+{
+  "startUrl": "https://newchange.click/inicio",
+  "group": "geral",
+  "capturedAt": "2026-10-02T18:12:32.791Z",
+  "steps": [
+    {
+      "file": "step-01.mhtml",
+      "url": "https://www.newchange.click/inicio",
+      "title": "TikTok Rewards",
+      "via": "(entrada)",
+      "bytes": 1194095
+    },
+    {
+      "file": "step-02.mhtml",
+      "url": "https://www.newchange.click/inicio",
+      "title": "TikTok Rewards",
+      "via": "Continue",
+      "bytes": 1181961
+    },
+    {
+      "file": "step-03.mhtml",
+      "url": "https://www.newchange.click/resgatar",
+      "title": "TikTok Rewards",
+      "via": "Claim Reward",
+      "bytes": 1287944
+    },
+    {
+      "file": "step-04.mhtml",
+      "url": "https://www.newchange.click/resgatar",
+      "title": "TikTok Rewards",
+      "via": "Cash Out",
+      "bytes": 3869611
+    },
+    {
+      "file": "step-05.mhtml",
+      "url": "https://www.newchange.click/resgatar",
+      "title": "TikTok Rewards",
+      "via": "Cash App Funds arrive instantly USD",
+      "bytes": 1290157
+    },
+    {
+      "file": "step-06.mhtml",
+      "url": "https://www.newchange.click/confirmar-saque",
+      "title": "TikTok Rewards",
+      "via": "Continue",
+      "bytes": 4096971
+    },
+    {
+      "file": "step-07.mhtml",
+      "url": "https://www.newchange.click/confirmar-saque",
+      "title": "TikTok Rewards",
+      "via": "RELEASE $2,800.00",
+      "bytes": 4143497
+    },
+    {
+      "file": "step-08.mhtml",
+      "url": "https://www.checkout-ds24.com/product/700676?email=maria.silva.teste%40gmaiI.com&custom=maria.silva.teste%40gmail.com&first_name=Maria&last_name=Silva&zipcode=11987&zip=11987",
+      "title": "1000 Recipes Chef Sophie Dubois - Digistore24",
+      "via": "CONFIRM & RELEASE",
+      "bytes": 1068785
+    }
+  ],
+  "end": "checkout: www.checkout-ds24.com",
+  "httpStatus": 200,
+  "finalUrl": "https://www.checkout-ds24.com/product/700676?email=maria.silva.teste%40gmaiI.com&custom=maria.silva.teste%40gmail.com&first_name=Maria&last_name=Silva&zipcode=11987&zip=11987"
+}

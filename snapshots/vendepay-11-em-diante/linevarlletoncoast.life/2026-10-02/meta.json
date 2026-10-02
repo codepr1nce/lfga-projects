@@ -1,0 +1,8 @@
+{
+  "startUrl": "https://linevarlletoncoast.life/",
+  "group": "vendepay-11-em-diante",
+  "capturedAt": "2026-10-02T18:16:07.963Z",
+  "steps": [],
+  "end": "erro: page.goto: net::ERR_NAME_NOT_RESOLVED at https://linevarlletoncoast.life/",
+  "finalUrl": "about:blank"
+}

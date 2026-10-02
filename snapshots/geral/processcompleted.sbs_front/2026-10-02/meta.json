@@ -1,0 +1,8 @@
+{
+  "startUrl": "https://processcompleted.sbs/front",
+  "group": "geral",
+  "capturedAt": "2026-10-02T18:12:37.338Z",
+  "steps": [],
+  "end": "erro: page.goto: net::ERR_NAME_NOT_RESOLVED at https://processcompleted.sbs/front",
+  "finalUrl": "about:blank"
+}

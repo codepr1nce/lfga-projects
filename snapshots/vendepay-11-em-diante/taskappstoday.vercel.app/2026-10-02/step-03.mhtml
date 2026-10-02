@@ -1,0 +1,1379 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://taskappstoday.vercel.app/app#
+Subject: Oakspost
+Date: Fri, 02 Oct 2026 18:15:35 GMT
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--0A59QMY2xF3Yz7WLM7pAKXoImR3WPOyYt0DXLgjHxs----"
+
+
+------MultipartBoundary--0A59QMY2xF3Yz7WLM7pAKXoImR3WPOyYt0DXLgjHxs----
+Content-Type: text/html
+Content-ID: <frame-551CD21D0B3F62460A77582A8F330E61@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://taskappstoday.vercel.app/app#
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8">
+ =20
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0, maximum-scale=3D1.0, user-scalable=3Dno">
+  <meta name=3D"theme-color" content=3D"#0a0b0e">
+  <title>Oakspost</title>
+  <link rel=3D"stylesheet" href=3D"https://taskappstoday.vercel.app/app/sty=
+les.css">
+</head>
+<body>
+
+<!-- =3D=3D=3D=3D=3D LOGIN SCREEN =3D=3D=3D=3D=3D -->
+<main id=3D"screen-login" class=3D"screen active">
+  <div class=3D"login-container">
+    <div class=3D"login-header">
+      <div class=3D"brand-mark brand-mark--login">Oakspost</div>
+    </div>
+    <h1 class=3D"login-title">Sign In</h1>
+    <p class=3D"login-desc">Enter your email and @username to access your a=
+ccount.</p>
+    <form id=3D"login-form" class=3D"login-form" novalidate=3D"">
+      <div class=3D"input-group input-group--handle">
+        <span class=3D"input-prefix" aria-hidden=3D"true">@</span>
+        <input type=3D"text" id=3D"username" name=3D"username" class=3D"inp=
+ut-field input-field--handle" placeholder=3D"username" autocomplete=3D"user=
+name" autocapitalize=3D"off" autocorrect=3D"off" spellcheck=3D"false" maxle=
+ngth=3D"24" required=3D"">
+      </div>
+      <div class=3D"input-group">
+        <svg class=3D"input-icon" viewBox=3D"0 0 24 24" width=3D"20" height=
+=3D"20" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2"><path d=3D=
+"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2=
+z"></path><polyline points=3D"22,6 12,13 2,6"></polyline></svg>
+        <input type=3D"email" id=3D"email" name=3D"email" class=3D"input-fi=
+eld" placeholder=3D"Your email" autocomplete=3D"email" required=3D"">
+      </div>
+      <button type=3D"submit" class=3D"btn-primary btn-block btn-lg">Sign i=
+n</button>
+      <p id=3D"form-msg" class=3D"form-msg" role=3D"alert"></p>
+    </form>
+    <p class=3D"login-footer">By continuing, you agree to our <a href=3D"ht=
+tps://taskappstoday.vercel.app/app#" data-cap-id=3D"0">Terms of Service</a>=
+.</p>
+  </div>
+</main>
+
+<!-- =3D=3D=3D=3D=3D APP SHELL =3D=3D=3D=3D=3D -->
+<div id=3D"app-shell" class=3D"app-shell" style=3D"display: block !importan=
+t;">
+
+  <!-- TAB: HOME -->
+  <div id=3D"tab-home" class=3D"tab-content active">
+    <div class=3D"tab-header">
+      <div class=3D"brand-mark">Oakspost</div>
+      <div style=3D"flex:1"></div>
+      <button class=3D"ht-notif" id=3D"btn-notif" data-cap-id=3D"1">
+        <svg viewBox=3D"0 0 24 24" width=3D"22" height=3D"22" fill=3D"none"=
+ stroke=3D"currentColor" stroke-width=3D"2"><path d=3D"M18 8A6 6 0 0 0 6 8c=
+0 7-3 9-3 9h18s-3-2-3-9"></path><path d=3D"M13.73 21a2 2 0 0 1-3.46 0"></pa=
+th></svg>
+        <span class=3D"notif-dot"></span>
+      </button>
+    </div>
+
+    <div class=3D"tab-scroll">
+      <div class=3D"home-top">
+        <div class=3D"ht-left">
+          <div class=3D"ht-avatar">
+            <svg viewBox=3D"0 0 24 24" width=3D"22" height=3D"22" fill=3D"n=
+one" stroke=3D"currentColor" stroke-width=3D"2"><path d=3D"M20 21v-2a4 4 0 =
+0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx=3D"12" cy=3D"7" r=3D"4"></circ=
+le></svg>
+          </div>
+          <div class=3D"ht-info">
+            <span class=3D"ht-greeting">Welcome back</span>
+            <span class=3D"ht-email" id=3D"home-email">user@email.com</span=
+>
+          </div>
+        </div>
+      </div>
+
+      <div class=3D"balance-card">
+        <div class=3D"card-texture"></div>
+        <div class=3D"card-glare"></div>
+        <div class=3D"bc-glow"></div>
+        <div class=3D"bc-right-group">
+          <div class=3D"bc-contactless">
+            <svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 -24.98 1=
+22.88 122.88" width=3D"26" height=3D"26" fill=3D"#fff">
+              <path d=3D"M45.45,72.81C30.81,71.53,17.88,66.1,9.47,57.69c-4.=
+8-4.79-7.71-9.99-9.02-16.12c-0.6-2.79-0.6-7.41,0.01-10.23 c1.83-8.52,7.33-1=
+5.97,16-21.66C36.23-3.28,66.52-3.22,86.11,9.83c2.6,1.73,4.28,3.11,6.64,5.43=
+c2.97,2.93,5.06,5.85,7.26,10.13 c0.08,0.16,0.49,0.36,0.9,0.44c1.39,0.29,3.2=
+4,1.37,4.73,2.76c1.16,1.08,2.05,2.26,4.26,5.6c2.23,3.37,12.31,18.93,12.92,1=
+9.95 c0.24,0.4-0.23,1.03-0.76,1.03c-0.38,0-0.64-0.25-1.2-1.13c-0.39-0.62-2.=
+96-4.61-5.71-8.87c-9.73-15.06-10.25-15.76-12.96-17.12 l-1.42-0.71l-4.18,0c-=
+4.18,0-4.18,0-4.28,0.44c-0.55,2.41-0.66,3-0.54,3.11c0.08,0.07,2.45,1.42,5.2=
+7,3l5.13,2.87l-0.32,0.67 c-0.18,0.37-0.38,0.67-0.45,0.67s-4.39-2.39-9.6-5.3=
+2c-5.21-2.92-9.78-5.4-10.15-5.5c-1.48-0.41-3.76,1.23-3.76,2.71 c0,1.5,0.44,=
+1.93,9.6,9.43c5.71,4.68,8.98,7.49,9.48,8.15c0.91,1.21,1.83,2.99,2.67,5.18c1=
+.49,3.86,3.91,6.01,7.88,7.01l1.31,0.33 l-0.11,0.71c-0.06,0.39-0.14,0.75-0.1=
+9,0.8c-0.17,0.19-2.8-0.65-4.32-1.38c-2.38-1.14-4.02-2.77-5.63-5.61 c-0.01-0=
+.02-0.95,0.3-2.07,0.71c-2,0.73-2.1,0.79-3.99,2.64c-8.07,7.88-19.65,12.91-33=
+.62,14.62 C56.61,72.9,47.87,73.03,45.45,72.81L45.45,72.81L45.45,72.81z M59.=
+36,70.39c6.41-0.85,11.39-2.12,16.59-4.25 c5.46-2.24,10.62-5.45,14.22-8.87l1=
+.42-1.35l-3.58-1.71c-3.82-1.83-4.2-2.13-4.69-3.76c-0.31-1.03,0.04-2.13,1.02=
+-3.18l0.76-0.83 l-1.66-1.26c-1.31-1-1.72-1.43-1.98-2.09c-0.41-1.07-0.26-2.2=
+3,0.4-3.16l0.5-0.71l-5.24-0.92c-2.88-0.51-5.57-1.02-5.97-1.14 c-0.79-0.23-1=
+.58-1.13-1.79-2c-0.11-0.47,2.46-13.01,3.03-14.8c0.26-0.8,1.35-1.77,2.18-1.9=
+2c0.87-0.16,16.31,2.55,17.08,3 c1.22,0.71,1.6,1.85,1.22,3.61l-0.16,0.73l0.8=
+5,0c0.47,0,1.58-0.06,2.47-0.13l1.62-0.13l-0.8-1.49C94.44,19.54,90.05,15,84.=
+64,11.4 c-2.53-1.68-7.92-4.34-11.17-5.5c-4.62-1.65-10.21-2.89-15.58-3.45c-2=
+.95-0.31-10.66-0.3-13.52,0.01 C37.52,3.2,31.3,4.75,25.86,7.07C13.26,12.44,4=
+.79,21.34,2.62,31.48c-0.57,2.65-0.61,7.29-0.09,9.7c1.15,5.33,3.65,9.94,7.72=
+,14.23 c8.3,8.74,20.98,14.12,36.18,15.33C48.47,70.9,57.29,70.66,59.36,70.39=
+L59.36,70.39z M56.59,60.85c-0.78-0.23-1.58-1.16-1.75-2.05 c-0.11-0.58,0.02-=
+0.98,0.85-2.59c3.36-6.5,4.82-12.48,4.82-19.73c0-7.01-1.29-12.47-4.5-19.01c-=
+0.69-1.4-1.25-2.71-1.25-2.9 c0-0.7,0.58-1.71,1.21-2.1c0.86-0.54,2.31-0.44,3=
+.01,0.21c0.27,0.25,0.96,1.39,1.54,2.53c2.3,4.51,3.87,9.46,4.65,14.61 c0.48,=
+3.19,0.58,9.23,0.19,12.15c-0.71,5.38-2.13,10.19-4.41,14.89c-1.38,2.84-2.24,=
+4.01-2.96,4.01c-0.14,0-0.38,0.04-0.52,0.08 C57.33,60.99,56.93,60.95,56.59,6=
+0.85L56.59,60.85L56.59,60.85z M47.24,55.96c-1.2-0.35-2.07-1.83-1.72-2.93 c0=
+.08-0.27,0.65-1.5,1.26-2.74c2.57-5.25,3.64-10.87,3.12-16.39c-0.43-4.54-1.24=
+-7.4-3.29-11.58c-1.37-2.81-1.44-3.24-0.64-4.38 c0.76-1.08,2.66-1.25,3.65-0.=
+34c0.69,0.63,2.84,5.12,3.67,7.66c2.74,8.4,2.32,17.43-1.19,25.68 C50.29,55.1=
+7,49.02,56.48,47.24,55.96L47.24,55.96z M37.6,51c-0.74-0.33-1.38-1.12-1.56-1=
+.91c-0.11-0.48,0.08-1.02,0.96-2.8 c3.24-6.56,3.27-12.87,0.11-19.28c-1.39-2.=
+81-1.42-3.37-0.25-4.48c0.58-0.55,0.83-0.64,1.64-0.64c1.37,0,2.08,0.69,3.3,3=
+.2 c1.88,3.86,2.65,7.21,2.64,11.5c-0.01,4.41-0.73,7.44-2.73,11.51c-1.15,2.3=
+3-1.72,2.95-2.87,3.1C38.49,51.23,37.93,51.15,37.6,51 L37.6,51L37.6,51z M28.=
+6,46.38c-0.59-0.24-1.26-1.04-1.46-1.74c-0.22-0.78-0.04-1.4,0.84-2.85c1.14-1=
+.87,1.4-2.87,1.4-5.31 c0-2.44-0.26-3.45-1.4-5.31c-0.39-0.63-0.77-1.39-0.86-=
+1.69c-0.37-1.23,0.66-2.74,2.04-3c1.17-0.22,1.97,0.3,3.05,1.98 c3.11,4.86,3.=
+11,11.34,0,16.16C31.11,46.31,29.89,46.91,28.6,46.38L28.6,46.38L28.6,46.38z =
+M95.63,53.92 c1.04-0.37,1.94-0.72,2-0.78c0.06-0.06-0.14-0.72-0.45-1.48c-0.6=
+2-1.55-0.52-1.51-2.74-1.09c-2.39,0.46-3.78,0.05-6.4-1.88 c-0.71-0.53-1.45-0=
+.96-1.63-0.96c-0.19,0-0.59,0.27-0.91,0.61c-0.67,0.72-0.77,1.84-0.23,2.51c0.=
+48,0.58,7.05,3.71,7.83,3.73 C93.45,54.59,94.58,54.29,95.63,53.92L95.63,53.9=
+2L95.63,53.92z M94.59,48.89c0.97-0.2,1.08-0.26,0.91-0.58 c-0.19-0.35-9.28-7=
+.89-10.07-8.36c-0.65-0.38-1.18-0.29-1.72,0.29c-1.58,1.69-1.39,2.05,2.7,5.18=
+ C91.35,49.21,91.88,49.43,94.59,48.89L94.59,48.89z M82.39,37.46c0-0.05-1.03=
+-0.94-2.29-1.97c-3.11-2.56-3.78-3.52-3.78-5.42 c0-1.58,1.06-3.11,2.76-3.99c=
+0.84-0.44,2.35-0.57,3.2-0.29c0.6,0.2,3.32,1.67,7.08,3.83l0.79,0.46l0.65-3.1=
+ c0.67-3.17,0.68-4.01,0.06-4.2c-0.19-0.06-3.82-0.72-8.06-1.47c-7.54-1.33-8.=
+37-1.41-8.72-0.84c-0.19,0.3-3.06,13.6-3.06,14.16 c0,0.28,0.14,0.63,0.32,0.7=
+8c0.17,0.15,2.62,0.68,5.44,1.18C82.22,37.57,82.39,37.6,82.39,37.46L82.39,37=
+.46z"></path>
+            </svg>
+          </div>
+          <div class=3D"bc-chip">
+            <svg viewBox=3D"0 0 48 36" width=3D"36" height=3D"27" fill=3D"n=
+one">
+              <rect x=3D"1" y=3D"1" width=3D"46" height=3D"34" rx=3D"4" fil=
+l=3D"#fbbf24" stroke=3D"#d97706" stroke-width=3D"0.5"></rect>
+              <rect x=3D"6" y=3D"6" width=3D"14" height=3D"10" rx=3D"1.5" f=
+ill=3D"none" stroke=3D"#b45309" stroke-width=3D"0.8" opacity=3D"0.4"></rect=
+>
+              <rect x=3D"24" y=3D"6" width=3D"10" height=3D"10" rx=3D"1.5" =
+fill=3D"none" stroke=3D"#b45309" stroke-width=3D"0.8" opacity=3D"0.4"></rec=
+t>
+              <rect x=3D"6" y=3D"20" width=3D"18" height=3D"10" rx=3D"1.5" =
+fill=3D"none" stroke=3D"#b45309" stroke-width=3D"0.8" opacity=3D"0.4"></rec=
+t>
+              <line x1=3D"4" y1=3D"12" x2=3D"44" y2=3D"12" stroke=3D"#b4530=
+9" stroke-width=3D"0.3" opacity=3D"0.2"></line>
+              <line x1=3D"4" y1=3D"24" x2=3D"44" y2=3D"24" stroke=3D"#b4530=
+9" stroke-width=3D"0.3" opacity=3D"0.2"></line>
+            </svg>
+          </div>
+        </div>
+        <div class=3D"bc-balance-wrap">
+          <div class=3D"bc-label">Total balance</div>
+          <div class=3D"bc-value">$2,800.<span class=3D"bc-cents">00</span>=
+</div>
+          <div class=3D"bc-currency">USD</div>
+        </div>
+        <div class=3D"bc-card-number">**** **** **** 2800</div>
+        <div class=3D"bc-status-line">
+          <span class=3D"bc-dot" id=3D"home-bc-dot"></span>
+          <span id=3D"home-bc-label">Locked balance</span>
+        </div>
+
+      </div>
+
+      <div class=3D"alert-banner" id=3D"alert-banner">
+        <div class=3D"alert-icon" id=3D"alert-icon">
+          <svg viewBox=3D"0 0 24 24" width=3D"22" height=3D"22" fill=3D"non=
+e" stroke=3D"currentColor" stroke-width=3D"2"><circle cx=3D"12" cy=3D"12" r=
+=3D"10"></circle><line x1=3D"12" y1=3D"8" x2=3D"12" y2=3D"12"></line><line =
+x1=3D"12" y1=3D"16" x2=3D"12.01" y2=3D"16"></line></svg>
+        </div>
+        <div class=3D"alert-text" id=3D"alert-text">
+          <strong id=3D"alert-title">Documentation required</strong>
+          <p id=3D"alert-desc">Send the required documents to start the ana=
+lysis and release your withdrawal within 7 days.</p>
+        </div>
+      </div>
+
+      <div class=3D"action-grid">
+        <button class=3D"action-btn" disabled=3D"">
+          <div class=3D"action-lock"><svg viewBox=3D"0 0 24 24" width=3D"12=
+" height=3D"12" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2.5">=
+<rect x=3D"3" y=3D"11" width=3D"18" height=3D"11" rx=3D"2" ry=3D"2"></rect>=
+<path d=3D"M7 11V7a5 5 0 0 1 10 0v4"></path></svg></div>
+          <div class=3D"action-icon"><svg viewBox=3D"0 0 24 24" width=3D"22=
+" height=3D"22" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2"><l=
+ine x1=3D"12" y1=3D"19" x2=3D"12" y2=3D"5"></line><polyline points=3D"5 12 =
+12 5 19 12"></polyline></svg></div>
+          <span>Send</span>
+        </button>
+        <button class=3D"action-btn" disabled=3D"">
+          <div class=3D"action-lock"><svg viewBox=3D"0 0 24 24" width=3D"12=
+" height=3D"12" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2.5">=
+<rect x=3D"3" y=3D"11" width=3D"18" height=3D"11" rx=3D"2" ry=3D"2"></rect>=
+<path d=3D"M7 11V7a5 5 0 0 1 10 0v4"></path></svg></div>
+          <div class=3D"action-icon"><svg viewBox=3D"0 0 24 24" width=3D"22=
+" height=3D"22" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2"><l=
+ine x1=3D"12" y1=3D"5" x2=3D"12" y2=3D"19"></line><polyline points=3D"19 12=
+ 12 19 5 12"></polyline></svg></div>
+          <span>Receive</span>
+        </button>
+        <button class=3D"action-btn" disabled=3D"">
+          <div class=3D"action-lock"><svg viewBox=3D"0 0 24 24" width=3D"12=
+" height=3D"12" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2.5">=
+<rect x=3D"3" y=3D"11" width=3D"18" height=3D"11" rx=3D"2" ry=3D"2"></rect>=
+<path d=3D"M7 11V7a5 5 0 0 1 10 0v4"></path></svg></div>
+          <div class=3D"action-icon"><svg viewBox=3D"0 0 24 24" width=3D"22=
+" height=3D"22" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2"><r=
+ect x=3D"1" y=3D"4" width=3D"22" height=3D"16" rx=3D"2" ry=3D"2"></rect><li=
+ne x1=3D"1" y1=3D"10" x2=3D"23" y2=3D"10"></line></svg></div>
+          <span>Card</span>
+        </button>
+        <button class=3D"action-btn" disabled=3D"">
+          <div class=3D"action-lock"><svg viewBox=3D"0 0 24 24" width=3D"12=
+" height=3D"12" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2.5">=
+<rect x=3D"3" y=3D"11" width=3D"18" height=3D"11" rx=3D"2" ry=3D"2"></rect>=
+<path d=3D"M7 11V7a5 5 0 0 1 10 0v4"></path></svg></div>
+          <div class=3D"action-icon"><svg viewBox=3D"0 0 24 24" width=3D"22=
+" height=3D"22" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2"><c=
+ircle cx=3D"12" cy=3D"12" r=3D"1"></circle><circle cx=3D"19" cy=3D"12" r=3D=
+"1"></circle><circle cx=3D"5" cy=3D"12" r=3D"1"></circle></svg></div>
+          <span>More</span>
+        </button>
+      </div>
+
+      <div class=3D"home-actions">
+        <button id=3D"btn-primary-action" class=3D"btn-primary btn-block bt=
+n-lg" data-cap-id=3D"2">
+          <svg viewBox=3D"0 0 24 24" width=3D"20" height=3D"20" fill=3D"non=
+e" stroke=3D"currentColor" stroke-width=3D"2"><path d=3D"M21 15v4a2 2 0 0 1=
+-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points=3D"17 8 12 3 7 8"></polyli=
+ne><line x1=3D"12" y1=3D"3" x2=3D"12" y2=3D"15"></line></svg>
+          Send documents
+        </button>
+      </div>
+
+      <div class=3D"home-section">
+        <div class=3D"hs-header">
+          <h3>Bank Analysis</h3>
+          <span class=3D"hs-badge" id=3D"home-badge">Pending</span>
+        </div>
+        <div class=3D"hs-card">
+          <div class=3D"ac-icon-wrap">
+            <svg viewBox=3D"0 0 24 24" width=3D"24" height=3D"24" fill=3D"n=
+one" stroke=3D"currentColor" stroke-width=3D"2"><path d=3D"M14 2H6a2 2 0 0 =
+0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points=3D"14 2=
+ 14 8 20 8"></polyline><line x1=3D"16" y1=3D"13" x2=3D"8" y2=3D"13"></line>=
+<line x1=3D"16" y1=3D"17" x2=3D"8" y2=3D"17"></line></svg>
+          </div>
+          <div class=3D"ac-text">
+            <strong id=3D"home-card-title">Documents required</strong>
+            <p id=3D"home-card-desc">Send your documents to start the 7-day=
+ bank analysis and release your balance.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TAB: ANALYSIS -->
+  <div id=3D"tab-analysis" class=3D"tab-content">
+    <div class=3D"tab-header">
+      <div class=3D"brand-mark">Oakspost</div>
+      <div style=3D"flex:1"></div>
+      <span class=3D"ht-email" id=3D"analysis-email" style=3D"font-size:13p=
+x">user@email.com</span>
+      <div class=3D"ht-avatar" style=3D"margin-left:8px"><svg viewBox=3D"0 =
+0 24 24" width=3D"20" height=3D"20" fill=3D"none" stroke=3D"currentColor" s=
+troke-width=3D"2"><path d=3D"M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></p=
+ath><circle cx=3D"12" cy=3D"7" r=3D"4"></circle></svg></div>
+    </div>
+    <div class=3D"tab-scroll" id=3D"analysis-scroll">
+      <div class=3D"analysis-progress">
+        <div class=3D"ap-header">
+          <span class=3D"ap-label">Analysis progress</span>
+          <span class=3D"ap-day" id=3D"ap-day">Day 1 of 7</span>
+        </div>
+        <div class=3D"ap-track">
+          <div class=3D"ap-fill" id=3D"ap-fill"></div>
+        </div>
+        <div class=3D"ap-labels">
+          <span>Start</span>
+          <span>End</span>
+        </div>
+      </div>
+
+      <div class=3D"analysis-status" id=3D"analysis-status">
+        <div class=3D"as-icon" id=3D"as-icon">
+          <svg viewBox=3D"0 0 24 24" width=3D"28" height=3D"28" fill=3D"non=
+e" stroke=3D"currentColor" stroke-width=3D"2"><circle cx=3D"12" cy=3D"12" r=
+=3D"10"></circle><polyline points=3D"12 6 12 12 16 14"></polyline></svg>
+        </div>
+        <p class=3D"as-text" id=3D"as-text">Documents received =E2=80=94 aw=
+aiting verification</p>
+      </div>
+
+      <div class=3D"analysis-timeline">
+        <h4 class=3D"tl-title">Progress Timeline</h4>
+        <div class=3D"tl-list" id=3D"tl-list"></div>
+      </div>
+
+      <div class=3D"analysis-denied" id=3D"analysis-denied" style=3D"displa=
+y:none">
+        <div class=3D"ad-icon-wrap">
+          <div class=3D"ad-icon-pulse"></div>
+          <svg class=3D"ad-icon" viewBox=3D"0 0 24 24" width=3D"40" height=
+=3D"40" fill=3D"none" stroke=3D"#dc2626" stroke-width=3D"2.5" stroke-lineca=
+p=3D"round"><line x1=3D"18" y1=3D"6" x2=3D"6" y2=3D"18"></line><line x1=3D"=
+6" y1=3D"6" x2=3D"18" y2=3D"18"></line></svg>
+        </div>
+        <h2 class=3D"ad-title">Withdrawal Denied</h2>
+        <p class=3D"ad-sub">After completing the 7-day bank analysis, your =
+withdrawal request was <strong>not approved</strong>. The balance remains u=
+nreleased.</p>
+        <div class=3D"ad-result">
+          <div class=3D"ad-result-item">
+            <span class=3D"ad-ri-label">Analysis result</span>
+            <span class=3D"ad-ri-value denied">Denied</span>
+          </div>
+          <div class=3D"ad-result-item">
+            <span class=3D"ad-ri-label">Review period</span>
+            <span class=3D"ad-ri-value">7 days</span>
+          </div>
+          <div class=3D"ad-result-item">
+            <span class=3D"ad-ri-label">Status</span>
+            <span class=3D"ad-ri-value">Finalized</span>
+          </div>
+        </div>
+        <div class=3D"ad-card">
+          <div class=3D"ad-card-title">Reasons for denial</div>
+          <div class=3D"ad-reasons">
+            <div class=3D"ad-row">
+              <svg viewBox=3D"0 0 24 24" width=3D"18" height=3D"18" fill=3D=
+"none" stroke=3D"#dc2626" stroke-width=3D"2.5"><circle cx=3D"12" cy=3D"12" =
+r=3D"10"></circle><line x1=3D"15" y1=3D"9" x2=3D"9" y2=3D"15"></line><line =
+x1=3D"9" y1=3D"9" x2=3D"15" y2=3D"15"></line></svg>
+              <span>Documentation inconsistencies found</span>
+            </div>
+            <div class=3D"ad-row">
+              <svg viewBox=3D"0 0 24 24" width=3D"18" height=3D"18" fill=3D=
+"none" stroke=3D"#dc2626" stroke-width=3D"2.5"><circle cx=3D"12" cy=3D"12" =
+r=3D"10"></circle><line x1=3D"15" y1=3D"9" x2=3D"9" y2=3D"15"></line><line =
+x1=3D"9" y1=3D"9" x2=3D"15" y2=3D"15"></line></svg>
+              <span>Bank details not confirmed</span>
+            </div>
+            <div class=3D"ad-row">
+              <svg viewBox=3D"0 0 24 24" width=3D"18" height=3D"18" fill=3D=
+"none" stroke=3D"#dc2626" stroke-width=3D"2.5"><circle cx=3D"12" cy=3D"12" =
+r=3D"10"></circle><line x1=3D"15" y1=3D"9" x2=3D"9" y2=3D"15"></line><line =
+x1=3D"9" y1=3D"9" x2=3D"15" y2=3D"15"></line></svg>
+              <span>Profile does not meet requirements</span>
+            </div>
+          </div>
+        </div>
+        <div class=3D"ad-value">
+          <div class=3D"dv-left">
+            <span class=3D"dv-label">Unreleased balance</span>
+            <span class=3D"dv-desc">Funds held due to denial</span>
+          </div>
+          <span class=3D"dv-amount">$2,800.00</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TAB: SUPPORT -->
+  <div id=3D"tab-support" class=3D"tab-content" style=3D"display: block !im=
+portant;">
+    <div class=3D"tab-header">
+      <div class=3D"brand-mark">Oakspost</div>
+      <div style=3D"flex:1"></div>
+      <span class=3D"ht-email" id=3D"support-email" style=3D"font-size:13px=
+">user@email.com</span>
+      <div class=3D"ht-avatar" style=3D"margin-left:8px"><svg viewBox=3D"0 =
+0 24 24" width=3D"20" height=3D"20" fill=3D"none" stroke=3D"currentColor" s=
+troke-width=3D"2"><path d=3D"M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></p=
+ath><circle cx=3D"12" cy=3D"7" r=3D"4"></circle></svg></div>
+    </div>
+    <div class=3D"tab-scroll">
+      <div class=3D"support-content" style=3D"opacity: 1 !important;">
+        <div class=3D"faq-header">
+          <div class=3D"faq-header-icon">
+            <svg viewBox=3D"0 0 24 24" width=3D"28" height=3D"28" fill=3D"n=
+one" stroke=3D"var(--accent)" stroke-width=3D"1.8"><circle cx=3D"12" cy=3D"=
+12" r=3D"10"></circle><path d=3D"M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></pa=
+th><line x1=3D"12" y1=3D"17" x2=3D"12.01" y2=3D"17"></line></svg>
+          </div>
+          <h3>Frequently asked questions</h3>
+        </div>
+        <div class=3D"faq-list" id=3D"faq-list">
+          <div class=3D"faq-item">
+            <button class=3D"faq-q" data-cap-id=3D"3">
+              <span>How long does the review process take?</span>
+              <svg class=3D"faq-arrow" viewBox=3D"0 0 24 24" width=3D"18" h=
+eight=3D"18" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2.5"><po=
+lyline points=3D"6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class=3D"faq-a"><div class=3D"faq-a-inner">The standard re=
+view takes 2=E2=80=937 business days from the moment your documents are sub=
+mitted. You can track each step in real time through the <strong>Analysis</=
+strong> tab. The exact duration depends on the volume of verifications requ=
+ired for your profile.</div></div>
+          </div>
+          <div class=3D"faq-item">
+            <button class=3D"faq-q" data-cap-id=3D"4">
+              <span>Why can't I withdraw my balance right away?</span>
+              <svg class=3D"faq-arrow" viewBox=3D"0 0 24 24" width=3D"18" h=
+eight=3D"18" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2.5"><po=
+lyline points=3D"6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class=3D"faq-a"><div class=3D"faq-a-inner">Your balance of=
+ <strong>$2,800.00</strong> is held under a security review to ensure all t=
+ransactions comply with our verification protocols. Once the analysis is co=
+mplete, the funds are released =E2=80=94 unless any discrepancies are found=
+ during the review.</div></div>
+          </div>
+          <div class=3D"faq-item">
+            <button class=3D"faq-q" data-cap-id=3D"5">
+              <span>What documents are needed for verification?</span>
+              <svg class=3D"faq-arrow" viewBox=3D"0 0 24 24" width=3D"18" h=
+eight=3D"18" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2.5"><po=
+lyline points=3D"6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class=3D"faq-a"><div class=3D"faq-a-inner">You'll need to =
+upload: (1) a valid government-issued ID =E2=80=94 passport or driver's lic=
+ense; (2) a proof of address =E2=80=94 utility bill or bank statement dated=
+ within the last 3 months; and (3) a selfie holding your ID for facial conf=
+irmation. All documents must be clear, legible, and in color.</div></div>
+          </div>
+          <div class=3D"faq-item">
+            <button class=3D"faq-q" data-cap-id=3D"6">
+              <span>What happens if my withdrawal is denied?</span>
+              <svg class=3D"faq-arrow" viewBox=3D"0 0 24 24" width=3D"18" h=
+eight=3D"18" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2.5"><po=
+lyline points=3D"6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class=3D"faq-a"><div class=3D"faq-a-inner">If the analysis=
+ identifies inconsistencies =E2=80=94 such as mismatched name, expired docu=
+ment, or suspicious activity =E2=80=94 the withdrawal is <strong>denied</st=
+rong> and the balance remains unreleased. You'll receive a detailed list of=
+ reasons on the Analysis tab. Unfortunately, denied decisions are final as =
+they follow our security and compliance policy.</div></div>
+          </div>
+          <div class=3D"faq-item">
+            <button class=3D"faq-q" data-cap-id=3D"7">
+              <span>How can I check my analysis progress?</span>
+              <svg class=3D"faq-arrow" viewBox=3D"0 0 24 24" width=3D"18" h=
+eight=3D"18" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"2.5"><po=
+lyline points=3D"6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class=3D"faq-a"><div class=3D"faq-a-inner">Open the <stron=
+g>Analysis</strong> tab from the bottom navigation. You'll see a live progr=
+ess bar, your current day in the 2=E2=80=937 day window, and a detailed tim=
+eline showing each verification step completed =E2=80=94 plus what's being =
+analyzed right now.</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BOTTOM NAV -->
+  <nav class=3D"bottom-nav" id=3D"bottom-nav">
+    <button class=3D"bn-item active" data-tab=3D"home" data-cap-id=3D"8">
+      <svg viewBox=3D"0 0 24 24" width=3D"24" height=3D"24" fill=3D"none" s=
+troke=3D"currentColor" stroke-width=3D"2"><path d=3D"M3 12l2-2m0 0l7-7 7 7M=
+5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4=
+a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
+      <span>Home</span>
+    </button>
+    <button class=3D"bn-item" data-tab=3D"analysis" id=3D"bn-analysis" data=
+-cap-id=3D"9">
+      <svg viewBox=3D"0 0 24 24" width=3D"24" height=3D"24" fill=3D"none" s=
+troke=3D"currentColor" stroke-width=3D"2"><path d=3D"M14 2H6a2 2 0 00-2 2v1=
+6a2 2 0 002 2h12a2 2 0 002-2V8z"></path><polyline points=3D"14 2 14 8 20 8"=
+></polyline><line x1=3D"16" y1=3D"13" x2=3D"8" y2=3D"13"></line><line x1=3D=
+"16" y1=3D"17" x2=3D"8" y2=3D"17"></line><polyline points=3D"10 9 9 9 8 9">=
+</polyline></svg>
+      <span>Analysis</span>
+    </button>
+    <button class=3D"bn-item disabled" data-tab=3D"card" data-cap-id=3D"10"=
+>
+      <svg viewBox=3D"0 0 24 24" width=3D"24" height=3D"24" fill=3D"none" s=
+troke=3D"currentColor" stroke-width=3D"2"><rect x=3D"1" y=3D"4" width=3D"22=
+" height=3D"16" rx=3D"2"></rect><line x1=3D"1" y1=3D"10" x2=3D"23" y2=3D"10=
+"></line></svg>
+      <span>Card</span>
+    </button>
+    <button class=3D"bn-item" data-tab=3D"support" data-cap-id=3D"11">
+      <svg viewBox=3D"0 0 24 24" width=3D"24" height=3D"24" fill=3D"none" s=
+troke=3D"currentColor" stroke-width=3D"2"><circle cx=3D"12" cy=3D"12" r=3D"=
+10"></circle><path d=3D"M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"></path><line x1=
+=3D"12" y1=3D"17" x2=3D"12.01" y2=3D"17"></line></svg>
+      <span>Support</span>
+    </button>
+  </nav>
+
+</div>
+
+<!-- =3D=3D=3D=3D=3D UPLOAD MODAL =3D=3D=3D=3D=3D -->
+<div id=3D"upload-modal" class=3D"modal-overlay" style=3D"display: block !i=
+mportant; opacity: 1 !important;">
+  <div class=3D"modal-sheet">
+    <div class=3D"modal-handle"></div>
+    <div class=3D"modal-header">
+      <span class=3D"modal-title">Document Upload</span>
+      <button id=3D"btn-close-modal" class=3D"btn-icon" aria-label=3D"Close=
+" data-cap-id=3D"12">
+        <svg viewBox=3D"0 0 24 24" width=3D"22" height=3D"22" fill=3D"none"=
+ stroke=3D"currentColor" stroke-width=3D"2"><line x1=3D"18" y1=3D"6" x2=3D"=
+6" y2=3D"18"></line><line x1=3D"6" y1=3D"6" x2=3D"18" y2=3D"18"></line></sv=
+g>
+      </button>
+    </div>
+    <p class=3D"modal-desc">To release your <strong>$2,800.00</strong> bala=
+nce, send the documents below for verification.</p>
+    <form id=3D"doc-form">
+      <div class=3D"upload-zone" id=3D"uz-1" data-cap-id=3D"14">
+        <div class=3D"uz-icon"><svg viewBox=3D"0 0 24 24" width=3D"28" heig=
+ht=3D"28" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"1.5"><path =
+d=3D"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><po=
+lyline points=3D"14 2 14 8 20 8"></polyline></svg></div>
+        <div class=3D"uz-info">
+          <span class=3D"uz-label">ID Document</span>
+          <span class=3D"uz-sub">Passport or Driver's License =E2=80=94 fro=
+nt photo</span>
+        </div>
+        <div class=3D"uz-status" id=3D"uz-status-1">
+          <svg viewBox=3D"0 0 24 24" width=3D"18" height=3D"18" fill=3D"non=
+e" stroke=3D"currentColor" stroke-width=3D"2"><polyline points=3D"9 11 12 1=
+4 22 4"></polyline><path d=3D"M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 =
+0 0 1 2-2h11"></path></svg>
+        </div>
+        <input type=3D"file" accept=3D"image/*" class=3D"uz-input" data-uz=
+=3D"1" required=3D"">
+      </div>
+      <div class=3D"upload-zone" id=3D"uz-2" data-cap-id=3D"15">
+        <div class=3D"uz-icon"><svg viewBox=3D"0 0 24 24" width=3D"28" heig=
+ht=3D"28" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"1.5"><path =
+d=3D"M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx=3D"12" cy=
+=3D"7" r=3D"4"></circle></svg></div>
+        <div class=3D"uz-info">
+          <span class=3D"uz-label">Selfie with ID</span>
+          <span class=3D"uz-sub">Holding your ID next to your face</span>
+        </div>
+        <div class=3D"uz-status" id=3D"uz-status-2">
+          <svg viewBox=3D"0 0 24 24" width=3D"18" height=3D"18" fill=3D"non=
+e" stroke=3D"currentColor" stroke-width=3D"2"><polyline points=3D"9 11 12 1=
+4 22 4"></polyline><path d=3D"M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 =
+0 0 1 2-2h11"></path></svg>
+        </div>
+        <input type=3D"file" accept=3D"image/*" class=3D"uz-input" data-uz=
+=3D"2" required=3D"">
+      </div>
+      <div class=3D"upload-zone" id=3D"uz-3" data-cap-id=3D"16">
+        <div class=3D"uz-icon"><svg viewBox=3D"0 0 24 24" width=3D"28" heig=
+ht=3D"28" fill=3D"none" stroke=3D"currentColor" stroke-width=3D"1.5"><path =
+d=3D"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx=3D"1=
+2" cy=3D"10" r=3D"3"></circle></svg></div>
+        <div class=3D"uz-info">
+          <span class=3D"uz-label">Proof of Residence</span>
+          <span class=3D"uz-sub">Utility or phone bill</span>
+        </div>
+        <div class=3D"uz-status" id=3D"uz-status-3">
+          <svg viewBox=3D"0 0 24 24" width=3D"18" height=3D"18" fill=3D"non=
+e" stroke=3D"currentColor" stroke-width=3D"2"><polyline points=3D"9 11 12 1=
+4 22 4"></polyline><path d=3D"M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 =
+0 0 1 2-2h11"></path></svg>
+        </div>
+        <input type=3D"file" accept=3D"image/*,application/pdf" class=3D"uz=
+-input" data-uz=3D"3" required=3D"">
+      </div>
+      <button type=3D"submit" class=3D"btn-primary btn-block btn-lg" id=3D"=
+btn-submit-docs" data-cap-id=3D"13">
+        <svg viewBox=3D"0 0 24 24" width=3D"20" height=3D"20" fill=3D"none"=
+ stroke=3D"currentColor" stroke-width=3D"2"><polyline points=3D"9 11 12 14 =
+22 4"></polyline><path d=3D"M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 =
+0 1 2-2h11"></path></svg>
+        Send &amp; Start Analysis
+      </button>
+    </form>
+    <p id=3D"upload-msg" class=3D"form-msg"></p>
+    <div id=3D"upload-success" class=3D"upload-success">
+      <div class=3D"us-icon-wrap">
+        <svg viewBox=3D"0 0 24 24" width=3D"48" height=3D"48" fill=3D"none"=
+ stroke=3D"#16c784" stroke-width=3D"2.5"><polyline points=3D"20 6 9 17 4 12=
+"></polyline></svg>
+      </div>
+      <span class=3D"us-title">Verification started!</span>
+      <span class=3D"us-sub">Your documents are being reviewed.</span>
+    </div>
+  </div>
+</div>
+
+<!-- =3D=3D=3D=3D=3D TOAST =3D=3D=3D=3D=3D -->
+<div class=3D"toast" id=3D"toast"></div>
+
+
+
+
+</body></html>
+------MultipartBoundary--0A59QMY2xF3Yz7WLM7pAKXoImR3WPOyYt0DXLgjHxs----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://taskappstoday.vercel.app/app/styles.css
+
+@charset "utf-8";
+
+* { margin: 0px; padding: 0px; box-sizing: border-box; -webkit-tap-highligh=
+t-color: transparent; }
+
+:root { --bg: #f5f5f8; --card: #ffffff; --card-hover: #f0f0f3; --border: #e=
+0e0e6; --text: #1a1a2e; --text-secondary: #8e8ea0; --accent: #FE2C55; --acc=
+ent-hover: #e6264d; --cyan: #25B8B3; --radius: 14px; --radius-sm: 10px; --t=
+ransition: 0.2s ease; --bottom-nav-h: 64px; --safe-bottom: env(safe-area-in=
+set-bottom, 0px); }
+
+html { height: 100%; background: rgb(255, 255, 255); }
+
+body { max-width: 430px; margin: 0px auto; height: 100%; font-family: -appl=
+e-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-se=
+rif; background: var(--bg); color: var(--text); line-height: 1.5; -webkit-f=
+ont-smoothing: antialiased; overflow: hidden; box-shadow: rgba(0, 0, 0, 0.0=
+6) 0px 0px 0px 1px; }
+
+.modal-overlay { background: rgba(0, 0, 0, 0.5); }
+
+.screen { display: none; width: 100%; height: 100%; overflow-y: auto; }
+
+.screen.active { display: flex; align-items: center; justify-content: cente=
+r; }
+
+.app-shell { display: none; width: 100%; height: 100%; flex-direction: colu=
+mn; background: var(--bg); }
+
+.app-shell.active { display: flex; }
+
+.tab-content { display: none; flex: 1 1 0%; flex-direction: column; overflo=
+w: hidden; }
+
+.tab-content.active { display: flex; }
+
+.tab-header { display: flex; align-items: center; justify-content: space-be=
+tween; padding: 14px 20px; border-bottom: 1px solid var(--border); backgrou=
+nd: var(--bg); flex-shrink: 0; }
+
+.tab-scroll { flex: 1 1 0%; overflow-y: auto; padding: 0px 20px 20px; }
+
+.bottom-nav { display: flex; align-items: center; justify-content: space-ar=
+ound; height: calc(var(--bottom-nav-h) + var(--safe-bottom)); padding-botto=
+m: var(--safe-bottom); background: var(--card); border-top: 1px solid var(-=
+-border); flex-shrink: 0; }
+
+.bn-item { display: flex; flex-direction: column; align-items: center; gap:=
+ 3px; background: none; border-width: medium; border-style: none; border-co=
+lor: currentcolor; border-image: none; color: var(--text-secondary); font-s=
+ize: 11px; font-weight: 500; cursor: pointer; padding: 6px 16px; transition=
+: color var(--transition); position: relative; -webkit-tap-highlight-color:=
+ transparent; }
+
+.bn-item svg { transition: color var(--transition); }
+
+.bn-item.active { color: var(--accent); }
+
+.bn-item.active svg { color: var(--accent); }
+
+.bn-item.disabled { opacity: 0.3; pointer-events: none; }
+
+.bn-item::after { content: ""; position: absolute; top: -1px; left: 50%; tr=
+ansform: translateX(-50%) scaleX(0); width: 24px; height: 2px; background: =
+var(--accent); border-radius: 0px 0px 2px 2px; transition: transform 0.25s;=
+ }
+
+.bn-item.active::after { transform: translateX(-50%) scaleX(1); }
+
+.home-top { display: flex; align-items: center; justify-content: space-betw=
+een; padding: 20px 0px 16px; animation: 0.4s ease 0s 1 normal none running =
+fadeSlideIn; }
+
+.ht-left { display: flex; align-items: center; gap: 12px; }
+
+.ht-avatar { width: 40px; height: 40px; border-radius: 50%; display: flex; =
+align-items: center; justify-content: center; background: var(--card); bord=
+er: 1px solid var(--border); color: var(--text-secondary); }
+
+.ht-info { display: flex; flex-direction: column; }
+
+.ht-greeting { font-size: 13px; color: var(--text-secondary); }
+
+.ht-email { font-size: 14px; font-weight: 600; color: var(--text); }
+
+.ht-notif { position: relative; background: none; border-width: medium; bor=
+der-style: none; border-color: currentcolor; border-image: none; cursor: po=
+inter; width: 36px; height: 36px; border-radius: 50%; display: flex; align-=
+items: center; justify-content: center; color: var(--text-secondary); trans=
+ition: all var(--transition); flex-shrink: 0; }
+
+.ht-notif:hover { background: var(--card-hover); }
+
+.notif-dot { position: absolute; top: 8px; right: 8px; width: 6px; height: =
+6px; border-radius: 50%; background: var(--accent); }
+
+.balance-card { position: relative; background: rgb(254, 44, 85); border-ra=
+dius: 20px; padding: 20px 20px 16px; margin-bottom: 20px; overflow: hidden;=
+ box-shadow: rgba(254, 44, 85, 0.3) 0px 20px 40px, rgba(0, 0, 0, 0.5) 0px 0=
+px 10px inset; animation: 0.5s ease 0.05s 1 normal both running slideUp; as=
+pect-ratio: 1.586 / 1; display: flex; flex-direction: column; justify-conte=
+nt: space-between; }
+
+.card-glare { position: absolute; inset: 0px; border-radius: 20px; backgrou=
+nd: linear-gradient(125deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255=
+, 0.05) 30%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 60%, rgba(255, 255, 255=
+, 0.1) 80%, rgba(255, 255, 255, 0.2) 100%); pointer-events: none; z-index: =
+0; }
+
+.card-texture { position: absolute; inset: 0px; border-radius: 20px; opacit=
+y: 0.2; background-image: url("data:image/svg+xml,%3Csvg viewBox=3D'0 0 200=
+ 200' xmlns=3D'http://www.w3.org/2000/svg'%3E%3Cfilter id=3D'noiseFilter'%3=
+E%3CfeTurbulence type=3D'fractalNoise' baseFrequency=3D'0.85' numOctaves=3D=
+'3' stitchTiles=3D'stitch'/%3E%3C/filter%3E%3Crect width=3D'100%25' height=
+=3D'100%25' filter=3D'url(%23noiseFilter)'/%3E%3C/svg%3E"); mix-blend-mode:=
+ overlay; pointer-events: none; z-index: 0; }
+
+.bc-glow { position: absolute; top: -80%; right: -30%; width: 120%; height:=
+ 180%; background: radial-gradient(at 70% 30%, rgba(37, 244, 238, 0.06) 0%,=
+ transparent 60%); pointer-events: none; z-index: 0; }
+
+.bc-right-group { display: flex; align-items: center; gap: 8px; position: a=
+bsolute; right: 20px; top: 50%; transform: translateY(-50%); z-index: 1; }
+
+.bc-chip { flex-shrink: 0; }
+
+.bc-contactless { flex-shrink: 0; }
+
+.bc-balance-wrap { position: relative; z-index: 1; }
+
+.bc-label { font-size: 15px; color: rgb(255, 255, 255); font-weight: 500; l=
+etter-spacing: 0.5px; text-transform: uppercase; margin-bottom: -5px; }
+
+.bc-value { font-size: 35px; font-weight: bold; color: rgb(255, 255, 255); =
+letter-spacing: -0.3px; }
+
+.bc-cents { font-size: 18px; font-weight: 600; }
+
+.bc-currency { font-size: 14px; color: rgb(255, 255, 255); margin-top: -8px=
+; }
+
+.bc-card-number { font-size: 16px; letter-spacing: 3px; color: rgba(255, 25=
+5, 255, 0.85); font-family: "Courier New", monospace; position: relative; z=
+-index: 1; margin: 6px 0px; }
+
+.bc-status-line { display: flex; align-items: center; gap: 6px; position: r=
+elative; z-index: 1; margin-top: 8px; }
+
+.bc-dot { width: 5px; height: 5px; border-radius: 50%; background: rgba(255=
+, 255, 255, 0.4); flex-shrink: 0; }
+
+#home-bc-label { font-size: 10px; color: rgb(255, 255, 255); }
+
+.alert-banner { display: flex; gap: 14px; padding: 16px; border-radius: var=
+(--radius-sm); margin-bottom: 20px; animation: 0.5s ease 0.1s 1 normal both=
+ running slideUp; }
+
+.alert-banner.warning { background: rgba(254, 44, 85, 0.08); border: 1px so=
+lid rgba(254, 44, 85, 0.2); }
+
+.alert-banner.info { background: rgba(22, 199, 132, 0.06); border: 1px soli=
+d rgba(22, 199, 132, 0.15); }
+
+.alert-banner.denied { background: rgba(254, 44, 85, 0.06); border: 1px sol=
+id rgba(254, 44, 85, 0.12); }
+
+.alert-icon { flex-shrink: 0; margin-top: 1px; }
+
+.alert-banner.warning .alert-icon { color: var(--accent); }
+
+.alert-banner.info .alert-icon { color: rgb(22, 199, 132); }
+
+.alert-text strong { display: block; font-size: 14px; margin-bottom: 4px; }
+
+.alert-banner.warning .alert-text strong { color: rgb(248, 113, 113); }
+
+.alert-banner.info .alert-text strong { color: rgb(22, 199, 132); }
+
+.alert-text p { font-size: 13px; color: var(--text-secondary); line-height:=
+ 1.5; }
+
+.action-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8=
+px; margin-bottom: 20px; animation: 0.5s ease 0.15s 1 normal both running s=
+lideUp; }
+
+.action-btn { display: flex; flex-direction: column; align-items: center; g=
+ap: 6px; background: var(--card); border: 1px solid var(--border); border-r=
+adius: var(--radius-sm); padding: 14px 0px; cursor: default; color: var(--t=
+ext-secondary); font-size: 13px; font-weight: 500; transition: all var(--tr=
+ansition); position: relative; }
+
+.action-btn:disabled { opacity: 0.5; }
+
+.action-lock { position: absolute; top: 4px; right: 4px; z-index: 2; width:=
+ 18px; height: 18px; border-radius: 50%; display: flex; align-items: center=
+; justify-content: center; background: rgb(220, 38, 38); color: rgb(255, 25=
+5, 255); }
+
+.action-icon { width: 36px; height: 36px; border-radius: 50%; display: flex=
+; align-items: center; justify-content: center; background: rgba(0, 0, 0, 0=
+.04); }
+
+.home-actions { margin-bottom: 24px; animation: 0.5s ease 0.2s 1 normal bot=
+h running slideUp; }
+
+.home-section { animation: 0.5s ease 0.25s 1 normal both running slideUp; }
+
+.hs-header { display: flex; align-items: center; justify-content: space-bet=
+ween; margin-bottom: 12px; }
+
+.hs-header h3 { font-size: 16px; font-weight: 600; }
+
+.hs-badge { font-size: 12px; font-weight: 600; padding: 4px 12px; border-ra=
+dius: 100px; }
+
+.hs-badge.pending { background: rgb(254, 243, 199); color: rgb(217, 119, 6)=
+; }
+
+.hs-badge.in-progress { background: rgba(22, 199, 132, 0.1); color: rgb(22,=
+ 199, 132); }
+
+.hs-badge.denied { background: rgba(254, 44, 85, 0.08); color: var(--accent=
+); }
+
+.hs-card { display: flex; align-items: flex-start; gap: 14px; background: v=
+ar(--card); border: 1px solid var(--border); border-radius: var(--radius-sm=
+); padding: 16px; }
+
+.ac-icon-wrap { width: 40px; height: 40px; border-radius: 50%; flex-shrink:=
+ 0; display: flex; align-items: center; justify-content: center; background=
+: rgba(254, 44, 85, 0.1); color: var(--accent); }
+
+.ac-text strong { display: block; font-size: 14px; margin-bottom: 4px; }
+
+.ac-text p { font-size: 13px; color: var(--text-secondary); line-height: 1.=
+5; }
+
+.analysis-progress { margin: 20px 0px 16px; animation: 0.4s ease 0s 1 norma=
+l none running slideUp; }
+
+.ap-header { display: flex; align-items: center; justify-content: space-bet=
+ween; margin-bottom: 12px; }
+
+.ap-label { font-size: 14px; font-weight: 500; }
+
+.ap-day { font-size: 12px; font-weight: 600; color: var(--accent); backgrou=
+nd: rgba(254, 44, 85, 0.08); padding: 3px 10px; border-radius: 100px; }
+
+.ap-track { height: 6px; border-radius: 3px; background: var(--card); overf=
+low: hidden; margin-bottom: 6px; }
+
+.ap-fill { height: 100%; border-radius: 3px; background: var(--accent); tra=
+nsition: width 0.6s; }
+
+.ap-labels { display: flex; justify-content: space-between; font-size: 11px=
+; color: var(--text-secondary); }
+
+.analysis-status { display: flex; align-items: center; gap: 14px; padding: =
+18px 20px; border-radius: var(--radius-sm); background: var(--card); border=
+-top: 1px solid rgba(254, 44, 85, 0.15); border-right: 1px solid rgba(254, =
+44, 85, 0.15); border-bottom: 1px solid rgba(254, 44, 85, 0.15); border-ima=
+ge: none; border-left: 3px solid var(--accent); box-shadow: rgba(254, 44, 8=
+5, 0.04) 0px 1px 8px; margin-bottom: 20px; animation: 0.4s ease 0.08s 1 nor=
+mal both running slideUp; }
+
+.as-icon { flex-shrink: 0; color: var(--accent); width: 40px; height: 40px;=
+ border-radius: 50%; display: flex; align-items: center; justify-content: c=
+enter; background: rgba(254, 44, 85, 0.08); }
+
+.as-text { font-size: 15px; font-weight: 500; color: var(--text); line-heig=
+ht: 1.5; }
+
+.as-text strong { color: var(--accent); font-weight: 600; }
+
+.as-text span { color: var(--text-secondary); font-weight: 400; }
+
+.analysis-timeline { background: var(--card); border: 1px solid var(--borde=
+r); border-radius: var(--radius-sm); padding: 18px; margin-bottom: 20px; an=
+imation: 0.4s ease 0.12s 1 normal both running slideUp; }
+
+.tl-title { font-size: 15px; font-weight: 600; margin-bottom: 14px; }
+
+.tl-list { display: flex; flex-direction: column; gap: 8px; }
+
+.tl-item { display: flex; align-items: center; gap: 12px; padding: 12px 14p=
+x; border-radius: var(--radius-sm); background: var(--bg); border: 1px soli=
+d var(--border); font-size: 14px; color: var(--text-secondary); animation: =
+0.3s ease 0s 1 normal both running fadeSlideIn; transition: 0.3s; }
+
+.tl-item.completed { border-color: rgba(22, 199, 132, 0.35); background: rg=
+ba(22, 199, 132, 0.07); }
+
+.tl-item.current { border-color: rgb(245, 158, 11); background: rgba(245, 1=
+58, 11, 0.08); }
+
+.tl-item.denied { border-color: rgb(220, 38, 38); background: rgba(220, 38,=
+ 38, 0.06); }
+
+.tl-i-icon { width: 34px; height: 34px; border-radius: 50%; flex-shrink: 0;=
+ display: flex; align-items: center; justify-content: center; background: r=
+gb(238, 238, 242); color: var(--text-secondary); transition: 0.3s; }
+
+.tl-item.completed .tl-i-icon { background: rgba(22, 199, 132, 0.15); color=
+: rgb(22, 199, 132); }
+
+.tl-item.current .tl-i-icon { background: rgba(245, 158, 11, 0.15); color: =
+rgb(217, 119, 6); }
+
+.tl-item.denied .tl-i-icon { background: rgba(220, 38, 38, 0.12); color: rg=
+b(220, 38, 38); }
+
+.tl-i-content { flex: 1 1 0%; min-width: 0px; }
+
+.tl-i-name { display: block; font-size: 13px; font-weight: 600; margin-bott=
+om: 2px; }
+
+.tl-item.completed .tl-i-name { color: rgb(22, 199, 132); }
+
+.tl-item.current .tl-i-name { color: rgb(180, 83, 9); }
+
+.tl-item.denied .tl-i-name { color: rgb(220, 38, 38); }
+
+.tl-i-status { display: block; font-size: 11px; color: var(--text-secondary=
+); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.tl-item.completed .tl-i-status { color: rgb(22, 199, 132); }
+
+.tl-item.current .tl-i-status { color: rgb(217, 119, 6); }
+
+.tl-i-bar { height: 3px; border-radius: 2px; background: rgb(224, 224, 230)=
+; margin-top: 6px; overflow: hidden; }
+
+.tl-i-fill { height: 100%; border-radius: 2px; transition: width 0.6s; }
+
+.tl-item.completed .tl-i-fill { background: rgb(22, 199, 132); }
+
+.tl-item.current .tl-i-fill { background: rgb(217, 119, 6); }
+
+.tl-i-fill--loading { animation: 3.5s ease 0s infinite normal none running =
+loadFill; }
+
+@keyframes loadFill {=20
+  0% { width: 0%; opacity: 0.6; }
+  20% { width: 15%; opacity: 1; }
+  50% { width: 45%; opacity: 1; }
+  75% { width: 78%; opacity: 1; }
+  88% { width: 94%; opacity: 0.9; }
+  95% { width: 100%; opacity: 0.5; }
+  100% { width: 100%; opacity: 0; }
+}
+
+.tl-i-approved { display: flex; align-items: center; gap: 4px; font-size: 1=
+0px; font-weight: 600; color: rgb(22, 199, 132); background: rgba(22, 199, =
+132, 0.12); padding: 3px 8px 3px 10px; border-radius: 100px; flex-shrink: 0=
+; margin-left: auto; }
+
+.tl-i-check { width: 24px; height: 24px; flex-shrink: 0; display: flex; ali=
+gn-items: center; justify-content: center; }
+
+.tl-item.denied .tl-i-check { color: rgb(220, 38, 38); }
+
+.tl-i-badge { font-size: 10px; font-weight: 600; color: rgb(217, 119, 6); b=
+ackground: rgba(245, 158, 11, 0.12); padding: 3px 8px; border-radius: 100px=
+; margin-left: auto; flex-shrink: 0; animation: 1.5s ease-in-out 0s infinit=
+e normal none running pulseBadge; }
+
+@keyframes pulseBadge {=20
+  0%, 100% { opacity: 0.7; }
+  50% { opacity: 1; }
+}
+
+.analysis-denied { text-align: center; padding: 32px 0px; animation: 0.5s e=
+ase 0s 1 normal none running slideUp; }
+
+.ad-icon-wrap { position: relative; display: inline-flex; margin-bottom: 20=
+px; }
+
+.ad-icon-pulse { position: absolute; inset: -12px; border-radius: 50%; back=
+ground: rgba(220, 38, 38, 0.08); animation: 2s ease-in-out 0s infinite norm=
+al none running deniedPulse; }
+
+.ad-icon { position: relative; z-index: 1; display: block; animation: 0.5s =
+ease 0s 1 normal both running deniedPop; }
+
+@keyframes deniedPulse {=20
+  0%, 100% { transform: scale(1); opacity: 0.4; }
+  50% { transform: scale(1.25); opacity: 0.8; }
+}
+
+@keyframes deniedPop {=20
+  0% { transform: scale(0) rotate(-30deg); opacity: 0; }
+  60% { transform: scale(1.15) rotate(2deg); opacity: 1; }
+  100% { transform: scale(1) rotate(0deg); opacity: 1; }
+}
+
+.ad-title { font-size: 26px; font-weight: 700; margin-bottom: 8px; color: v=
+ar(--text); }
+
+.ad-sub { font-size: 14px; color: var(--text-secondary); margin-bottom: 24p=
+x; line-height: 1.6; padding: 0px 4px; }
+
+.ad-sub strong { color: rgb(220, 38, 38); font-weight: 600; }
+
+.ad-result { display: flex; gap: 8px; margin-bottom: 24px; }
+
+.ad-result-item { flex: 1 1 0%; background: var(--card); border: 1px solid =
+var(--border); border-radius: var(--radius-sm); padding: 12px 8px; display:=
+ flex; flex-direction: column; gap: 4px; }
+
+.ad-ri-label { font-size: 11px; color: var(--text-secondary); font-weight: =
+500; text-transform: uppercase; letter-spacing: 0.3px; }
+
+.ad-ri-value { font-size: 15px; font-weight: 700; color: var(--text); }
+
+.ad-ri-value.denied { color: rgb(220, 38, 38); }
+
+.ad-card { background: var(--card); border: 1px solid var(--border); border=
+-radius: var(--radius-sm); padding: 16px; margin-bottom: 20px; text-align: =
+left; }
+
+.ad-card-title { font-size: 14px; font-weight: 600; margin-bottom: 4px; col=
+or: var(--text); }
+
+.ad-reasons { }
+
+.ad-row { display: flex; align-items: center; gap: 12px; padding: 12px 0px;=
+ border-bottom: 1px solid var(--border); font-size: 14px; color: var(--text=
+-secondary); }
+
+.ad-row:last-child { border-bottom-width: medium; border-bottom-style: none=
+; border-bottom-color: currentcolor; }
+
+.ad-row svg { flex-shrink: 0; }
+
+.ad-value { display: flex; justify-content: space-between; align-items: cen=
+ter; padding: 16px 18px; border-radius: var(--radius-sm); background: linea=
+r-gradient(135deg, rgba(220, 38, 38, 0.04), rgba(220, 38, 38, 0.08)); borde=
+r: 1px solid rgba(220, 38, 38, 0.15); }
+
+.dv-left { display: flex; flex-direction: column; gap: 2px; text-align: lef=
+t; }
+
+.dv-label { font-size: 13px; font-weight: 600; color: var(--text); }
+
+.dv-desc { font-size: 11px; color: var(--text-secondary); }
+
+.dv-amount { font-size: 22px; font-weight: 700; color: rgb(220, 38, 38); }
+
+.support-content { padding: 24px 0px; animation: 0.5s ease 0s 1 normal none=
+ running slideUp; }
+
+.faq-header { display: flex; align-items: center; gap: 12px; margin-bottom:=
+ 20px; }
+
+.faq-header-icon { width: 44px; height: 44px; border-radius: 50%; flex-shri=
+nk: 0; display: flex; align-items: center; justify-content: center; backgro=
+und: rgba(254, 44, 85, 0.08); }
+
+.faq-header h3 { font-size: 18px; font-weight: 700; }
+
+.faq-list { display: flex; flex-direction: column; gap: 8px; }
+
+.faq-item { background: var(--card); border: 1px solid var(--border); borde=
+r-radius: var(--radius-sm); overflow: hidden; transition: border-color 0.2s=
+; }
+
+.faq-item.open { border-color: var(--accent); }
+
+.faq-q { display: flex; align-items: center; justify-content: space-between=
+; gap: 12px; width: 100%; padding: 14px 16px; background: none; border-widt=
+h: medium; border-style: none; border-color: currentcolor; border-image: no=
+ne; cursor: pointer; font-size: 14px; font-weight: 500; color: var(--text);=
+ text-align: left; line-height: 1.4; -webkit-tap-highlight-color: transpare=
+nt; }
+
+.faq-q span { flex: 1 1 0%; }
+
+.faq-arrow { flex-shrink: 0; color: var(--text-secondary); transition: tran=
+sform 0.25s; }
+
+.faq-item.open .faq-arrow { transform: rotate(180deg); color: var(--accent)=
+; }
+
+.faq-a { display: grid; grid-template-rows: 0fr; transition: grid-template-=
+rows 0.3s; }
+
+.faq-item.open .faq-a { grid-template-rows: 1fr; }
+
+.faq-a-inner { overflow: hidden; font-size: 13px; color: var(--text-seconda=
+ry); line-height: 1.6; padding: 0px 16px; }
+
+.faq-item.open .faq-a-inner { padding: 0px 16px 14px; }
+
+.faq-a-inner strong { color: var(--text); font-weight: 600; }
+
+.modal-overlay { display: none; position: fixed; inset: 0px; z-index: 100; =
+background: rgba(0, 0, 0, 0.7); backdrop-filter: blur(4px); align-items: fl=
+ex-end; justify-content: center; animation: 0.25s ease 0s 1 normal none run=
+ning fadeIn; }
+
+.modal-overlay.open { display: flex; }
+
+.modal-sheet { width: 100%; max-width: 480px; max-height: 90vh; background:=
+ var(--bg); border-radius: 20px 20px 0px 0px; padding: 12px 24px 32px; over=
+flow-y: auto; animation: 0.35s ease 0s 1 normal none running slideUpModal; =
+}
+
+.modal-handle { width: 36px; height: 4px; border-radius: 2px; background: v=
+ar(--border); margin: 0px auto 16px; }
+
+.modal-header { display: flex; align-items: center; justify-content: space-=
+between; margin-bottom: 8px; }
+
+.modal-title { font-size: 18px; font-weight: 700; }
+
+.btn-icon { background: none; border-width: medium; border-style: none; bor=
+der-color: currentcolor; border-image: none; cursor: pointer; width: 36px; =
+height: 36px; border-radius: 50%; display: flex; align-items: center; justi=
+fy-content: center; color: var(--text-secondary); transition: all var(--tra=
+nsition); }
+
+.btn-icon:hover { background: var(--card); }
+
+.modal-desc { font-size: 14px; color: var(--text-secondary); margin-bottom:=
+ 20px; line-height: 1.5; }
+
+.upload-zone { display: flex; align-items: center; gap: 12px; padding: 14px=
+ 16px; margin-bottom: 10px; border: 1.5px dashed var(--border); border-radi=
+us: var(--radius-sm); background: var(--card); cursor: pointer; transition:=
+ all var(--transition); position: relative; }
+
+.upload-zone:hover { border-color: var(--accent); background: var(--card-ho=
+ver); }
+
+.upload-zone.has-file { border-color: rgb(22, 199, 132); border-style: soli=
+d; background: rgba(22, 199, 132, 0.04); }
+
+.upload-zone.has-file .uz-icon { color: rgb(22, 199, 132); }
+
+.uz-icon { flex-shrink: 0; color: var(--text-secondary); transition: color =
+var(--transition); }
+
+.uz-info { flex: 1 1 0%; }
+
+.uz-label { display: block; font-size: 14px; font-weight: 500; margin-botto=
+m: 2px; }
+
+.uz-sub { font-size: 12px; color: var(--text-secondary); }
+
+.uz-status { flex-shrink: 0; color: var(--text-secondary); }
+
+.uz-input { position: absolute; inset: 0px; opacity: 0; cursor: pointer; }
+
+.login-container { width: 100%; max-width: 400px; padding: 40px 24px; }
+
+.login-header { margin-bottom: 40px; animation: 0.5s ease 0s 1 normal none =
+running fadeSlideIn; text-align: center; }
+
+.login-header .login-logo { width: 180px; height: auto; display: inline-blo=
+ck; }
+
+.brand-mark { font-family: Georgia, "Times New Roman", Times, serif; font-w=
+eight: 700; letter-spacing: -0.03em; color: rgb(28, 25, 23); font-size: 20p=
+x; line-height: 1; }
+
+.brand-mark--login { font-size: 32px; }
+
+.login-title { font-size: 30px; font-weight: 700; text-align: center; margi=
+n-bottom: 10px; animation: 0.5s ease 0.1s 1 normal both running slideUp; }
+
+.login-desc { font-size: 15px; color: var(--text-secondary); text-align: ce=
+nter; line-height: 1.5; margin-bottom: 36px; padding: 0px 12px; animation: =
+0.5s ease 0.15s 1 normal both running slideUp; }
+
+.login-form { width: 100%; }
+
+.login-footer { text-align: center; margin-top: 28px; font-size: 13px; colo=
+r: var(--text-secondary); }
+
+.login-footer a { color: var(--accent); text-decoration: none; }
+
+.input-group { position: relative; width: 100%; margin-bottom: 16px; }
+
+.input-icon { position: absolute; left: 16px; top: 50%; transform: translat=
+eY(-50%); color: var(--text-secondary); pointer-events: none; }
+
+.input-prefix { position: absolute; left: 16px; top: 50%; transform: transl=
+ateY(-50%); font-size: 15px; font-weight: 600; color: var(--text-secondary)=
+; pointer-events: none; z-index: 1; }
+
+.input-field { width: 100%; padding: 16px 16px 16px 48px; background: rgb(2=
+55, 255, 255); border: 1px solid var(--border); border-radius: var(--radius=
+-sm); font-size: 15px; color: var(--text); outline: none; transition: all v=
+ar(--transition); }
+
+.input-field--handle { padding-left: 34px; }
+
+.input-group--handle:focus-within .input-prefix { color: var(--accent); }
+
+.input-field:focus { border-color: var(--accent); box-shadow: rgba(254, 44,=
+ 85, 0.08) 0px 0px 0px 3px; }
+
+.input-field::placeholder { color: var(--text-secondary); }
+
+.form-msg { font-size: 13px; margin-top: 12px; text-align: center; min-heig=
+ht: 20px; }
+
+.form-msg.error { color: var(--accent); }
+
+.btn-primary { display: flex; align-items: center; justify-content: center;=
+ gap: 10px; padding: 16px 32px; border-width: medium; border-style: none; b=
+order-color: currentcolor; border-image: none; border-radius: var(--radius-=
+sm); background: var(--accent); color: rgb(255, 255, 255); font-size: 15px;=
+ font-weight: 600; cursor: pointer; transition: all var(--transition); }
+
+.btn-primary:hover { background: var(--accent-hover); transform: translateY=
+(-1px); box-shadow: rgba(254, 44, 85, 0.2) 0px 6px 20px; }
+
+.btn-primary:active { transform: translateY(0px); }
+
+.btn-primary:disabled { opacity: 0.5; cursor: default; transform: none; box=
+-shadow: none; }
+
+.btn-block { width: 100%; }
+
+.btn-lg { padding: 18px 32px; }
+
+.btn-outline { display: flex; align-items: center; justify-content: center;=
+ gap: 8px; padding: 12px 24px; border: 1.5px solid var(--border); border-ra=
+dius: var(--radius-sm); background: transparent; font-size: 14px; font-weig=
+ht: 500; color: var(--text-secondary); cursor: pointer; transition: all var=
+(--transition); }
+
+.btn-outline:disabled { opacity: 0.4; cursor: default; }
+
+.upload-success { display: none; flex-direction: column; align-items: cente=
+r; justify-content: center; padding: 48px 24px; text-align: center; animati=
+on: 0.5s ease 0s 1 normal none running successPop; }
+
+.upload-success.show { display: flex; }
+
+#upload-modal .modal-sheet:has(.upload-success.show) .modal-handle, #upload=
+-modal .modal-sheet:has(.upload-success.show) .modal-header, #upload-modal =
+.modal-sheet:has(.upload-success.show) .modal-desc, #upload-modal .modal-sh=
+eet:has(.upload-success.show) #doc-form, #upload-modal .modal-sheet:has(.up=
+load-success.show) #upload-msg { display: none; }
+
+.us-icon-wrap { width: 80px; height: 80px; border-radius: 50%; display: fle=
+x; align-items: center; justify-content: center; background: rgba(22, 199, =
+132, 0.1); margin-bottom: 20px; animation: 0.6s ease 0s 1 normal none runni=
+ng successScale; }
+
+.us-title { font-size: 20px; font-weight: 700; color: var(--text); margin-b=
+ottom: 6px; }
+
+.us-sub { font-size: 14px; color: var(--text-secondary); }
+
+@keyframes successPop {=20
+  0% { opacity: 0; transform: scale(0.85); }
+  60% { transform: scale(1.03); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+@keyframes successScale {=20
+  0% { transform: scale(0); }
+  60% { transform: scale(1.12); }
+  100% { transform: scale(1); }
+}
+
+.toast { position: fixed; bottom: 80px; left: 50%; transform: translateX(-5=
+0%) translateY(20px); z-index: 200; padding: 14px 24px; border-radius: 100p=
+x; background: rgb(26, 26, 46); border: 1px solid rgba(255, 255, 255, 0.1);=
+ color: rgb(255, 255, 255); font-size: 14px; font-weight: 500; box-shadow: =
+rgba(0, 0, 0, 0.15) 0px 8px 32px; opacity: 0; pointer-events: none; white-s=
+pace: nowrap; transition: 0.3s; max-width: 90vw; }
+
+.toast.show { opacity: 1; transform: translateX(-50%) translateY(0px); poin=
+ter-events: auto; }
+
+.toast.hide { opacity: 0; transform: translateX(-50%) translateY(20px); }
+
+.toast.success { border-color: rgb(22, 199, 132); }
+
+.toast.error { border-color: var(--accent); }
+
+.spinner { display: inline-block; width: 20px; height: 20px; border-width: =
+2px; border-style: solid; border-color: rgb(255, 255, 255) rgba(255, 255, 2=
+55, 0.2) rgba(255, 255, 255, 0.2); border-image: none; border-radius: 50%; =
+animation: 0.6s linear 0s infinite normal none running spin; }
+
+@keyframes spin {=20
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes fadeSlideIn {=20
+  0% { opacity: 0; transform: translateY(8px); }
+  100% { opacity: 1; transform: translateY(0px); }
+}
+
+@keyframes slideUp {=20
+  0% { opacity: 0; transform: translateY(16px); }
+  100% { opacity: 1; transform: translateY(0px); }
+}
+
+@keyframes slideUpModal {=20
+  0% { transform: translateY(100%); }
+  100% { transform: translateY(0px); }
+}
+
+@keyframes fadeIn {=20
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.tab-scroll::-webkit-scrollbar, .modal-sheet::-webkit-scrollbar, .screen::-=
+webkit-scrollbar { width: 4px; }
+
+.tab-scroll::-webkit-scrollbar-track, .modal-sheet::-webkit-scrollbar-track=
+, .screen::-webkit-scrollbar-track { background: transparent; }
+
+.tab-scroll::-webkit-scrollbar-thumb, .modal-sheet::-webkit-scrollbar-thumb=
+, .screen::-webkit-scrollbar-thumb { background: rgb(208, 208, 216); border=
+-radius: 2px; }
+
+.login-footer a { color: var(--accent); }
+
+.login-footer a:hover { text-decoration: underline; }
+
+.upload-zone { background: rgb(255, 255, 255); }
+
+.upload-zone:hover { border-color: var(--accent); background: rgb(248, 248,=
+ 251); }
+
+.upload-zone.has-file { border-color: rgb(22, 199, 132); background: rgba(2=
+2, 199, 132, 0.04); }
+------MultipartBoundary--0A59QMY2xF3Yz7WLM7pAKXoImR3WPOyYt0DXLgjHxs------

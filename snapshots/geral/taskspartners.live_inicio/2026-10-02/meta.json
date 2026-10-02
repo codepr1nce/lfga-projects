@@ -1,0 +1,8 @@
+{
+  "startUrl": "https://taskspartners.live/inicio",
+  "group": "geral",
+  "capturedAt": "2026-10-02T18:12:31.721Z",
+  "steps": [],
+  "end": "erro: page.goto: net::ERR_NAME_NOT_RESOLVED at https://taskspartners.live/inicio",
+  "finalUrl": "about:blank"
+}

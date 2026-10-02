@@ -1,0 +1,16 @@
+{
+  "startUrl": "https://worldinfoeua.vercel.app/inicio",
+  "group": "vendepay",
+  "capturedAt": "2026-10-02T18:12:49.672Z",
+  "steps": [
+    {
+      "file": "step-01.mhtml",
+      "url": "https://worldinfoeua.vercel.app/inicio",
+      "title": "Deployment Paused",
+      "via": "(entrada)"
+    }
+  ],
+  "end": "fora do ar (HTTP 402)",
+  "httpStatus": 402,
+  "finalUrl": "https://worldinfoeua.vercel.app/inicio"
+}

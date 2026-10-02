@@ -1,0 +1,8 @@
+{
+  "startUrl": "https://digitalacademyapp.online/inicio",
+  "group": "geral",
+  "capturedAt": "2026-10-02T18:12:31.410Z",
+  "steps": [],
+  "end": "erro: page.goto: net::ERR_NAME_NOT_RESOLVED at https://digitalacademyapp.online/inicio",
+  "finalUrl": "about:blank"
+}

@@ -1,0 +1,16 @@
+{
+  "startUrl": "https://softwareacademyapp.shop/inicio",
+  "group": "geral",
+  "capturedAt": "2026-10-02T18:12:25.227Z",
+  "steps": [
+    {
+      "file": "step-01.mhtml",
+      "url": "https://softwareacademyapp.shop/inicio",
+      "title": "softwareacademyapp.shop | 525: SSL handshake failed",
+      "via": "(entrada)"
+    }
+  ],
+  "end": "fora do ar (HTTP 525)",
+  "httpStatus": 525,
+  "finalUrl": "https://softwareacademyapp.shop/inicio"
+}

@@ -1,0 +1,8 @@
+{
+  "startUrl": "https://balancettk.online/inicio",
+  "group": "geral",
+  "capturedAt": "2026-10-02T18:12:24.932Z",
+  "steps": [],
+  "end": "erro: page.goto: net::ERR_NAME_NOT_RESOLVED at https://balancettk.online/inicio",
+  "finalUrl": "about:blank"
+}

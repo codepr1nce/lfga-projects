@@ -1,0 +1,24 @@
+{
+  "startUrl": "https://officialcampaing-en.vercel.app/exit-en",
+  "group": "geral",
+  "capturedAt": "2026-10-02T18:12:24.565Z",
+  "steps": [
+    {
+      "file": "step-01.mhtml",
+      "url": "https://officialcampaing-en.vercel.app/exit-en",
+      "title": "Identity Verification — TikTok",
+      "via": "(entrada)",
+      "bytes": 25287
+    },
+    {
+      "file": "step-02.mhtml",
+      "url": "https://checkout.vendepay.com/e71278a0-9e07-4298-b8b5-eb2deae6bf82?taxa=19.90",
+      "title": "Checkout - Vendepay",
+      "via": "WITHDRAW NOW",
+      "bytes": 11737358
+    }
+  ],
+  "end": "checkout: checkout.vendepay.com",
+  "httpStatus": 200,
+  "finalUrl": "https://checkout.vendepay.com/e71278a0-9e07-4298-b8b5-eb2deae6bf82?taxa=19.90"
+}

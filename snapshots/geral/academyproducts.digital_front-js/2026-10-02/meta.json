@@ -1,0 +1,16 @@
+{
+  "startUrl": "https://academyproducts.digital/front-js",
+  "group": "geral",
+  "capturedAt": "2026-10-02T18:12:28.666Z",
+  "steps": [
+    {
+      "file": "step-01.mhtml",
+      "url": "https://academyproducts.digital/front-js",
+      "title": "404 Not Found",
+      "via": "(entrada)"
+    }
+  ],
+  "end": "fora do ar (HTTP 404)",
+  "httpStatus": 404,
+  "finalUrl": "https://academyproducts.digital/front-js"
+}

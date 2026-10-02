@@ -1,0 +1,325 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: chrome-error://chromewebdata/
+Subject: Reported Unsafe Site: Navigation Blocked
+Date: Fri, 02 Oct 2026 18:12:55 GMT
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--YUvPQ59xv6a4ldGVhGBB9mrQ7EzJBCp4F3TbQPbz4L----"
+
+
+------MultipartBoundary--YUvPQ59xv6a4ldGVhGBB9mrQ7EzJBCp4F3TbQPbz4L----
+Content-Type: text/html
+Content-ID: <frame-90EF2BC724B9F6A94CB323B500474DA6@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: chrome-error://chromewebdata/
+
+<!--
+Copyright (C) Microsoft Corporation. All rights reserved.
+Use of this source code is governed by a BSD-style license that can be
+found in the LICENSE file.
+--><!DOCTYPE html><html dir=3D"ltr" lang=3D"en" xmlns=3D"http://www.w3.org/=
+1999/xhtml"><head><meta http-equiv=3D"Content-Type" content=3D"text/html; c=
+harset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-=
+e34f0084-70f2-4aaf-ba56-357c58fc1716@mhtml.blink" /><link rel=3D"stylesheet=
+" type=3D"text/css" href=3D"cid:css-73835d19-4168-4d71-86f6-33863d7d8e5e@mh=
+tml.blink" />
+ =20
+  <title>Reported Unsafe Site: Navigation Blocked</title>
+ =20
+ =20
+   =20
+ =20
+ =20
+ =20
+ =20
+</head>
+<body class=3D"whiteFont red" id=3D"background" style=3D"background-color: =
+rgb(184, 0, 0); color: rgb(255, 255, 255);">
+  <main id=3D"Wrapper" role=3D"main" aria-labelledby=3D"pageTitle">
+    <div class=3D"msgBlock">
+      <div class=3D"msgIcon whiteFont" aria-hidden=3D"true" style=3D"color:=
+ rgb(255, 255, 255);">
+       =20
+          <svg class=3D"msgBlockIcon" viewBox=3D"0 0 90 90" fill=3D"none" a=
+ria-hidden=3D"true" role=3D"img" xmlns=3D"http://www.w3.org/2000/svg" style=
+=3D"display: block;">
+            <path d=3D"M90 90H0L45 0L90 90ZM9.70312 84H80.2969L45 13.4062L9=
+.70312 84ZM48 36V66H42V36H48ZM42 72H48V78H42V72Z" fill=3D"currentColor"></p=
+ath>
+          </svg>
+          <svg class=3D"msgManagedIcon" viewBox=3D"0 0 16 16" fill=3D"none"=
+ aria-hidden=3D"true" role=3D"img" xmlns=3D"http://www.w3.org/2000/svg" sty=
+le=3D"display: none;">
+            <path fill=3D"#000" fill-rule=3D"evenodd" d=3D"M5 1v1H1.5A1.5 1=
+.5 0 0 0 0 3.5v8A1.5 1.5 0 0 0 1.5 13h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0=
+ 0 0 14.5 2H11V1a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1Zm5 0H6v1h4V1Zm4.5 2a.5.5 0 0=
+ 1 .5.5v2A1.5 1.5 0 0 1 13.5 7H9v-.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5V7H=
+2.5A1.5 1.5 0 0 1 1 5.5v-2a.5.5 0 0 1 .5-.5h13ZM7 8H2.5A2.489 2.489 0 0 1 1=
+ 7.5v4a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-4c-.418.314-.937.5-1.5.5H9v.5a.=
+5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5V8Z" clip-rule=3D"evenodd"></path>
+          </svg>
+       =20
+       =20
+      </div>
+      <div class=3D"msgBody">
+        <h1 id=3D"pageTitle" class=3D"whiteFont" style=3D"color: rgb(255, 2=
+55, 255);">This site has been reported as unsafe</h1>
+        <h2 id=3D"contentlocations">Hosted by recompensa-elegible.vercel.ap=
+p</h2>
+        <p><span id=3D"recommendation">Microsoft recommends you don't conti=
+nue to this site. It has been reported to Microsoft for containing phishing=
+ threats which may try to steal personal or financial information.</span></=
+p>
+        <button class=3D"white-pushbutton" id=3D"closePageButton" type=3D"s=
+ubmit" style=3D"color: rgb(184, 0, 0); background-color: rgb(255, 255, 255)=
+;">
+          Close page
+        </button>
+        <button class=3D"white-pushbutton" id=3D"proceedButton" type=3D"sub=
+mit" style=3D"display: none; color: rgb(184, 0, 0); background-color: rgb(2=
+55, 255, 255);" aria-hidden=3D"true">
+         =20
+        </button>
+        <div id=3D"moreInfoDropdown">
+          <a id=3D"moreInformationDropdownLink" style=3D"text-decoration: n=
+one;" href=3D"chrome-error://chromewebdata/#" aria-expanded=3D"false" aria-=
+controls=3D"infoBlockID">
+            <span class=3D"whiteFont" id=3D"moreInformationDropdownSpan" st=
+yle=3D"color: rgb(255, 255, 255);">More information</span>
+            <span>&nbsp;</span>
+            <span class=3D"whiteFont chevronDown_white" id=3D"infoBlockIDSp=
+an" style=3D"color: rgb(255, 255, 255);"></span>
+          </a>
+        </div>
+        <div id=3D"infoBlockID" style=3D"display: none;" aria-hidden=3D"tru=
+e">
+          <div id=3D"threatDetailsText">Phishing sites can impersonate trus=
+ted sites to trick you into revealing personal or financial information. Ev=
+en if it looks and feels trustworthy, the site you are trying to visit coul=
+d be a phishing site in disguise. By continuing to this site, you might be =
+putting your sensitive information=E2=81=A0=E2=80=94=E2=81=A0like passwords=
+, credit card numbers, contact info, or software activation keys=E2=81=A0=
+=E2=80=94=E2=81=A0at risk. <a href=3D"chrome-error://chromewebdata/#" class=
+=3D"whiteFont" id=3D"learnMoreLink" style=3D"color: rgb(255, 255, 255);">Le=
+arn&nbsp;more</a> <br><br>
+    These attacks often use spam emails, advertisements, or redirections fr=
+om other sites that try to trick you into revealing sensitive information. =
+If in doubt, <a href=3D"chrome-error://chromewebdata/#" class=3D"whiteFont"=
+ id=3D"closePageLink" style=3D"color: rgb(255, 255, 255);">close&nbsp;the&n=
+bsp;page</a>.</div>
+          <ul id=3D"actionsList" class=3D"ul-ltr">
+           =20
+              <li class=3D"caret-li-ltr" id=3D"DoReportSafe" aria-labelledb=
+y=3D"reportSite">
+                <a class=3D"whiteFont" id=3D"reportSiteLink" href=3D"chrome=
+-error://chromewebdata/#" style=3D"color: rgb(255, 255, 255);">
+                  <span id=3D"reportSite">Report that this site doesn=E2=80=
+=99t contain phishing threats</span>
+                </a>
+              </li>
+           =20
+            <li class=3D"caret-li-ltr" id=3D"DoOverride" aria-labelledby=3D=
+"continueToSite">
+              <a class=3D"whiteFont" id=3D"overrideLink" href=3D"chrome-err=
+or://chromewebdata/#" style=3D"color: rgb(255, 255, 255);">
+                <span id=3D"continueToSite">Continue to the unsafe site (no=
+t recommended)</span>
+              </a>
+            </li>
+          </ul>
+          <br>
+          <span style=3D"display: none;" id=3D"DisableContinue" aria-hidden=
+=3D"true">
+            <img class=3D"managedIcon" src=3D"data:image/svg+xml;base64,PHN=
+2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3Ln=
+czLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2Z=
+W5vZGQiIGQ9Ik01IDJ2MUgxLjVBMS41IDEuNSAwIDAwMCA0LjV2OEExLjUgMS41IDAgMDAxLjUg=
+MTRoMTNhMS41IDEuNSAwIDAwMS41LTEuNXYtOEExLjUgMS41IDAgMDAxNC41IDNIMTFWMmExIDE=
+gMCAwMC0xLTFINmExIDEgMCAwMC0xIDF6bTUgMEg2djFoNFYyem00LjUgMmEuNS41IDAgMDEuNS=
+41djJBMS41IDEuNSAwIDAxMTMuNSA4SDl2LS41YS41LjUgMCAwMC0uNS0uNWgtMWEuNS41IDAgM=
+DAtLjUuNVY4SDIuNUExLjUgMS41IDAgMDExIDYuNXYtMmEuNS41IDAgMDEuNS0uNWgxM3pNNyA5=
+SDIuNUEyLjQ4OSAyLjQ4OSAwIDAxMSA4LjV2NGEuNS41IDAgMDAuNS41aDEzYS41LjUgMCAwMC4=
+1LS41di00Yy0uNDE4LjMxNC0uOTM3LjUtMS41LjVIOXYuNWEuNS41IDAgMDEtLjUuNWgtMWEuNS=
+41IDAgMDEtLjUtLjVWOXoiIGZpbGw9IiNmZmYiLz48L3N2Zz4=3D" alt=3D""><span>You're=
+ blocked from continuing to this site. For more info, contact your organiza=
+tion.</span>
+          </span>
+        </div>
+       =20
+          <div id=3D"branding" class=3D"branding-ltr">
+            <span id=3D"SmartScreenOutro">Microsoft Defender SmartScreen</s=
+pan>
+          </div>
+       =20
+      </div>
+    </div>
+  </main>
+  <div class=3D"smartscreen_small" aria-hidden=3D"true">
+    <center>
+      <svg class=3D"smallBlockIcon" viewBox=3D"0 0 90 90" fill=3D"none" ari=
+a-labelledby=3D"aria-title" aria-hidden=3D"true" role=3D"img" xmlns=3D"http=
+://www.w3.org/2000/svg" style=3D"display: block;">
+        <title id=3D"aria-title">Microsoft Defender SmartScreen blocked thi=
+s web content because it was reported as unsafe.</title>
+        <path d=3D"M90 90H0L45 0L90 90ZM9.70312 84H80.2969L45 13.4062L9.703=
+12 84ZM48 36V66H42V36H48ZM42 72H48V78H42V72Z" fill=3D"currentColor"></path>
+      </svg>
+      <svg class=3D"smallManagedIcon" viewBox=3D"0 0 16 16" fill=3D"none" a=
+ria-labelledby=3D"aria-title" aria-hidden=3D"true" role=3D"img" xmlns=3D"ht=
+tp://www.w3.org/2000/svg" style=3D"display: none;">
+        <title id=3D"aria-title">Microsoft Defender SmartScreen blocked thi=
+s web content because it was reported as unsafe.</title>
+        <path fill=3D"#000" fill-rule=3D"evenodd" d=3D"M5 1v1H1.5A1.5 1.5 0=
+ 0 0 0 3.5v8A1.5 1.5 0 0 0 1.5 13h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0=
+ 14.5 2H11V1a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1Zm5 0H6v1h4V1Zm4.5 2a.5.5 0 0 1 .=
+5.5v2A1.5 1.5 0 0 1 13.5 7H9v-.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5V7H2.5A=
+1.5 1.5 0 0 1 1 5.5v-2a.5.5 0 0 1 .5-.5h13ZM7 8H2.5A2.489 2.489 0 0 1 1 7.5=
+v4a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-4c-.418.314-.937.5-1.5.5H9v.5a.5.5 =
+0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5V8Z" clip-rule=3D"evenodd"></path>
+      </svg>
+    </center>
+  </div>
+
+
+</body></html>
+------MultipartBoundary--YUvPQ59xv6a4ldGVhGBB9mrQ7EzJBCp4F3TbQPbz4L----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-73835d19-4168-4d71-86f6-33863d7d8e5e@mhtml.blink
+
+@charset "utf-8";
+
+body { font-family: system-ui, sans-serif; font-size: 75%; }
+
+button { font-family: system-ui, sans-serif; }
+------MultipartBoundary--YUvPQ59xv6a4ldGVhGBB9mrQ7EzJBCp4F3TbQPbz4L----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-e34f0084-70f2-4aaf-ba56-357c58fc1716@mhtml.blink
+
+@charset "utf-8";
+
+html, body { margin: 0px; padding: 0px; font-family: system-ui, sans-serif;=
+ font-size: 62.5%; }
+
+#Wrapper { margin-left: auto; margin-right: auto; max-width: 600px; padding=
+: 4.8rem 4.8rem 3.2rem; }
+
+#branding { font-size: 1.2rem; margin-top: 0.9rem; }
+
+.branding-ltr { text-align: right; }
+
+.branding-rtl { text-align: left; }
+
+.white-pushbutton { display: inline-block; font-size: 1.5rem; height: 3.2re=
+m; padding: 0px 1.6rem; text-align: center; margin: 2.4rem 0px; border: 2px=
+ solid transparent; white-space: nowrap; transition: height; }
+
+.white-pushbutton:active { color: rgb(0, 0, 0); background-color: rgb(153, =
+153, 153); transition-duration: 0.001s; transition-timing-function: ease-ou=
+t; }
+
+.white-pushbutton:hover { border: 2px solid rgb(153, 153, 153); transition-=
+duration: 0.15s; transition-timing-function: ease-out; }
+
+.white-pushbutton:hover { cursor: pointer; }
+
+h1 { line-height: 3.2rem; font-size: 2.8rem; font-weight: normal; margin: 0=
+px 0px 0px -0.2rem; padding: 0.4rem 0px; }
+
+h2 { line-height: 2.4rem; font-size: 2rem; font-weight: normal; margin: 0px=
+ 0px 0px -0.2rem; padding: 0.4rem 0px; opacity: 0.8; }
+
+p { line-height: 2.2rem; font-size: 1.5rem; margin: 1.6rem 0px 0px; padding=
+: 0px; }
+
+ul { margin-left: 0px; padding-left: 0px; list-style: none; }
+
+.ul-rtl { list-style: none; margin-right: 1rem; padding-right: 0px; }
+
+li { padding-left: 1em; text-indent: -1em; }
+
+.li-rtl { padding-right: 1em; text-indent: -1em; }
+
+.bullet-li-ltr::before { padding-right: 0.6rem; content: "=E2=80=A2"; }
+
+.bullet-li-rtl::before { content: "=E2=80=A2"; padding-left: 0.6rem; }
+
+.caret-li-ltr::before { content: ">"; padding-right: 0.5rem; }
+
+.caret-li-rtl::before { content: ">"; padding-left: 0.5rem; }
+
+.msgBlock { max-width: 600px; vertical-align: top; margin: 0px; padding: 0p=
+x; }
+
+.msgIcon { width: 5.8rem; font-size: 5.8rem; margin: 0.2rem 0.4rem 0px 2rem=
+; display: inline-block; vertical-align: top; }
+
+.msgBody { max-width: 460px; width: 46rem; display: inline-block; vertical-=
+align: top; margin: 0px 0px 0px 2rem; }
+
+.smallBlockIcon { width: 2.6rem; height: 2.6rem; }
+
+.smallManagedIcon { width: 2.6rem; height: 2.6rem; }
+
+.msgBlockIcon { width: 5.8rem; height: 5.8rem; }
+
+.msgManagedIcon { width: 5.8rem; height: 5.8rem; }
+
+#moreInformationDropdownSpan { font-size: 1.3rem; }
+
+#infoBlockID { font-size: 1.2rem; margin: 1rem 0px 0px 1rem; }
+
+.chevronDown { width: 1.2rem; height: 1.2rem; display: inline-block; vertic=
+al-align: bottom; background-repeat: no-repeat; background-size: 1.2rem 0.7=
+rem; background-image: image-set(url("data:image/png;base64,iVBORw0KGgoAAAA=
+NSUhEUgAAAAwAAAAHCAQAAACWu2SvAAAALUlEQVQI12NguMBgwIAODICiQOIBmhRcBFUKhYfgYO=
+iHCGAaC5XCIgyRQhIGAHsaDoGZYIPTAAAAAElFTkSuQmCC") 1x, url("data:image/png;ba=
+se64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAOCAQAAACf8RT1AAAATUlEQVQoz2NgIBlcYDAgWq=
+0BUDWQeECkFrhK4rSgqCKsBUMFfi1YZXFrwSmDXQKv3ZiSBH2HqoCo8EMoIjqGIAqJj1CoFhKUQ=
+7TgUA4A44gdgVHnj3wAAAAASUVORK5CYII=3D") 2x); }
+
+.chevronDown_white { width: 1.2rem; height: 1.2rem; display: inline-block; =
+vertical-align: bottom; background-repeat: no-repeat; background-size: 1.2r=
+em 0.7rem; background-image: image-set(url("data:image/png;base64,iVBORw0KG=
+goAAAANSUhEUgAAAAwAAAAHCAQAAACWu2SvAAAALklEQVQI12P4f+G/AQMa+G/w/wKIeIAqBRdB=
+lULhITgY+iECmMbCpDCFoVJIwgAZMzBf7w0SLQAAAABJRU5ErkJggg=3D=3D") 1x, url("dat=
+a:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAOCAQAAACf8RT1AAAATklEQVQo=
+z2NgIBX8v/DfgGi1Bv8vgIgHxGmBqyROC4oqwlowVODXglUWtxacMtgl8NqNKUnQd6gKiAo/hCK=
+iYwiikPgIhWkhXjlUCw7lAP1tYzuz/aLgAAAAAElFTkSuQmCC") 2x); }
+
+.chevronUp { width: 1.2rem; height: 1.2rem; display: inline-block; vertical=
+-align: bottom; background-repeat: no-repeat; background-size: 1.2rem 0.7re=
+m; background-image: image-set(url("data:image/png;base64,iVBORw0KGgoAAAANS=
+UhEUgAAAAwAAAAHCAQAAACWu2SvAAAALElEQVQI12NgQAADIMQCDBgeAKEBNmEDKIkhjMpC5yB4=
+GNphIhewuMWA4QIAYcsOgVNKQMcAAAAASUVORK5CYII=3D") 1x, url("data:image/png;ba=
+se64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAOCAQAAACf8RT1AAAATElEQVQoz2NgwA4MgJAEYM=
+DwAAgNSFFuACWJVo7KIko5UVowFeDVgl0SpxbcZmGVwe9aDFnC4YGigrgQh6siOoJgKi+QkGoMg=
+KpJBQAV5h2BDNReAgAAAABJRU5ErkJggg=3D=3D") 2x); }
+
+.chevronUp_white { width: 1.2rem; height: 1.2rem; display: inline-block; ve=
+rtical-align: bottom; background-repeat: no-repeat; background-size: 1.2rem=
+ 0.7rem; background-image: image-set(url("data:image/png;base64,iVBORw0KGgo=
+AAAANSUhEUgAAAAwAAAAHCAQAAACWu2SvAAAAL0lEQVQI12NggIP/Bv8NGDABUPgBEBpgEzaAkB=
+jCqCx0DoKHoR0m8v8CpluAUhcADbowX2BMO9MAAAAASUVORK5CYII=3D") 1x, url("data:im=
+age/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAOCAQAAACf8RT1AAAAUUlEQVQoz5XL=
+yw0AIAhEQUqi/yoswU7Wg8bvomtIOMA8g9FxOP9EPCPzJOLethAMSJOYB8mN08udk+uLH583374=
+KX4TGJ6XynhiSyGuSDJ9TAEVdbEBlNxwjAAAAAElFTkSuQmCC") 2x); }
+
+.managedIcon { padding-right: 0.3rem; vertical-align: sub; }
+
+#threatDetailsText { margin: 0px 0px 2.4rem; }
+
+#proceedButton { margin-left: 1.6rem; }
+
+@media (min-width: 300px) and (min-height: 250px) {
+  .smartscreen_small { display: none; }
+}
+
+@media (max-width: 299px), (max-height: 249px) {
+  #Wrapper { display: none; }
+  .smartscreen_small { width: 2.2rem; height: 2.2rem; position: absolute; t=
+op: 50%; left: 50%; margin-left: -1.1rem; margin-top: -1.1rem; }
+}
+------MultipartBoundary--YUvPQ59xv6a4ldGVhGBB9mrQ7EzJBCp4F3TbQPbz4L------

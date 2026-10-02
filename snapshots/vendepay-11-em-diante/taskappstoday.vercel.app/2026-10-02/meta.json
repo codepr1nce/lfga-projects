@@ -1,0 +1,31 @@
+{
+  "startUrl": "https://taskappstoday.vercel.app/",
+  "group": "vendepay-11-em-diante",
+  "capturedAt": "2026-10-02T18:15:10.940Z",
+  "steps": [
+    {
+      "file": "step-01.mhtml",
+      "url": "https://taskappstoday.vercel.app/",
+      "title": "Oakspost",
+      "via": "(entrada)",
+      "bytes": 2470
+    },
+    {
+      "file": "step-02.mhtml",
+      "url": "https://taskappstoday.vercel.app/app",
+      "title": "Oakspost",
+      "via": "Open your account",
+      "bytes": 60941
+    },
+    {
+      "file": "step-03.mhtml",
+      "url": "https://taskappstoday.vercel.app/app#",
+      "title": "Oakspost",
+      "via": "Send & Start Analysis",
+      "bytes": 61441
+    }
+  ],
+  "end": "travado (nenhum clique mudou a página)",
+  "httpStatus": 200,
+  "finalUrl": "https://taskappstoday.vercel.app/app#"
+}

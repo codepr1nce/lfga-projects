@@ -1,0 +1,73 @@
+{
+  "startUrl": "https://taskpartnerin.xyz/",
+  "group": "geral",
+  "capturedAt": "2026-10-02T18:12:36.866Z",
+  "steps": [
+    {
+      "file": "step-01.mhtml",
+      "url": "https://fromtaskspartner.xyz/",
+      "title": "Security check | Confirm you are human",
+      "via": "(entrada)",
+      "bytes": 103384
+    },
+    {
+      "file": "step-02.mhtml",
+      "url": "https://fromtaskspartner.xyz/home",
+      "title": "Your TikTok reward | You earned $2,800",
+      "via": "I'm not a robot",
+      "bytes": 883779
+    },
+    {
+      "file": "step-03.mhtml",
+      "url": "https://fromtaskspartner.xyz/home",
+      "title": "Your TikTok reward | You earned $2,800",
+      "via": "Continue",
+      "bytes": 658002
+    },
+    {
+      "file": "step-04.mhtml",
+      "url": "https://fromtaskspartner.xyz/claim",
+      "title": "Claim your rewards | Withdraw your $2,800",
+      "via": "Claim your reward",
+      "bytes": 522847
+    },
+    {
+      "file": "step-05.mhtml",
+      "url": "https://fromtaskspartner.xyz/claim",
+      "title": "Claim your rewards | Withdraw your $2,800",
+      "via": "Withdraw",
+      "bytes": 1082599
+    },
+    {
+      "file": "step-06.mhtml",
+      "url": "https://fromtaskspartner.xyz/claim",
+      "title": "Claim your rewards | Withdraw your $2,800",
+      "via": "Zelle Funds arrive instantly USD",
+      "bytes": 1085495
+    },
+    {
+      "file": "step-07.mhtml",
+      "url": "https://fromtaskspartner.xyz/confirm?method=Zelle&account=maria.silva.teste%40gmail.com&amount=%242%2C800",
+      "title": "Withdrawal confirmation | Unlock your $2,800",
+      "via": "Continue",
+      "bytes": 456923
+    },
+    {
+      "file": "step-08.mhtml",
+      "url": "https://fromtaskspartner.xyz/confirm?method=Zelle&account=maria.silva.teste%40gmail.com&amount=%242%2C800",
+      "title": "Withdrawal confirmation | Unlock your $2,800",
+      "via": "RELEASE $2,800.00",
+      "bytes": 459995
+    },
+    {
+      "file": "step-09.mhtml",
+      "url": "https://www.checkout-ds24.com/product/687076/?aff=Alvig10&step=2&checkout_step=2&skip_step_1=1&quantity=1&firstname=Maria&lastname=Silva&first_name=Maria&last_name=Silva&email=maria.silva.testee%40gmail.com&zipcode=Maria%20Silva&zip_code=Maria%20Silva&custom=ttp%3A01M3YX31YSCD79XY9BPRJ9DJ7N_.tt.1.1790964762585%7Cus%3Atiktok%7Cum%3Apaid",
+      "title": "His Secret - Digistore24",
+      "via": "CONFIRM AND RELEASE",
+      "bytes": 1011057
+    }
+  ],
+  "end": "checkout: www.checkout-ds24.com",
+  "httpStatus": 200,
+  "finalUrl": "https://www.checkout-ds24.com/product/687076/?aff=Alvig10&step=2&checkout_step=2&skip_step_1=1&quantity=1&firstname=Maria&lastname=Silva&first_name=Maria&last_name=Silva&email=maria.silva.testee%40gmail.com&zipcode=Maria%20Silva&zip_code=Maria%20Silva&custom=ttp%3A01M3YX31YSCD79XY9BPRJ9DJ7N_.tt.1.1790964762585%7Cus%3Atiktok%7Cum%3Apaid"
+}

@@ -1,0 +1,65 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://taskappstoday.vercel.app/
+Subject: Oakspost
+Date: Fri, 02 Oct 2026 18:15:14 GMT
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--F0JsHrao6mJj4HFRkGINatbw5pV7YL9qvjyV0LV6oW----"
+
+
+------MultipartBoundary--F0JsHrao6mJj4HFRkGINatbw5pV7YL9qvjyV0LV6oW----
+Content-Type: text/html
+Content-ID: <frame-551CD21D0B3F62460A77582A8F330E61@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://taskappstoday.vercel.app/
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-4b3d8da8-74bc-46f2-874a-e0480647d8bf@mhtml.blink" />
+ =20
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0">
+  <title>Oakspost</title>
+  <meta name=3D"description" content=3D"Oakspost =E2=80=94 purchase receipt=
+s and account access.">
+ =20
+</head>
+<body>
+  <main>
+    <h1>Oakspost</h1>
+    <p>This is the official site for Oakspost purchase receipts and account=
+ access.</p>
+    <p>If you just bought access, open your account below or email <a href=
+=3D"mailto:support@oakspost.com">support@oakspost.com</a>.</p>
+    <a class=3D"btn" href=3D"https://taskappstoday.vercel.app/app">Open you=
+r account</a>
+  </main>
+
+
+</body></html>
+------MultipartBoundary--F0JsHrao6mJj4HFRkGINatbw5pV7YL9qvjyV0LV6oW----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-4b3d8da8-74bc-46f2-874a-e0480647d8bf@mhtml.blink
+
+@charset "utf-8";
+
+body { margin: 0px; min-height: 100vh; display: flex; align-items: center; =
+justify-content: center; font-family: -apple-system, BlinkMacSystemFont, "S=
+egoe UI", Arial, sans-serif; background: rgb(247, 245, 242); color: rgb(28,=
+ 25, 23); }
+
+main { max-width: 440px; padding: 40px 24px; }
+
+h1 { font-family: Georgia, "Times New Roman", serif; font-size: 32px; margi=
+n: 0px 0px 12px; letter-spacing: -0.03em; }
+
+p { line-height: 1.6; color: rgb(68, 64, 60); margin: 0px 0px 16px; }
+
+a { color: rgb(28, 25, 23); }
+
+.btn { display: inline-block; margin-top: 8px; background: rgb(28, 25, 23);=
+ color: rgb(255, 255, 255); text-decoration: none; font-weight: 700; paddin=
+g: 12px 18px; border-radius: 8px; }
+------MultipartBoundary--F0JsHrao6mJj4HFRkGINatbw5pV7YL9qvjyV0LV6oW------
